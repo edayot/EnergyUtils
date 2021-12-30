@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cobbled_deepslate",
+    "overrides":[
+        {"predicate":{"custom_model_data":43000},"model":"energyutils:item/background"}
+    ]
+  }

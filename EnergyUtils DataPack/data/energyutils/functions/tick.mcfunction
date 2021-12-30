@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:glow_item_frame,tag=EU_ChunkLoader] at @s unless block ~ ~ ~ minecraft:barrel run function energyutils:chunkloader/destroy/destroy
+clear @a[gamemode=!creative] cobbled_deepslate{EU_ToClear:1b}

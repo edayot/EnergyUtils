@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:placed_block",
+        "conditions": {
+          "block": "minecraft:furnace",
+          "location": {
+            "block": {
+              "nbt": "{Lock:\"EU_ChunkLoaderPlacer\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "energyutils:chunkloader/place/checkplace"
+    }
+  }
+  

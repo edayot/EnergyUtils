@@ -1,0 +1,1 @@
+tellraw @a {"text":"Loaded EnergyUtils v0","color":"green"}

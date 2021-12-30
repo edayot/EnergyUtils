@@ -1,0 +1,2 @@
+function energyutils:print_version
+scoreboard objectives add EU_tempC dummy

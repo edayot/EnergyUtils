@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {},
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{Lock:\"EU_ChunkLoader\"}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "energyutils:chunkloader/working/choice"
+    }
+  }
+  
