@@ -3,9 +3,17 @@ execute if block ~ ~ ~ minecraft:furnace[facing=south] run function energyutils:
 execute if block ~ ~ ~ minecraft:furnace[facing=east] run function energyutils:chunkloader/place/orientation/east
 execute if block ~ ~ ~ minecraft:furnace[facing=west] run function energyutils:chunkloader/place/orientation/west
 
-execute if block ~ ~ ~ minecraft:furnace[facing=north] run setblock ~ ~ ~ minecraft:barrel[facing=north]
-execute if block ~ ~ ~ minecraft:furnace[facing=south] run setblock ~ ~ ~ minecraft:barrel[facing=south]
-execute if block ~ ~ ~ minecraft:furnace[facing=east] run setblock ~ ~ ~ minecraft:barrel[facing=east]
-execute if block ~ ~ ~ minecraft:furnace[facing=west] run setblock ~ ~ ~ minecraft:barrel[facing=west]
+scoreboard players set @e[type=glow_item_frame,tag=EU_summoned] EF_kJmax 10000
+scoreboard players set @e[type=glow_item_frame,tag=EU_summoned] EF_kJ 0
+execute store result score @e[type=glow_item_frame,tag=EU_summoned] EF_kJ run data get entity @p[tag=EU_Place] SelectedItem.tag.EF_kJ
 
-tag @e remove SD_summoned
+
+scoreboard players set @e[type=glow_item_frame,tag=EU_summoned] EF_kW 40
+
+execute if block ~ ~ ~ minecraft:furnace[facing=north] run setblock ~ ~ ~ minecraft:barrel[facing=north]{CustomName:'{"text":"ChunkLoader","color":"white"}'}
+execute if block ~ ~ ~ minecraft:furnace[facing=south] run setblock ~ ~ ~ minecraft:barrel[facing=south]{CustomName:'{"text":"ChunkLoader","color":"white"}'}
+execute if block ~ ~ ~ minecraft:furnace[facing=east] run setblock ~ ~ ~ minecraft:barrel[facing=east]{CustomName:'{"text":"ChunkLoader","color":"white"}'}
+execute if block ~ ~ ~ minecraft:furnace[facing=west] run setblock ~ ~ ~ minecraft:barrel[facing=west]{CustomName:'{"text":"ChunkLoader","color":"white"}'}
+
+tag @e remove EU_summoned
+function energy_flux:wire_update

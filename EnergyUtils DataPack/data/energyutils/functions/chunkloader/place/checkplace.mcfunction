@@ -1,5 +1,5 @@
 advancement revoke @s only energyutils:chunkloader_place
-
+tag @s add EU_Place
 
 summon chest_minecart ~ 320 ~ {Tags:["EU_GetPos"],Items:[{Slot:0b,id:"minecraft:dirt",Count:1b}]}
 item modify entity @e[tag=EU_GetPos,type=minecraft:chest_minecart] container.0 energyutils:chunkloader/get_pos
@@ -27,5 +27,6 @@ execute store result entity @e[limit=1,type=marker,tag=EU_Placer] Pos[2] double 
 
 execute at @e[type=marker,tag=EU_Placer] run function energyutils:chunkloader/place/place
 
+tag @s remove EU_Place
 kill @e[type=marker,tag=EU_Placer]
 tp @e[tag=EU_GetPos,type=minecraft:chest_minecart] ~ -128 ~

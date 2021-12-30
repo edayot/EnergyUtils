@@ -1,22 +1,21 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:item_used_on_block",
-        "conditions": {
-          "item": {},
-          "location": {
-            "block": {
-              "blocks": [
-                "minecraft:barrel"
-              ],
-              "nbt": "{Lock:\"EU_ChunkLoader\"}"
-            }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {},
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:barrel"
+            ],
+            "nbt": "{CustomName:'{\"color\":\"white\",\"text\":\"ChunkLoader\"}'}"
           }
         }
       }
-    },
-    "rewards": {
-      "function": "energyutils:chunkloader/working/choice"
     }
+  },
+  "rewards": {
+    "function": "energyutils:chunkloader/working/enter"
   }
-  
+}

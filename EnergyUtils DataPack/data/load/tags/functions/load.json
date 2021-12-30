@@ -1,3 +1,7 @@
 {
-    "values": ["energyutils:load"]
+    "values": [
+        "energy_flux:load",
+        "energyutils:load"
+        
+    ]
 }

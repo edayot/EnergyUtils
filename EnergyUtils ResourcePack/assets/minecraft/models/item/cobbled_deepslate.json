@@ -1,6 +1,12 @@
 {
     "parent": "minecraft:block/cobbled_deepslate",
     "overrides":[
-        {"predicate":{"custom_model_data":43000},"model":"energyutils:item/background"}
+        {"predicate":{"custom_model_data":43000},"model":"energyutils:item/background"},
+        {"predicate":{"custom_model_data":43001},"model":"energyutils:item/plus"},
+        {"predicate":{"custom_model_data":43002},"model":"energyutils:item/minus"},
+        {"predicate":{"custom_model_data":43010},"model":"energyutils:item/radius0"},
+        {"predicate":{"custom_model_data":43011},"model":"energyutils:item/radius1"},
+        {"predicate":{"custom_model_data":43012},"model":"energyutils:item/radius2"},
+        {"predicate":{"custom_model_data":43013},"model":"energyutils:item/radius3"}
     ]
   }

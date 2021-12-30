@@ -1,0 +1,1 @@
+setblock ~ ~ ~ oak_sign{Text1:'[{"text":"[Charge : "},{"score":{"name":"@e[limit=1,sort=nearest,tag=EU_selected]","objective":"EF_kJ"},"color":"white"},{"text":"/","color":"gray"},{"score":{"name":"@e[limit=1,sort=nearest,tag=EU_selected]","objective":"EF_kJmax"}},{"text":"kJ] "}]'} replace
