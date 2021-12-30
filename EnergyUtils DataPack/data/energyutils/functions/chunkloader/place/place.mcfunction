@@ -3,6 +3,8 @@ execute if block ~ ~ ~ minecraft:furnace[facing=south] run function energyutils:
 execute if block ~ ~ ~ minecraft:furnace[facing=east] run function energyutils:chunkloader/place/orientation/east
 execute if block ~ ~ ~ minecraft:furnace[facing=west] run function energyutils:chunkloader/place/orientation/west
 
+tag @e[type=glow_item_frame,tag=EU_summoned] add EF_Use
+tag @e[type=glow_item_frame,tag=EU_summoned] add EF_CanReceive
 scoreboard players set @e[type=glow_item_frame,tag=EU_summoned] EF_kJmax 10000
 scoreboard players set @e[type=glow_item_frame,tag=EU_summoned] EF_kJ 0
 execute store result score @e[type=glow_item_frame,tag=EU_summoned] EF_kJ run data get entity @p[tag=EU_Place] SelectedItem.tag.EF_kJ
