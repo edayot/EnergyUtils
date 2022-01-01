@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:block/orientable_with_bottom",
+    "textures": {
+      "top": "energyutils:block/quantum_input_top",
+      "bottom": "energyutils:block/quantum_input_side",
+      "side": "energyutils:block/quantum_input_side",
+      "front": "energyutils:block/quantum_input_side",
+      "particle": "energyutils:block/quantum_input_side"
+    },
+    "display":{
+        "fixed": {
+          "rotation": [-90, 0, 0],
+          "translation": [0, 0, -16],
+          "scale": [2.01, 2.01, 2.01]
+        }
+    },
+    "ambientocclusion":false
+  }

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/barrel",
+    "overrides":[
+        {"predicate":{"custom_model_data":43000},"model":"energyutils:block/quantum_input"},
+        {"predicate":{"custom_model_data":43001},"model":"energyutils:block/quantum_output"}
+    ]
+  }

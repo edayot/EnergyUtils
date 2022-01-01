@@ -15,4 +15,8 @@ execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutp
 execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run tag @s remove EU_QuantumOutput
 tag @e remove EF_already
 
+execute if entity @s[tag=EU_QuantumInput] run data modify entity @s Item.CustomModelData set value 43000
+execute if entity @s[tag=EU_QuantumOutput] run data modify entity @s Item.CustomModelData set value 43001
+
+function energy_flux:update_networks
 function energyutils:quantum/working/refresh_all
