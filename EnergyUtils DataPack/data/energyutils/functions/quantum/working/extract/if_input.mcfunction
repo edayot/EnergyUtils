@@ -5,7 +5,7 @@ scoreboard players set sum_input EU_tempC 0
 execute as @e[tag=EU_QuantumInputSameID] run scoreboard players add sum_input EU_tempC 1
 
 scoreboard players set sum_output EU_tempC 0
-execute as @e[tag=EU_QuantumOutputSameID] run scoreboard players add sum_output EU_tempC 1
+execute as @e[tag=EU_QuantumOutputSameID] if score @s EF_kJ < @s EF_kJmax run scoreboard players add sum_output EU_tempC 1
 
 scoreboard players operation allowed_by_output EU_tempC = sum_kJ_input EU_tempC
 scoreboard players operation allowed_by_output EU_tempC /= sum_output EU_tempC

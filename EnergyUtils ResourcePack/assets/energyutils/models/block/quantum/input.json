@@ -2,7 +2,7 @@
     "parent": "minecraft:block/orientable_with_bottom",
     "textures": {
       "top": "energyutils:block/quantum_input_top",
-      "bottom": "energyutils:block/quantum_input_side",
+      "bottom": "energyutils:block/quantum_input_top",
       "side": "energyutils:block/quantum_input_side",
       "front": "energyutils:block/quantum_input_side",
       "particle": "energyutils:block/quantum_input_side"

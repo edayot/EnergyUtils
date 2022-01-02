@@ -1,22 +1,16 @@
 
 
+execute unless data block ~ ~ ~ Items[{Slot:7b}] run scoreboard players add @s[scores={EU_QuantumID=..31}] EU_QuantumID 1
+execute unless data block ~ ~ ~ Items[{Slot:25b}] run scoreboard players remove @s[scores={EU_QuantumID=2..}] EU_QuantumID 1
 
+execute unless data block ~ ~ ~ Items[{Slot:26b}] run function energyutils:quantum/working/gui/set_owner
 
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumInput] run tag @s add EF_already
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumInput] run tag @s add EU_QuantumOutput
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumInput] run tag @s add EF_CanSend
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumInput] run tag @s remove EF_CanReceive
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumInput] run tag @s remove EU_QuantumInput
-
-
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run tag @s add EU_QuantumInput
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run tag @s add EF_CanReceive
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run tag @s remove EF_CanSend
-execute unless data block ~ ~ ~ Items[{Slot:0b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run tag @s remove EU_QuantumOutput
+execute unless data block ~ ~ ~ Items[{Slot:13b}] if entity @s[tag=EU_QuantumInput] run function energyutils:quantum/working/gui/set_output
+execute unless data block ~ ~ ~ Items[{Slot:13b}] if entity @s[tag=EU_QuantumOutput,tag=!EF_already] run function energyutils:quantum/working/gui/set_input
 tag @e remove EF_already
 
-execute if entity @s[tag=EU_QuantumInput] run data modify entity @s Item.CustomModelData set value 43000
-execute if entity @s[tag=EU_QuantumOutput] run data modify entity @s Item.CustomModelData set value 43001
+
+
 
 function energy_flux:update_networks
 function energyutils:quantum/working/refresh_all

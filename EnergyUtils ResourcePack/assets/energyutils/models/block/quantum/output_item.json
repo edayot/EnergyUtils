@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "energyutils:block/quantum_output_top",
+    "bottom": "energyutils:block/quantum_output_top",
+    "side": "energyutils:block/quantum_output_side",
+    "front": "energyutils:block/quantum_output_side",
+    "particle": "energyutils:block/quantum_output_side"
+  },
+  "ambientocclusion":false
+}
