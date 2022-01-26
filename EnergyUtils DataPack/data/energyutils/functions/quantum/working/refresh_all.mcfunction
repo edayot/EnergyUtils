@@ -1,5 +1,5 @@
-execute if entity @s[tag=EU_QuantumInput] run data modify entity @s Item.tag.CustomModelData set value 43020
-execute if entity @s[tag=EU_QuantumOutput] run data modify entity @s Item.tag.CustomModelData set value 43021
+execute if entity @s[tag=EU_QuantumInput] run data modify entity @s Item.tag.CustomModelData set value 1430120
+execute if entity @s[tag=EU_QuantumOutput] run data modify entity @s Item.tag.CustomModelData set value 1430121
 
 data modify block ~ ~ ~ Items set value []
 
@@ -8,17 +8,17 @@ execute if entity @s[tag=EU_QuantumOutput] run data modify block ~ ~ ~ Items app
 execute if entity @s[tag=EU_QuantumInput] run data modify block ~ ~ ~ Items append value {Slot:13b,id:"minecraft:diamond",Count:1b,tag:{display:{Name:'{"text":"EU_QuantumInput"}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
 
-data modify block ~ ~ ~ Items append value {Slot:6b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:7b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43003,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:6b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:7b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430103,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
-data modify block ~ ~ ~ Items append value {Slot:15b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:16b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:17b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:15b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:16b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:17b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
-data modify block ~ ~ ~ Items append value {Slot:24b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:25b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:43004,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:26b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43005,display:{Name:'{"text":"Delete Owner","color":"red","italic":false}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:24b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:25b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{EU_SelectorID:1b,CustomModelData:1430104,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:26b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430105,display:{Name:'{"text":"Delete Owner","color":"red","italic":false}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
 tag @s add EU_selected
 execute in intern:intern run setblock 0 -63 0 air
@@ -32,32 +32,32 @@ data modify block ~ ~ ~ Items[{tag:{EU_SelectorID:1b}}].tag.display.Lore append 
 data modify block ~ ~ ~ Items[{tag:{EU_SelectorID:1b}}].tag.display.Lore append from storage energyutils:temp sign.Text3
 data modify block ~ ~ ~ Items[{tag:{EU_SelectorID:1b}}].tag.display.Lore append from storage energyutils:temp sign.Text4
 
-data modify block ~ ~ ~ Items append value {Slot:0b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:1b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:2b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:3b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:4b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:5b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:6b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:7b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:0b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:1b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:2b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:3b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:4b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:5b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:6b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:7b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:8b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
-data modify block ~ ~ ~ Items append value {Slot:9b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:10b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:11b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:12b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:13b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:14b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:15b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:16b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:17b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:9b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:10b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:11b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:12b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:13b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:14b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:15b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:16b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:17b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
 
-data modify block ~ ~ ~ Items append value {Slot:18b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:19b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:20b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:21b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:22b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-data modify block ~ ~ ~ Items append value {Slot:23b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:24b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:25b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
-#data modify block ~ ~ ~ Items append value {Slot:26b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:43000,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:18b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:19b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:20b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:21b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:22b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+data modify block ~ ~ ~ Items append value {Slot:23b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:24b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:25b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}
+#data modify block ~ ~ ~ Items append value {Slot:26b,id:"minecraft:cobbled_deepslate",Count:1b,tag:{CustomModelData:1430100,display:{Name:'{"text":""}'},EU_ToClear:1b,EU_QuantumGUI:1b}}

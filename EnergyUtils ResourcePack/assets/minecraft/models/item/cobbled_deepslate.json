@@ -1,17 +1,17 @@
 {
     "parent": "minecraft:block/cobbled_deepslate",
     "overrides":[
-        {"predicate":{"custom_model_data":43000},"model":"energyutils:item/background"},
-        {"predicate":{"custom_model_data":43001},"model":"energyutils:item/plus"},
-        {"predicate":{"custom_model_data":43002},"model":"energyutils:item/minus"},
-        {"predicate":{"custom_model_data":43003},"model":"energyutils:item/up"},
-        {"predicate":{"custom_model_data":43004},"model":"energyutils:item/down"},
-        {"predicate":{"custom_model_data":43005},"model":"energyutils:item/delete"},
-        {"predicate":{"custom_model_data":43010},"model":"energyutils:item/radius0"},
-        {"predicate":{"custom_model_data":43011},"model":"energyutils:item/radius1"},
-        {"predicate":{"custom_model_data":43012},"model":"energyutils:item/radius2"},
-        {"predicate":{"custom_model_data":43013},"model":"energyutils:item/radius3"},
-        {"predicate":{"custom_model_data":43020},"model":"energyutils:block/quantum/input"},
-        {"predicate":{"custom_model_data":43021},"model":"energyutils:block/quantum/output"}
+        {"predicate":{"custom_model_data":1430100},"model":"energyutils:item/background"},
+        {"predicate":{"custom_model_data":1430101},"model":"energyutils:item/plus"},
+        {"predicate":{"custom_model_data":1430102},"model":"energyutils:item/minus"},
+        {"predicate":{"custom_model_data":1430103},"model":"energyutils:item/up"},
+        {"predicate":{"custom_model_data":1430104},"model":"energyutils:item/down"},
+        {"predicate":{"custom_model_data":1430105},"model":"energyutils:item/delete"},
+        {"predicate":{"custom_model_data":1430110},"model":"energyutils:item/radius0"},
+        {"predicate":{"custom_model_data":1430111},"model":"energyutils:item/radius1"},
+        {"predicate":{"custom_model_data":1430112},"model":"energyutils:item/radius2"},
+        {"predicate":{"custom_model_data":1430113},"model":"energyutils:item/radius3"},
+        {"predicate":{"custom_model_data":1430120},"model":"energyutils:block/quantum/input"},
+        {"predicate":{"custom_model_data":1430121},"model":"energyutils:block/quantum/output"}
     ]
   }
