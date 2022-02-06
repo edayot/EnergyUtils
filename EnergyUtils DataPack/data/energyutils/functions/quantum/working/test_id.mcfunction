@@ -1,17 +1,17 @@
-tag @s add EU_QuantumOutputOrigin
+tag @s add energyutils.QuantumOutputOrigin
 
-execute as @e[tag=EU_Quantum] if score @s EU_QuantumID = @e[tag=EU_QuantumOutputOrigin,limit=1] EU_QuantumID if data entity @s Item.tag.OwnerUUID run function energyutils:quantum/working/test_uuid
+execute as @e[tag=energyutils.Quantum] if score @s energyutils.QuantumID = @e[tag=energyutils.QuantumOutputOrigin,limit=1] energyutils.QuantumID if data entity @s Item.tag.OwnerUUID run function energyutils:quantum/working/test_uuid
 
-execute as @e[tag=EU_QuantumOutput] if score @s EU_tempC matches 0 run tag @s add EU_QuantumOutputSameID
-execute as @e[tag=EU_QuantumInput] if score @s EU_tempC matches 0 run tag @s add EU_QuantumInputSameID
+execute as @e[tag=energyutils.QuantumOutput] if score @s energyutils.tempC matches 0 run tag @s add energyutils.QuantumOutputSameID
+execute as @e[tag=energyutils.QuantumInput] if score @s energyutils.tempC matches 0 run tag @s add energyutils.QuantumInputSameID
 
-scoreboard players reset @e[tag=EU_Quantum] EU_tempC
-
-
-execute if entity @e[tag=EU_QuantumInputSameID] run function energyutils:quantum/working/extract/if_input
+scoreboard players reset @e[tag=energyutils.Quantum] energyutils.tempC
 
 
+execute if entity @e[tag=energyutils.QuantumInputSameID] run function energyutils:quantum/working/extract/if_input
 
-tag @s remove EU_QuantumOutputOrigin
-tag @e remove EU_QuantumOutputSameID
-tag @e remove EU_QuantumInputSameID
+
+
+tag @s remove energyutils.QuantumOutputOrigin
+tag @e remove energyutils.QuantumOutputSameID
+tag @e remove energyutils.QuantumInputSameID

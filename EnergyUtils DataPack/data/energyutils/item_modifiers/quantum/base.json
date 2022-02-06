@@ -13,7 +13,7 @@
             "blocks": [
               "minecraft:furnace"
             ],
-            "nbt": "{Lock:\"EU_QuantumPlacer\"}"
+            "nbt": "{Lock:\"energyutils.QuantumPlacer\"}"
           }
         }
       }

@@ -13,7 +13,7 @@
             "blocks": [
               "minecraft:furnace"
             ],
-            "nbt": "{Lock:\"EU_ChunkLoaderPlacer\"}"
+            "nbt": "{Lock:\"energyutils.ChunkLoaderPlacer\"}"
           }
         }
       }
