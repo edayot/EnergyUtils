@@ -1,7 +1,5 @@
 {
     "values": [
-        "energy_flux:load",
-        "energyutils:load"
-        
+        "#default:load"
     ]
 }
