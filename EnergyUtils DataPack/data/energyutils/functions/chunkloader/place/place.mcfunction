@@ -18,4 +18,4 @@ execute if block ~ ~ ~ minecraft:furnace[facing=east] run setblock ~ ~ ~ minecra
 execute if block ~ ~ ~ minecraft:furnace[facing=west] run setblock ~ ~ ~ minecraft:barrel[facing=west]{CustomName:'{"text":"ChunkLoader","color":"white"}'}
 
 tag @e remove energyutils.summoned
-function energy_flux:wire_update
+function energy:v1/api/init_machine

@@ -13,6 +13,6 @@ scoreboard players reset @a[scores={ energyutils.click=1..}] energyutils.click
 
 
 
-scoreboard players add 20t energyutils.time 1
-execute if score 20t energyutils.time matches 20.. run scoreboard players set 20t energyutils.time 0
-execute if score 20t energyutils.time matches 0 run function energyutils:20tick
+
+
+schedule function energyutils:tick 1t replace
