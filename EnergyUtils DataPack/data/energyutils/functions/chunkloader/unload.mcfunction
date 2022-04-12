@@ -3,7 +3,6 @@
 
 summon marker ~ ~ ~ {Tags:["energyutils.temp"]}
 
-tag @s remove global.forceload
 
 # Constant chunk width
 scoreboard players set #16 energyutils.math 16
