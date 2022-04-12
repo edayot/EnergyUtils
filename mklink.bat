@@ -1,4 +1,7 @@
+rd "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\saves\Datapack island\datapacks\EnergyUtils DataPack"
+rd "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\resourcepacks\EnergyUtils ResourcePack"
 
-mklink /d "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\saves\New World (23)\datapacks\Default DataPack" "D:\Documents\Python VS\Default\Default DataPack"
-mklink /d "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\resourcepacks\Default ResourcePack" "D:\Documents\Python VS\Default\Default ResourcePack"
+
+mklink /d "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\saves\Datapack island\datapacks\EnergyUtils DataPack" "C:\Users\erwan\Documents\Dev\EnergyUtils\EnergyUtils DataPack"
+mklink /d "C:\Users\erwan\AppData\Roaming\.instance\1.18.1\.minecraft\resourcepacks\EnergyUtils ResourcePack" "C:\Users\erwan\Documents\Dev\EnergyUtils\EnergyUtils ResourcePack"
 PAUSE

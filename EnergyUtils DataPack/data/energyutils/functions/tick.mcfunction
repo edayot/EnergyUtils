@@ -1,5 +1,5 @@
 
-
+execute as @e[type=glow_item_frame,tag=energyutils.chunkloader] run function energyutils:chunkloader/tick
 
 
 

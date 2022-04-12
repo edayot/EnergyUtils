@@ -1,5 +1,6 @@
 {
     "values":[
-        "#smithed.crafter:block/place"
+        "#smithed.crafter:block/place",
+        "energyutils:custom_blocks/place_block"
     ]
 }

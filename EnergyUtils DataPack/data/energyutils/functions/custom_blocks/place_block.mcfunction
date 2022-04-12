@@ -1,0 +1,1 @@
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:chunkloader"}} run function energyutils:chunkloader/place

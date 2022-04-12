@@ -1,7 +1,0 @@
-{
-    "parent": "minecraft:block/furnace",
-    "overrides":[
-        {"predicate":{"custom_model_data":1430120},"model":"energyutils:block/quantum/input_item"},
-        {"predicate":{"custom_model_data":1430121},"model":"energyutils:block/quantum/output_item"}
-    ]
-  }
