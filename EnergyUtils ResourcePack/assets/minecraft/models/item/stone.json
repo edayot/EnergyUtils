@@ -7,5 +7,15 @@
               "custom_model_data": 1430100
             },
             "model": "energyutils:item/empty"
-          }
+          },
+          {"predicate": {"custom_model_data": 1430110},"model": "energyutils:item/number_right/0"},
+          {"predicate": {"custom_model_data": 1430111},"model": "energyutils:item/number_right/1"},
+          {"predicate": {"custom_model_data": 1430112},"model": "energyutils:item/number_right/2"},
+          {"predicate": {"custom_model_data": 1430113},"model": "energyutils:item/number_right/3"},
+          {"predicate": {"custom_model_data": 1430114},"model": "energyutils:item/number_right/4"},
+          {"predicate": {"custom_model_data": 1430115},"model": "energyutils:item/number_right/5"},
+          {"predicate": {"custom_model_data": 1430116},"model": "energyutils:item/number_right/6"},
+          {"predicate": {"custom_model_data": 1430117},"model": "energyutils:item/number_right/7"},
+          {"predicate": {"custom_model_data": 1430118},"model": "energyutils:item/number_right/8"},
+          {"predicate": {"custom_model_data": 1430119},"model": "energyutils:item/number_right/9"}
     ]}

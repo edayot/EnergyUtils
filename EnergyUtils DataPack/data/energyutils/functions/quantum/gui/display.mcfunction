@@ -21,5 +21,18 @@ item replace block ~ ~ ~ container.21 from block ~ ~ ~ container.3
 item replace block ~ ~ ~ container.22 from block ~ ~ ~ container.3
 item replace block ~ ~ ~ container.23 from block ~ ~ ~ container.3
 
+#Choix de channel up
+item replace block ~ ~ ~ container.0 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b,quantum_channel_up:1b},display:{Name:'[{"text":"Channel up","color":"white","italic":false}]'}}
+item replace block ~ ~ ~ container.1 from block ~ ~ ~ container.0
 
 
+#Choix de channel down
+item replace block ~ ~ ~ container.18 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b,quantum_channel_down:1b},display:{Name:'[{"text":"Channel down","color":"white","italic":false}]'}}
+item replace block ~ ~ ~ container.19 from block ~ ~ ~ container.18
+
+function energyutils:quantum/gui/display_channel
+
+
+item replace block ~ ~ ~ container.2 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}
+item replace block ~ ~ ~ container.11 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}
+item replace block ~ ~ ~ container.20 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}

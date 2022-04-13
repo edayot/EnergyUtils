@@ -7,7 +7,7 @@ execute positioned ~ ~1 ~ unless entity @e[type=armor_stand,tag=energyutils.glas
 
 tag @s add energyutils.temp
 setblock -30000000 0 1603 air
-setblock -30000000 0 1603 oak_wall_sign[facing=south]{Text1:'[{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.storage"},"italic":false,"color":"gray"},{"text":"/","color":"dark_gray"},{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.max_storage"},"italic":false,"color":"gray"},{"translate":" kJ"},{"text":"  |  ","color":"yellow"},{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.change_rate","color":"gray"},"italic":false,"color":"yellow"},{"translate":" kW"}]'} destroy
+setblock -30000000 0 1603 oak_wall_sign[facing=south]{Text1:'[{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.storage"},"italic":false,"color":"white"},{"text":"/","color":"gray"},{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.max_storage"},"italic":false,"color":"white"},{"text":" kJ"},{"text":"  |  ","color":"yellow"},{"score":{"name":"@e[limit=1,tag=energyutils.temp]","objective":"energy.change_rate","color":"white"},"italic":false,"color":"yellow"},{"translate":" kW","color":"gray"}]'} destroy
 
 
 

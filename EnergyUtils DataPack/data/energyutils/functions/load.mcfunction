@@ -21,9 +21,9 @@ scoreboard objectives add energyutils.kill_cooldown dummy
 scoreboard objectives add energyutils.quantum_channel dummy
 scoreboard objectives add energyutils.quantum_owner dummy
 scoreboard objectives add energyutils.player_id dummy
-scoreboard objectives add energyutils.quantum.change_mode dummy
+
 
 # Launch the tick fucntion
 schedule function energyutils:tick 1t replace
-schedule function energyutils:20tick 1t replace
-schedule function energyutils:2tick 1t replace
+schedule function energyutils:20tick 21t replace
+schedule function energyutils:2tick 2t replace

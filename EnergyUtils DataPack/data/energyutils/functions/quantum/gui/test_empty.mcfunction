@@ -1,0 +1,3 @@
+execute unless data block ~ ~ ~ Items[{Slot:2b}].tag.energyutils.quantum_gui run item replace block ~ ~ ~ container.2 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}
+execute unless data block ~ ~ ~ Items[{Slot:11b}].tag.energyutils.quantum_gui run item replace block ~ ~ ~ container.11 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}
+execute unless data block ~ ~ ~ Items[{Slot:20b}].tag.energyutils.quantum_gui run item replace block ~ ~ ~ container.20 with stone{CustomModelData:1430100,energyutils:{quantum_gui:1b},display:{Name:'{"text":""}'}}
