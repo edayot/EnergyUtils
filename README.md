@@ -1,1 +1,3 @@
-Default datapack
+# EnergyUtils
+
+WIP

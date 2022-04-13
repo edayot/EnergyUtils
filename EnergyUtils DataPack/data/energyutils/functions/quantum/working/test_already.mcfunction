@@ -1,0 +1,1 @@
+execute unless entity @s[tag=energyutils.quantum.already] run function energyutils:quantum/working/search

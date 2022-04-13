@@ -4,6 +4,8 @@
     "energyutils.chunkloader":"Chunk Loader",
     "energyutils.glasses":"Energy Glasses",
     "energyutils.quantum.input":"Quantum Entangloporter (input)",
-    "energyutils.quantum.output":"Quantum Entangloporter (output)"
-
+    "energyutils.quantum.output":"Quantum Entangloporter (output)",
+    "energyutils.quantum_block":"Quantum Entangloporter",
+    "energyutils.quantum_block.gui_input":"\uc000\uc002\uc001%s",
+    "energyutils.quantum_block.gui_output":"\uc000\uc003\uc001%s"
 }

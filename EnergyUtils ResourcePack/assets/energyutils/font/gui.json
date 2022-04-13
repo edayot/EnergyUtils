@@ -2,7 +2,7 @@
     "providers": [
       {
         "type": "bitmap",
-        "file": "smithed.crafter:gui/negative_space.png",
+        "file": "energyutils:gui/negative_space.png",
         "ascent": -32768,
         "height": -10,
         "chars": [
@@ -11,7 +11,7 @@
       },
       {
         "type": "bitmap",
-        "file": "smithed.crafter:gui/negative_space.png",
+        "file": "energyutils:gui/negative_space.png",
         "ascent": -32768,
         "height": -171,
         "chars": [
@@ -20,11 +20,20 @@
       },
       {
         "type": "bitmap",
-        "file": "energyutils:gui/quantum.png",
+        "file": "energyutils:gui/quantum_input.png",
         "ascent": 14,
         "height": 176.0,
         "chars": [
           "\uc002"
+        ]
+      },
+      {
+        "type": "bitmap",
+        "file": "energyutils:gui/quantum_output.png",
+        "ascent": 14,
+        "height": 176.0,
+        "chars": [
+          "\uc003"
         ]
       }
     ]
