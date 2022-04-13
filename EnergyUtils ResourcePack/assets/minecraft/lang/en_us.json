@@ -3,6 +3,7 @@
     "energyutils.bedrock_shard":"Bedrock Shard",
     "energyutils.chunkloader":"Chunk Loader",
     "energyutils.glasses":"Energy Glasses",
-    "energyutils.quantum":"Quantum Entangloporter"
+    "energyutils.quantum.input":"Quantum Entangloporter (input)",
+    "energyutils.quantum.output":"Quantum Entangloporter (output)"
 
 }

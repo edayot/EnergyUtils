@@ -10,12 +10,16 @@ data modify storage energyutils:main ItemsNBT.chunkloader set value {id:"minecra
 #Glasses
 data modify storage energyutils:main ItemsNBT.glasses set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"glasses",from:"airdox_:energyutils",traits:{"item":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.glasses","color":"white","italic":false}'},CustomModelData:1430101}}
 
-#Quantum
-data modify storage energyutils:main ItemsNBT.quantum set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:quantum"}}}}]},ctc:{id:"quantum",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quantum","color":"white","italic":false}'},CustomModelData:1430101}}
+#Quantum Input
+data modify storage energyutils:main ItemsNBT.quantum_input set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{energyutils:{quantum_channel:0L},smithed:{block:{id:"energyutils:quantum_input"}}}}]},ctc:{id:"quantum_input",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"italic":false,"color":"gray","extra":[{"italic":false,"color":"white","text":"0"}],"text":"Channel : "}', '{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quantum.input","color":"white","italic":false}'},CustomModelData:1430101}}
+#Quantum output
+data modify storage energyutils:main ItemsNBT.quantum_output set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{energyutils:{quantum_channel:0L},smithed:{block:{id:"energyutils:quantum_output"}}}}]},ctc:{id:"quantum_output",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"italic":false,"color":"gray","extra":[{"italic":false,"color":"white","text":"0"}],"text":"Channel : "}', '{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quantum.output","color":"white","italic":false}'},CustomModelData:1430102}}
 
 
 scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy
+scoreboard objectives add energyutils.quantum_channel dummy
+
 # Launch the tick fucntion
 schedule function energyutils:tick 1t replace
 schedule function energyutils:20tick 1t replace

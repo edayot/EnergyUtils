@@ -6,19 +6,13 @@
             "predicate": {
               "custom_model_data": 1430101
             },
-            "model": "energyutils:block/quantum/input_item"
+            "model": "energyutils:block/quantum/input"
           },
           {
             "predicate": {
               "custom_model_data": 1430102
             },
-            "model": "energyutils:block/quantum/output_item"
-          },
-          {
-            "predicate": {
-              "custom_model_data": 4250001
-            },
-            "model": "smithed.crafter:block/table"
+            "model": "energyutils:block/quantum/output"
           }
 
     ]

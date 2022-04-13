@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "ItemsNBT.quantum.tag",
+									"source": "ItemsNBT.quantum_output.tag",
 									"target": "{}",
 									"op": "merge"
 								}
