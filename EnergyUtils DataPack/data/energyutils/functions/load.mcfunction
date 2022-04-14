@@ -15,6 +15,10 @@ data modify storage energyutils:main ItemsNBT.quantum_input set value {id:"minec
 #Quantum output
 data modify storage energyutils:main ItemsNBT.quantum_output set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{energyutils:{quantum_channel:0L,quantum_owner:0L},smithed:{block:{id:"energyutils:quantum_output"}}}}]},ctc:{id:"quantum_output",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"italic":false,"color":"gray","extra":[{"italic":false,"color":"white","text":"0"}],"text":"Channel : "}', '{"italic":false,"color":"gray","extra":[{"italic":false,"color":"white","text":"0"}],"text":"Owner : "}', '{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quantum.output","color":"white","italic":false}'},CustomModelData:1430102}}
 
+#Charger
+data modify storage energyutils:main ItemsNBT.charger set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:charger"}}}}]},ctc:{id:"charger",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.charger","color":"white","italic":false}'},CustomModelData:1430103}}
+
+
 
 scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy
@@ -27,3 +31,9 @@ scoreboard objectives add energyutils.player_id dummy
 schedule function energyutils:tick 1t replace
 schedule function energyutils:20tick 21t replace
 schedule function energyutils:2tick 2t replace
+
+
+# to do :
+# teleporter
+# item quantum
+# charger upgrade wireless

@@ -1,5 +1,5 @@
 kill @e[limit=1,type=item,distance=..5,nbt={Age:0s,Item:{id:"minecraft:barrel"}}]
-kill @e[type=item,distance=..5,nbt={Age:0s,Item:{tag:{energyutils:{quantum_gui:1b}}}}]
+kill @e[type=item,distance=..5,nbt={Age:0s,Item:{tag:{energyutils:{quantum_gui:1b,gui:1b}}}}]
 
 
 execute if entity @s[tag=energyutils.quantum.input] run loot spawn ~ ~ ~ loot energyutils:items/quantum_input_destroy
