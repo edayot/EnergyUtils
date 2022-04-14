@@ -19,6 +19,18 @@
               "custom_model_data": 1430102
             },
             "model": "energyutils:block/quantum/output"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 1430103
+            },
+            "model": "energyutils:block/charger/normal"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 1430104
+            },
+            "model": "energyutils:block/charger/wireless"
           }
 
     ]

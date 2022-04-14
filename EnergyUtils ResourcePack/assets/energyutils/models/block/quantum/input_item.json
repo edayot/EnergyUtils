@@ -1,11 +1,11 @@
 {
     "parent": "minecraft:block/orientable_with_bottom",
     "textures": {
-      "top": "energyutils:block/quantum_input_top",
-      "bottom": "energyutils:block/quantum_input_top",
-      "side": "energyutils:block/quantum_input_side",
-      "front": "energyutils:block/quantum_input_side",
-      "particle": "energyutils:block/quantum_input_side"
+      "top": "energyutils:block/quantum_input_front",
+      "bottom": "energyutils:block/quantum_input_bottom",
+      "side": "energyutils:block/quantum_input_front",
+      "front": "energyutils:block/quantum_input_front",
+      "particle": "energyutils:block/quantum_input_front"
     },
     "ambientocclusion":false
   }

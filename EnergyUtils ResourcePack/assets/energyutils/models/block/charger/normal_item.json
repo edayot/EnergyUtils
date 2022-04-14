@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/charger/charger_top",
+	  "bottom": "energyutils:block/charger/charger_bottom",
+	  "side": "energyutils:block/charger/charger_side",
+	  "front": "energyutils:block/charger/charger_face",
+	  "particle": "energyutils:block/charger/charger_bottom"
+	},
+	"ambientocclusion":false
+  }

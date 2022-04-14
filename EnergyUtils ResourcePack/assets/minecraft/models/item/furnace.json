@@ -22,6 +22,18 @@
           },
           {
             "predicate": {
+              "custom_model_data": 1430103
+            },
+            "model": "energyutils:block/charger/normal_item"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 1430104
+            },
+            "model": "energyutils:block/charger/wireless_item"
+          },
+          {
+            "predicate": {
               "custom_model_data": 4250001
             },
             "model": "smithed.crafter:block/table"
