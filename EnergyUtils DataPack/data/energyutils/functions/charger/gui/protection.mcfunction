@@ -14,7 +14,7 @@ execute unless data block ~ ~ ~ Items[{Slot:11b}] run item replace block ~ ~ ~ c
 execute unless data block ~ ~ ~ Items[{Slot:13b}] run item replace block ~ ~ ~ container.13 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
 #execute unless data block ~ ~ ~ Items[{Slot:14b}] run item replace block ~ ~ ~ container.14 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
 execute unless data block ~ ~ ~ Items[{Slot:15b}] run item replace block ~ ~ ~ container.15 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
-execute unless data block ~ ~ ~ Items[{Slot:16b}] run item replace block ~ ~ ~ container.16 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
+execute if entity @s[tag=!energyutils.wireless_charger] unless data block ~ ~ ~ Items[{Slot:16b}] run item replace block ~ ~ ~ container.16 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
 execute unless data block ~ ~ ~ Items[{Slot:17b}] run item replace block ~ ~ ~ container.17 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
 execute unless data block ~ ~ ~ Items[{Slot:18b}] run item replace block ~ ~ ~ container.18 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}
 execute unless data block ~ ~ ~ Items[{Slot:19b}] run item replace block ~ ~ ~ container.19 with stone{CustomModelData:1430100,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}

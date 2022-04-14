@@ -3,7 +3,7 @@ summon glow_item_frame ~ ~ ~ {Facing:1b,ItemRotation:4b,Invulnerable:1b,Tags:["e
 
 scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.storage 0
 scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.max_storage 2000
-scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.transfer_rate 100
+scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.transfer_rate 300
 
 setblock ~ ~ ~ minecraft:barrel{CustomName: '{"translate":"energyutils.charger.gui","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.charger","color":"#3F3F3F","font":"minecraft:default"}]}'}
 

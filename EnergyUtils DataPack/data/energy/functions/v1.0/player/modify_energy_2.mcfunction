@@ -9,7 +9,7 @@ scoreboard players set #player.out energy.data 0
 
 #copy inv
 data modify storage energy:temp list set value []
-data modify storage energy:temp list append from entity @s Inventory[{tag:{energy:{}}}]
+data modify storage energy:temp list append from entity @s Inventory[{Count:1b,tag:{energy:{}}}]
 
 #loop over inv
 execute if data storage energy:temp list[0] run function energy:v1.0/player/modify_energy_3

@@ -1,0 +1,13 @@
+{
+    "parent": "minecraft:block/jigsaw",
+    "overrides":[
+
+        {
+            "predicate": {
+              "custom_model_data": 1430101
+            },
+            "model": "energyutils:item/wireless_upgrade"
+          }
+
+    ]
+}

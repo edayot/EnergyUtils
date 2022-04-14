@@ -18,7 +18,11 @@ data modify storage energyutils:main ItemsNBT.quantum_output set value {id:"mine
 #Charger
 data modify storage energyutils:main ItemsNBT.charger set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:charger"}}}}]},ctc:{id:"charger",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.charger","color":"white","italic":false}'},CustomModelData:1430103}}
 
+#Wireless Charger
+data modify storage energyutils:main ItemsNBT.wireless_charger set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:wireless_charger"}}}}]},ctc:{id:"wireless_charger",from:"airdox_:energyutils",traits:{"block":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.wireless_charger","color":"white","italic":false}'},CustomModelData:1430104}}
 
+#Wireless Upgrade
+data modify storage energyutils:main ItemsNBT.wireless_upgrade set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"wireless_upgrade",from:"airdox_:energyutils",traits:{"item":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.wireless_upgrade","color":"white","italic":false}'},CustomModelData:1430101}}
 
 scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy

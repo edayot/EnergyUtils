@@ -1,4 +1,4 @@
-
+z
 #load scores
 execute store result score #player.slot energy.data run data get storage energy:temp list[0].Slot
 execute store result score #player.storage energy.data run data get storage energy:temp list[0].tag.energy.storage

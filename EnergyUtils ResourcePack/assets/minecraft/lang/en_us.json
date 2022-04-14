@@ -9,5 +9,8 @@
     "energyutils.quantum_block.gui_input":"\uc000\uc002\uc001%s",
     "energyutils.quantum_block.gui_output":"\uc000\uc003\uc001%s",
     "energyutils.charger":"Energy Charger",
-    "energyutils.charger.gui":"\uc000\uc004\uc001%s"
+    "energyutils.charger.gui":"\uc000\uc004\uc001%s",
+    "energyutils.wireless_charger":"Wireless Energy Charger",
+    "energyutils.wireless_charger.gui":"\uc000\uc005\uc001%s",
+    "energyutils.wireless_upgrade":"Wireless Upgrade"
 }
