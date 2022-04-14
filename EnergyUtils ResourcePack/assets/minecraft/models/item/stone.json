@@ -8,7 +8,7 @@
             },
             "model": "energyutils:item/empty"
           },
-          {"predicate": {"custom_model_data": 1430110},"model": "energyutils:"},
+          {"predicate": {"custom_model_data": 1430110},"model": "energyutils:item/number_right/0"},
           {"predicate": {"custom_model_data": 1430111},"model": "energyutils:item/number_right/1"},
           {"predicate": {"custom_model_data": 1430112},"model": "energyutils:item/number_right/2"},
           {"predicate": {"custom_model_data": 1430113},"model": "energyutils:item/number_right/3"},

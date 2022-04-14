@@ -1,12 +1,25 @@
 {
     "parent": "minecraft:block/jigsaw",
     "overrides":[
+        
+        {
+            "predicate": {
+              "custom_model_data": 1430100
+            },
+            "model": "energyutils:item/bedrock_shard"
+          },
 
         {
             "predicate": {
               "custom_model_data": 1430101
             },
             "model": "energyutils:item/wireless_upgrade"
+          },
+          {
+            "predicate": {
+              "custom_model_data": 1430102
+            },
+            "model": "energyutils:item/glasses"
           }
 
     ]

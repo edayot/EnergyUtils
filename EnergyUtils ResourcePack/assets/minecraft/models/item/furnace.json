@@ -1,6 +1,12 @@
 {
     "parent": "minecraft:block/furnace",
     "overrides":[
+      {
+        "predicate": {
+          "custom_model_data": 1430100
+        },
+        "model": "energyutils:block/chunkloader/chunkloader_item"
+      },
 
         {
             "predicate": {
