@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/silver_ore",
+	  "bottom": "energyutils:block/silver_ore",
+	  "side": "energyutils:block/silver_ore",
+	  "front": "energyutils:block/silver_ore",
+	  "particle": "energyutils:block/silver_ore"
+	},
+	"ambientocclusion":false
+  }

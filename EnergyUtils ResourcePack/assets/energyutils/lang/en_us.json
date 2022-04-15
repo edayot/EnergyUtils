@@ -12,5 +12,10 @@
     "energyutils.charger.gui":"\uc000\uc004\uc001%s",
     "energyutils.wireless_charger":"Wireless Energy Charger",
     "energyutils.wireless_charger.gui":"\uc000\uc005\uc001%s",
-    "energyutils.wireless_upgrade":"Wireless Upgrade"
+    "energyutils.wireless_upgrade":"Wireless Upgrade",
+    "energyutils.silver_ore":"Silver Ore",
+    "energyutils.silver_block":"Silver Block",
+    "energyutils.silver_ingot":"Silver Ingot",
+    "energyutils.silver_nugget":"Silver Nugget",
+    "energyutils.raw_silver":"Raw Silver"
 }
