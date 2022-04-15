@@ -1,6 +1,5 @@
 {
     "values":[
-        "#smithed.crafter:recipes/shaped",
         "energyutils:custom_crafts/shaped"
     ]
 }
