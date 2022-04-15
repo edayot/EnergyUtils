@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/machine_frame",
+	  "bottom": "energyutils:block/machine_frame",
+	  "side": "energyutils:block/machine_frame",
+	  "front": "energyutils:block/machine_frame",
+	  "particle": "energyutils:block/machine_frame"
+	},
+	"ambientocclusion":false
+  }

@@ -12,10 +12,11 @@ data modify storage energyutils:main ItemsNBT.wireless_upgrade set value {id:"mi
 #Raw Silver
 data modify storage energyutils:main ItemsNBT.raw_silver set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"raw_silver",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.raw_silver","color":"white","italic":false}'},CustomModelData:1430103}}
 #Silver Ingot
-data modify storage energyutils:main ItemsNBT.silver_ingot set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"silver_ingot",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_ingot","color":"white","italic":false}'},CustomModelData:1430104}}
+data modify storage energyutils:main ItemsNBT.silver_ingot set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"silver_ingot",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b,"ingot":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_ingot","color":"white","italic":false}'},CustomModelData:1430104}}
 #Silver Nugget
-data modify storage energyutils:main ItemsNBT.silver_nugget set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"silver_nugget",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_nugget","color":"white","italic":false}'},CustomModelData:1430105}}
-
+data modify storage energyutils:main ItemsNBT.silver_nugget set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"silver_nugget",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b,"nugget":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_nugget","color":"white","italic":false}'},CustomModelData:1430105}}
+#Machine Frame
+data modify storage energyutils:main ItemsNBT.machine_frame set value {id:"minecraft:jigsaw",Count:1b,tag:{ctc:{id:"machine_frame",from:"airdox_:energyutils",traits:{"item":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.machine_frame","color":"white","italic":false}'},CustomModelData:1430106}}
 
 
 #ChunkLoader
@@ -31,7 +32,7 @@ data modify storage energyutils:main ItemsNBT.wireless_charger set value {id:"mi
 #Silver Ore
 data modify storage energyutils:main ItemsNBT.silver_ore set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_ore"}}}}]},ctc:{id:"silver_ore",from:"airdox_:energyutils",traits:{"block":1b,"ore":1b,"metal/silver":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_ore","color":"white","italic":false}'},CustomModelData:1430105}}
 #Silver Block
-data modify storage energyutils:main ItemsNBT.silver_block set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_block"}}}}]},ctc:{id:"silver_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/silver":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_block","color":"white","italic":false}'},CustomModelData:1430106}}
+data modify storage energyutils:main ItemsNBT.silver_block set value {id:"minecraft:furnace",Count:1b,tag:{BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_block"}}}}]},ctc:{id:"silver_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/silver":1b,"packed":1b}},display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_block","color":"white","italic":false}'},CustomModelData:1430106}}
 
 scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy
@@ -43,10 +44,14 @@ function energyutils:set_version
 
 # Launch the tick fucntion
 schedule function energyutils:tick 1t replace
-schedule function energyutils:20tick 21t replace
+schedule function energyutils:20tick 11t replace
 schedule function energyutils:2tick 2t replace
 
 
 # to do :
 # teleporter
 # item quantum
+# nickel,lead,tin
+# cables
+# wireless energy spreader
+# armor
