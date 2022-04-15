@@ -1,10 +1,10 @@
 {
-    "values": [
-        "#smithed.custom_block:load",
-        "#smithed.crafter:load",
-        "#energy:load",
-        "simplenergy:load",
-        "energyutils:test_load"
-        
-    ]
+	"values": [
+		"#smithed.custom_block:load",
+		"#smithed.crafter:load",
+		"#energy:load",
+		"simplenergy:load",
+		"energyutils:test_load"
+		
+	]
 }

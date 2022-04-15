@@ -1,8 +1,8 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Item:{tag:{energyutils_summoned:1b}}}"
-    }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "nbt": "{Item:{tag:{energyutils_summoned:1b}}}"
+	}
   }
   

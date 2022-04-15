@@ -10,7 +10,7 @@ data remove entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.energ
 
 execute store result entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].tag.energyutils.quantum_channel long 1 run scoreboard players get @s energyutils.quantum_channel
 execute store result entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].tag.energyutils.quantum_owner long 1 run scoreboard players get @s energyutils.quantum_owner
-
+data modify entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].quantum_owner_text set from entity @s Item.tag.quantum_owner_text
 
 
 tag @s add energyutils.temp

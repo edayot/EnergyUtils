@@ -1,28 +1,28 @@
 {
-    "parent": "minecraft:block/stone",
-    "overrides":[
+	"parent": "minecraft:block/stone",
+	"overrides":[
 
-        {
-            "predicate": {
-              "custom_model_data": 1430100
-            },
-            "model": "energyutils:item/empty"
-          },
-          {"predicate": {"custom_model_data": 1430110},"model": "energyutils:item/number_right/0"},
-          {"predicate": {"custom_model_data": 1430111},"model": "energyutils:item/number_right/1"},
-          {"predicate": {"custom_model_data": 1430112},"model": "energyutils:item/number_right/2"},
-          {"predicate": {"custom_model_data": 1430113},"model": "energyutils:item/number_right/3"},
-          {"predicate": {"custom_model_data": 1430114},"model": "energyutils:item/number_right/4"},
-          {"predicate": {"custom_model_data": 1430115},"model": "energyutils:item/number_right/5"},
-          {"predicate": {"custom_model_data": 1430116},"model": "energyutils:item/number_right/6"},
-          {"predicate": {"custom_model_data": 1430117},"model": "energyutils:item/number_right/7"},
-          {"predicate": {"custom_model_data": 1430118},"model": "energyutils:item/number_right/8"},
-          {"predicate": {"custom_model_data": 1430119},"model": "energyutils:item/number_right/9"},
-          
-          {"predicate": {"custom_model_data": 1430120},"model": "energyutils:item/charger_gui/0"},
-          {"predicate": {"custom_model_data": 1430121},"model": "energyutils:item/charger_gui/1"},
-          {"predicate": {"custom_model_data": 1430122},"model": "energyutils:item/charger_gui/2"},
-          {"predicate": {"custom_model_data": 1430123},"model": "energyutils:item/charger_gui/3"},
-          {"predicate": {"custom_model_data": 1430124},"model": "energyutils:item/charger_gui/4"},
-          {"predicate": {"custom_model_data": 1430125},"model": "energyutils:item/charger_gui/5"}
-    ]}
+		{
+			"predicate": {
+			  "custom_model_data": 1430100
+			},
+			"model": "energyutils:item/empty"
+		  },
+		  {"predicate": {"custom_model_data": 1430110},"model": "energyutils:item/number_right/0"},
+		  {"predicate": {"custom_model_data": 1430111},"model": "energyutils:item/number_right/1"},
+		  {"predicate": {"custom_model_data": 1430112},"model": "energyutils:item/number_right/2"},
+		  {"predicate": {"custom_model_data": 1430113},"model": "energyutils:item/number_right/3"},
+		  {"predicate": {"custom_model_data": 1430114},"model": "energyutils:item/number_right/4"},
+		  {"predicate": {"custom_model_data": 1430115},"model": "energyutils:item/number_right/5"},
+		  {"predicate": {"custom_model_data": 1430116},"model": "energyutils:item/number_right/6"},
+		  {"predicate": {"custom_model_data": 1430117},"model": "energyutils:item/number_right/7"},
+		  {"predicate": {"custom_model_data": 1430118},"model": "energyutils:item/number_right/8"},
+		  {"predicate": {"custom_model_data": 1430119},"model": "energyutils:item/number_right/9"},
+		  
+		  {"predicate": {"custom_model_data": 1430120},"model": "energyutils:item/charger_gui/0"},
+		  {"predicate": {"custom_model_data": 1430121},"model": "energyutils:item/charger_gui/1"},
+		  {"predicate": {"custom_model_data": 1430122},"model": "energyutils:item/charger_gui/2"},
+		  {"predicate": {"custom_model_data": 1430123},"model": "energyutils:item/charger_gui/3"},
+		  {"predicate": {"custom_model_data": 1430124},"model": "energyutils:item/charger_gui/4"},
+		  {"predicate": {"custom_model_data": 1430125},"model": "energyutils:item/charger_gui/5"}
+	]}
