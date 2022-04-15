@@ -1,1 +1,1 @@
-tellraw @a {"text":"Loaded EnergyUtils v0","color":"green"}
+tellraw @a [{"translate":"energyutils.load","color":"green"},{"text":"v1.0.0","color":"green"}]

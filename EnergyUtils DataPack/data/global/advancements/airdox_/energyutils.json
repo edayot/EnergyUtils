@@ -1,10 +1,10 @@
 {
     "display": {
         "title": "EnergyUtils",
-        "description": "v1.3.0 \nA datapack",
+        "description": "v1.0.0\nA datapack that add energy utilities to minecraft",
         "icon": {
-            "item": "minecraft:beehive",
-            "nbt": "{CustomModelData:1430000L}"
+            "item": "minecraft:jigsaw",
+            "nbt": "{CustomModelData:1430102L}"
         },
         "announce_to_chat": false,
         "show_toast": false

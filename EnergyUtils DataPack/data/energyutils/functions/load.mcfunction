@@ -39,6 +39,7 @@ scoreboard objectives add energyutils.quantum_channel dummy
 scoreboard objectives add energyutils.quantum_owner dummy
 scoreboard objectives add energyutils.player_id dummy
 
+function energyutils:set_version
 
 # Launch the tick fucntion
 schedule function energyutils:tick 1t replace

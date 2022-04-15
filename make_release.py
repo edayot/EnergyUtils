@@ -6,32 +6,44 @@ import git
 
 
 def change_version(version):
-    with open("Default DataPack/data/default/functions/print_version.mcfunction","w") as f:
-        f.write('tellraw @a [{"text":"Default loaded ","color":"green"},{"text":"'+version+'","color":"green"}]')
-    with open("Default DataPack/pack.mcmeta","w") as f:
+    v=version[1:].split(".")
+    major=v[0]
+    minor=v[1]
+    patch=v[2]
+    with open("EnergyUtils DataPack/data/energyutils/functions/print_version.mcfunction","w") as f:
+        f.write('tellraw @a [{"translate":"energyutils.load","color":"green"},{"text":"'+version+'","color":"green"}]')
+    
+    with open("EnergyUtils DataPack/data/energyutils/functions/set_version.mcfunction","w") as f:
+        f.write("""scoreboard players set energyutils.major load.status {}
+scoreboard players set energyutils.minor load.status {}
+scoreboard players set energyutils.patch load.status {}
+            """.format(major,minor,patch))
+        
+
+    with open("EnergyUtils DataPack/pack.mcmeta","w") as f:
         pack={
             "pack":{
                 "pack_format":8,
-                "description":"§aDefault DataPack "+version+" :\n§rAdd drawers in to minecraft"
+                "description":"§aEnergyUtils DataPack "+version+" :\n§rAdd drawers in to minecraft"
             }
         }
         json.dump(pack,f, indent = 4)
-    with open("Default ResourcePack/pack.mcmeta","w") as f:
+    with open("EnergyUtils ResourcePack/pack.mcmeta","w") as f:
         pack={
             "pack":{
                 "pack_format":8,
-                "description":"§aDefault ResourcePack "+version+" :\n§rDefault's Resource pack"
+                "description":"§aEnergyUtils ResourcePack "+version+" :\n§rEnergyUtils's Resource pack"
             }
         }
         json.dump(pack,f, indent = 4)
-    with open("Default DataPack/data/global/advancements/airdox_/default.json","w") as f:
+    with open("EnergyUtils DataPack/data/global/advancements/airdox_/energyutils.json","w") as f:
         pack={
             "display": {
-                "title": "Default",
-                "description": version + "\nA datapack that add drawer to minecraft",
+                "title": "EnergyUtils",
+                "description": version + "\nA datapack that add energy utilities to minecraft",
                 "icon": {
-                    "item": "minecraft:beehive",
-                    "nbt": "{CustomModelData:1430000L}"
+                    "item": "minecraft:jigsaw",
+                    "nbt": "{CustomModelData:1430102L}"
                 },
                 "announce_to_chat": False,
                 "show_toast": False
@@ -43,18 +55,19 @@ def change_version(version):
                 }
             }
         }
-        #json.dump(pack,f, indent = 4)
+        json.dump(pack,f, indent = 4)
 
 def create_zip(version):
-    shutil.make_archive("release/Default_DataPack_"+version, "zip", "Default DataPack")
-    shutil.make_archive("release/Default_ResourcePack_"+version, "zip", "Default ResourcePack")
+    shutil.make_archive("release/EnergyUtils_DataPack_"+version, "zip", "EnergyUtils DataPack")
+    shutil.make_archive("release/EnergyUtils_ResourcePack_"+version, "zip", "EnergyUtils ResourcePack")
 
 def git_push(version):
     r = git.Repo.init("")
-    r.index.add("Default DataPack/pack.mcmeta")
-    r.index.add("Default ResourcePack/pack.mcmeta")
-    r.index.add("Default DataPack/data/default/functions/print_version.mcfunction")
-    r.index.add("Default DataPack/data/global/advancements/airdox_/default.json")
+    r.index.add("EnergyUtils DataPack/pack.mcmeta")
+    r.index.add("EnergyUtils ResourcePack/pack.mcmeta")
+    r.index.add("EnergyUtils DataPack/data/energyutils/functions/print_version.mcfunction")
+    r.index.add("EnergyUtils DataPack/data/energyutils/functions/set_version.mcfunction")
+    r.index.add("EnergyUtils DataPack/data/global/advancements/airdox_/energyutils.json")
 
     r.index.commit("[AUTO] updated to "+version)
     r.remote("origin").push()
