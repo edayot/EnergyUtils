@@ -1,0 +1,2 @@
+execute if score #reset simplenergy.data matches 0 store result score #reset simplenergy.data if data storage simplenergy:main furnace.Items[{Slot:0b,id:"minecraft:furnace"}]
+execute if score #reset simplenergy.data matches 0 store result score #reset simplenergy.data if data storage simplenergy:main furnace.Items[{Slot:0b,id:"minecraft:jigsaw"}]

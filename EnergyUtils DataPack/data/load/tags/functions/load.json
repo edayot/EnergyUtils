@@ -3,7 +3,8 @@
         "#smithed.custom_block:load",
         "#smithed.crafter:load",
         "#energy:load",
-        "energyutils:load"
+        "simplenergy:load",
+        "energyutils:test_load"
         
     ]
 }

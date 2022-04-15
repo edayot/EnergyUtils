@@ -1,5 +1,6 @@
 {
     "energyutils.name":"Energy Utils",
+    "energyutils.tellraw_prefix":"[Energy Utils] ",
     "energyutils.bedrock_shard":"Bedrock Shard",
     "energyutils.chunkloader":"Chunk Loader",
     "energyutils.glasses":"Energy Glasses",
