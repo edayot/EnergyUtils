@@ -12,10 +12,11 @@ execute store result entity @e[type=item,tag=energyutils.summoned,limit=1] Item.
 execute store result entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].tag.energyutils.quantum_owner long 1 run scoreboard players get @s energyutils.quantum_owner
 data modify entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].quantum_owner_text set from entity @s Item.tag.quantum_owner_text
 
-
+data remove storage energyutils:main temp.owner
+data modify storage energyutils:main temp.owner set from entity @s Item.tag.energyutils.quantum_owner_text
 tag @s add energyutils.temp
 setblock -30000000 0 1603 air
-setblock -30000000 0 1603 oak_wall_sign[facing=south]{Text1:'[{"text":"Channel : ","color":"gray","italic":false},{"score":{"name":"@e[tag=energyutils.temp,limit=1,type=glow_item_frame]","objective":"energyutils.quantum_channel"},"color":"white","italic":false}]',Text2:'[{"text":"Owner : ","color":"gray","italic":false},{"score":{"name":"@e[tag=energyutils.temp,limit=1,type=glow_item_frame]","objective":"energyutils.quantum_owner"},"color":"white","italic":false}]'}
+setblock -30000000 0 1603 oak_wall_sign[facing=south]{Text1:'[{"text":"Channel : ","color":"gray","italic":false},{"score":{"name":"@e[tag=energyutils.temp,limit=1,type=glow_item_frame]","objective":"energyutils.quantum_channel"},"color":"white","italic":false}]',Text2:'[{"text":"Owner : ","color":"gray","italic":false},{"nbt":"temp.owner","storage":"energyutils:main","interpret":true,"font":"minecraft:default"}]'}
 tag @s remove energyutils.temp
 
 execute as @e[type=item,tag=energyutils.summoned,limit=1] run function energyutils:quantum/update_lore

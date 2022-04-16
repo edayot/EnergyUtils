@@ -14,7 +14,5 @@ item replace block ~ ~ ~ container.14 with stone{CustomModelData:1430120,energyu
 
 execute store result block ~ ~ ~ Items[{Slot:14b}].tag.CustomModelData long 1 run scoreboard players get #cmd energyutils.math
 
-setblock -30000000 0 1603 air
-setblock -30000000 0 1603 oak_wall_sign[facing=south]{Text1:'[{"text":"Charging : ","color":"gray","italic":false},{"score":{"name":"#storage","objective":"energyutils.math"},"color":"white","italic":false},{"text":"/","color":"gray"},{"score":{"name":"#max_storage","objective":"energyutils.math"},"color":"white","italic":false}]'}
 
-data modify block ~ ~ ~ Items[{Slot:14b}].tag.display.Name set from block -30000000 0 1603 Text1
+item modify block ~ ~ ~ container.14 energyutils:charger
