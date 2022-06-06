@@ -8,7 +8,8 @@
 		{"predicate":{"custom_model_data": 1430103},"model":"energyutils:item/raw_silver"},
 		{"predicate":{"custom_model_data": 1430104},"model":"energyutils:item/silver_ingot"},
 		{"predicate":{"custom_model_data": 1430105},"model":"energyutils:item/silver_nugget"},
-		{"predicate":{"custom_model_data": 1430106},"model":"energyutils:block/machine_frame"}
+		{"predicate":{"custom_model_data": 1430106},"model":"energyutils:block/machine_frame"},
+		{"predicate":{"custom_model_data": 1430107},"model":"energyutils:item/condensator"}
 
 
 	]

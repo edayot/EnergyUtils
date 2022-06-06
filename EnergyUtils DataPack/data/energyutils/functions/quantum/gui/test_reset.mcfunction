@@ -1,1 +1,0 @@
-execute unless data block ~ ~ ~ Items[{Slot:16b}].tag.energyutils.quantum_reset run function energyutils:quantum/gui/reset

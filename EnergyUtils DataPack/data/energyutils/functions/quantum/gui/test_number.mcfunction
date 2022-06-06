@@ -1,2 +1,0 @@
-execute unless data block ~ ~ ~ Items[{Slot:9b}].tag.energyutils.quantum_gui run function energyutils:quantum/gui/display_channel
-execute unless data block ~ ~ ~ Items[{Slot:10b}].tag.energyutils.quantum_gui run function energyutils:quantum/gui/display_channel

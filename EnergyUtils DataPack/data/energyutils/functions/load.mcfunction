@@ -17,8 +17,10 @@ data modify storage energyutils:main ItemsNBT.silver_ingot set value {id:"minecr
 data modify storage energyutils:main ItemsNBT.silver_nugget set value {id:"minecraft:jigsaw",Count:1b					,tag:{CustomModelData:1430105,ctc:{id:"silver_nugget",from:"airdox_:energyutils",traits:{"item":1b,"metal/silver":1b,"nugget":1b}}												,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_nugget","color":"white","italic":false}'}}}
 #Machine Frame
 data modify storage energyutils:main ItemsNBT.machine_frame set value {id:"minecraft:jigsaw",Count:1b					,tag:{CustomModelData:1430106,ctc:{id:"machine_frame",from:"airdox_:energyutils",traits:{"item":1b}}																			,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.machine_frame","color":"white","italic":false}'}}}
+#Condensator
+data modify storage energyutils:main ItemsNBT.condensator set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430107,ctc:{id:"condensator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.condensator","color":"white","italic":false}'}}}
 
-
+#Blocks
 #ChunkLoader
 data modify storage energyutils:main ItemsNBT.chunkloader set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430100,ctc:{id:"chunkloader",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:chunkloader"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.chunkloader","color":"white","italic":false}'}}}
 #Quantum Input
@@ -35,6 +37,8 @@ data modify storage energyutils:main ItemsNBT.silver_ore set value {id:"minecraf
 data modify storage energyutils:main ItemsNBT.silver_block set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430106,ctc:{id:"silver_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/silver":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_block"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_block","color":"white","italic":false}'}}}
 #Wireless Spreader
 data modify storage energyutils:main ItemsNBT.wireless_spreader set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430107,ctc:{id:"wireless_spreader",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:wireless_spreader"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.wireless_spreader","color":"white","italic":false}'}}}
+#Copper cable
+data modify storage energyutils:main ItemsNBT.copper_cable set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430108,ctc:{id:"copper_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:copper_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_cable","color":"white","italic":false}'}}}
 
 
 scoreboard objectives add energyutils.math dummy
