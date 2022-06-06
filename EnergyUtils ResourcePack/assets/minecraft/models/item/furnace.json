@@ -8,6 +8,8 @@
 	  {"predicate": {"custom_model_data": 1430104},"model": "energyutils:block/charger/wireless_item"},
 	  {"predicate": {"custom_model_data": 1430105},"model": "energyutils:block/ores/silver_ore_item"},
 	  {"predicate": {"custom_model_data": 1430106},"model": "energyutils:block/ores/silver_block_item"},
+	  {"predicate": {"custom_model_data": 1430107},"model": "energyutils:block/copper_cable"},
+	  {"predicate": {"custom_model_data": 1430108},"model": "energyutils:block/silver_cable"},
 		  {
 			"predicate": {
 			  "custom_model_data": 4250001

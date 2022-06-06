@@ -13,6 +13,10 @@ execute as @e[type=glow_item_frame,tag=energyutils.quantum] run function energyu
 execute as @e[type=glow_item_frame,tag=energyutils.charger] at @s run function energyutils:blocks/chargertick
 execute as @e[type=glow_item_frame,tag=energyutils.silver_ore] at @s run function energyutils:blocks/silver_ore/tick
 execute as @e[type=glow_item_frame,tag=energyutils.silver_block] at @s run function energyutils:blocks/silver_block/tick
+#copper_cable
+execute as @e[type=glow_item_frame,tag=energyutils.copper_cable] at @s run function energyutils:blocks/cables/copper_cable/tick
+#silver cable
+execute as @e[type=glow_item_frame,tag=energyutils.silver_cable] at @s run function energyutils:blocks/cables/silver_cable/tick
 
 
 schedule function energyutils:tick 1t replace

@@ -22,5 +22,7 @@
 	"energyutils.silver_dust":"Silver Dust",
 	"energyutils.machine_frame":"Machine Frame",
 	"energyutils.condensator":"Condensator",
-	"energyutils.copper_cable":"Copper Cable"
+	"energyutils.copper_cable":"Copper Cable",
+	"energyutils.silver_cable":"Silver Cable",
+	"energyutils.transfer_rate":"[Transfer Rate : "
 }

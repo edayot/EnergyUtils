@@ -12,3 +12,7 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:wir
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_ore"}} run function energyutils:blocks/silver_ore/place
 #Silver Block
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_block"}} run function energyutils:blocks/silver_block/place
+#Copper cable
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:copper_cable"}} run function energyutils:blocks/cables/copper_cable/place
+#Silver cable
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_cable"}} run function energyutils:blocks/cables/silver_cable/place
