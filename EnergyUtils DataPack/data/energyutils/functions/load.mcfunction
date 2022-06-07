@@ -35,12 +35,18 @@ data modify storage energyutils:main ItemsNBT.wireless_charger set value {id:"mi
 data modify storage energyutils:main ItemsNBT.silver_ore set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430105,ctc:{id:"silver_ore",from:"airdox_:energyutils",traits:{"block":1b,"ore":1b,"metal/silver":1b}}				,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_ore"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_ore","color":"white","italic":false}'}}}
 #Silver Block
 data modify storage energyutils:main ItemsNBT.silver_block set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430106,ctc:{id:"silver_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/silver":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_block"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_block","color":"white","italic":false}'}}}
-
-#Cables
 #Copper cable
 data modify storage energyutils:main ItemsNBT.copper_cable set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430107,ctc:{id:"copper_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:copper_cable"}}}}]}																				,display:{Lore:['[{"translate":"energyutils.transfer_rate","color":"gray","italic":false},{"text":"25 kW]"}]','{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_cable","color":"white","italic":false}'}}}
 #Silver cable
 data modify storage energyutils:main ItemsNBT.silver_cable set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430108,ctc:{id:"silver_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:silver_cable"}}}}]}																				,display:{Lore:['[{"translate":"energyutils.transfer_rate","color":"gray","italic":false},{"text":"50 kW]"}]','{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_cable","color":"white","italic":false}'}}}
+#Pulveriser (convert ingot to dust)
+data modify storage energyutils:main ItemsNBT.pulveriser set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"pulveriser",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:pulveriser"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.pulveriser","color":"white","italic":false}'}}}
+
+
+
+
+
+
 
 scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy

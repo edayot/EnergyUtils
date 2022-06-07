@@ -53,6 +53,15 @@
 		"chars": [
 		  "\uc005"
 		]
+	  },
+	  {
+		"type": "bitmap",
+		"file": "energyutils:gui/pulveriser.png",
+		"ascent": 14,
+		"height": 176.0,
+		"chars": [
+		  "\uc006"
+		]
 	  }
 	]
   }

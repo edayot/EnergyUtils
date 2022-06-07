@@ -1,8 +1,8 @@
 
 scoreboard players operation #storage energyutils.math += @s energy.storage
 
-execute if score #storage energyutils.math > #max_storage energyutils.math run function energyutils:blocks/chargercharge_sup
-execute unless score #storage energyutils.math > #max_storage energyutils.math run function energyutils:blocks/chargercharge_inf
+execute if score #storage energyutils.math > #max_storage energyutils.math run function energyutils:blocks/charger/charge_sup
+execute unless score #storage energyutils.math > #max_storage energyutils.math run function energyutils:blocks/charger/charge_inf
 
 
 data modify storage energy:temp list prepend from block ~ ~ ~ Items[{Slot:12b}]

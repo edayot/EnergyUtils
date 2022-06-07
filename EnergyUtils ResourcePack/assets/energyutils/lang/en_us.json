@@ -24,5 +24,8 @@
 	"energyutils.condensator":"Condensator",
 	"energyutils.copper_cable":"Copper Cable",
 	"energyutils.silver_cable":"Silver Cable",
-	"energyutils.transfer_rate":"[Transfer Rate : "
+	"energyutils.transfer_rate":"[Transfer Rate : ",
+	"energyutils.pulveriser":"Pulveriser",
+	"energyutils.pulveriser.gui":"\uc000\uc006\uc001%s"
+
 }

@@ -31,7 +31,7 @@ execute unless data storage energyutils:main temp.GuiItems[{Slot:25b}].tag.energ
 execute unless data storage energyutils:main temp.GuiItems[{Slot:26b}].tag.energyutils.quantum_gui run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:26b}]
 
 
-execute if data storage energyutils:main temp.Items[0] run function energyutils:blocks/chargergui/drop
+execute if data storage energyutils:main temp.Items[0] run function energyutils:blocks/charger/gui/drop
 
 function energyutils:blocks/quantum/gui/test_change_mode
 function energyutils:blocks/quantum/gui/test_channel_down

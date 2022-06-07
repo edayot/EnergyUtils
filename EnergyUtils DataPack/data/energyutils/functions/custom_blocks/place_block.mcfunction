@@ -5,7 +5,7 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:qua
 #Quantum Output
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:quantum_output"}} run function energyutils:blocks/quantum/place_output
 #Charger
-execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:charger"}} run function energyutils:blocks/chargerplace
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:charger"}} run function energyutils:blocks/charger/place
 #Wireless charger
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:wireless_charger"}} run function energyutils:blocks/wireless_charger/place
 #Silver Ore
@@ -16,3 +16,5 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:sil
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:copper_cable"}} run function energyutils:blocks/cables/copper_cable/place
 #Silver cable
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_cable"}} run function energyutils:blocks/cables/silver_cable/place
+#Pulveriser
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:pulveriser"}} run function energyutils:blocks/pulveriser/place

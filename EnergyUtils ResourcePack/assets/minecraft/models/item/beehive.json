@@ -7,6 +7,7 @@
 	{"predicate": {"custom_model_data": 1430103},"model": "energyutils:block/charger/normal"},
 	{"predicate": {"custom_model_data": 1430104},"model": "energyutils:block/charger/wireless"},
 	{"predicate": {"custom_model_data": 1430105},"model": "energyutils:block/ores/silver_ore"},
-	{"predicate": {"custom_model_data": 1430106},"model": "energyutils:block/ores/silver_block"}
+	{"predicate": {"custom_model_data": 1430106},"model": "energyutils:block/ores/silver_block"},
+	{"predicate": {"custom_model_data": 1430109},"model": "energyutils:block/pulveriser/pulveriser"}
   ]
 }
