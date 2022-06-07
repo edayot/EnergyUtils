@@ -1,0 +1,3 @@
+execute if score #pulveriser_output_primary energyutils.math matches 0 store success score #pulveriser_output_primary energyutils.math if data storage energyutils:main temp.Items[{Slot:11b}].tag.ctc{id:"silver_ingot",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
+execute if score #pulveriser_output_secondary energyutils.math matches 0 store success score #pulveriser_output_secondary energyutils.math if data storage energyutils:main temp.Items[{Slot:11b}].tag.ctc{id:"silver_ingot",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/dirt
+

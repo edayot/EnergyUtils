@@ -1,5 +1,6 @@
 data remove storage energyutils:main temp.Items
 
+data remove storage energyutils:main temp.GuiItems
 data modify storage energyutils:main temp.GuiItems set from block ~ ~ ~ Items
 
 execute unless data storage energyutils:main temp.GuiItems[{Slot:0b}].tag.energyutils.quantum_gui run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:0b}]

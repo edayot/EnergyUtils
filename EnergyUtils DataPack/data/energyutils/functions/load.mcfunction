@@ -19,6 +19,9 @@ data modify storage energyutils:main ItemsNBT.silver_nugget set value {id:"minec
 data modify storage energyutils:main ItemsNBT.machine_frame set value {id:"minecraft:jigsaw",Count:1b					,tag:{CustomModelData:1430106,ctc:{id:"machine_frame",from:"airdox_:energyutils",traits:{"item":1b}}																			,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.machine_frame","color":"white","italic":false}'}}}
 #Condensator
 data modify storage energyutils:main ItemsNBT.condensator set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430107,ctc:{id:"condensator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.condensator","color":"white","italic":false}'}}}
+#Silver dust
+data modify storage energyutils:main ItemsNBT.silver_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430108,ctc:{id:"silver_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/silver":1b}}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_dust","color":"white","italic":false}'}}}
+
 
 #Blocks
 #ChunkLoader
@@ -53,8 +56,11 @@ scoreboard objectives add energyutils.kill_cooldown dummy
 scoreboard objectives add energyutils.quantum_channel dummy
 scoreboard objectives add energyutils.quantum_owner dummy
 scoreboard objectives add energyutils.player_id dummy
+scoreboard objectives add energyutils.pulveriser.cookTime dummy
 
 scoreboard players set #100 energyutils.math 100
+scoreboard players set #pulveriser_output_primary energyutils.math 0
+scoreboard players set #pulveriser_output_secondary energyutils.math 0
 
 function energyutils:set_version
 

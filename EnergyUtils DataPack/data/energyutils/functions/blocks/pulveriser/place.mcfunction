@@ -7,4 +7,11 @@ execute if block ~ ~ ~ minecraft:furnace[facing=west] run summon glow_item_frame
 
 setblock ~ ~ ~ minecraft:barrel{CustomName: '{"translate":"energyutils.pulveriser.gui","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.pulveriser","color":"#3F3F3F","font":"minecraft:default"}]}'}
 
+
+scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.storage 0
+scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.max_storage 2000
+scoreboard players set @e[type=glow_item_frame,tag=energyutils.summoned] energy.transfer_rate 300
+
+
+function energy:v1/api/init_machine
 tag @e[type=glow_item_frame,tag=energyutils.summoned] remove energyutils.summoned
