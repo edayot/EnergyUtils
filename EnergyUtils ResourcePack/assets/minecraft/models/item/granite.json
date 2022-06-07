@@ -1,0 +1,30 @@
+{
+	"parent": "minecraft:block/granite",
+	"overrides":[
+
+		{"predicate": {"custom_model_data": 1430100},"model": "energyutils:gui/arrow/0"},
+		{"predicate": {"custom_model_data": 1430101},"model": "energyutils:gui/arrow/1"},
+		{"predicate": {"custom_model_data": 1430102},"model": "energyutils:gui/arrow/2"},
+		{"predicate": {"custom_model_data": 1430103},"model": "energyutils:gui/arrow/3"},
+		{"predicate": {"custom_model_data": 1430104},"model": "energyutils:gui/arrow/4"},
+		{"predicate": {"custom_model_data": 1430105},"model": "energyutils:gui/arrow/5"},
+		{"predicate": {"custom_model_data": 1430106},"model": "energyutils:gui/arrow/6"},
+		{"predicate": {"custom_model_data": 1430107},"model": "energyutils:gui/arrow/7"},
+		{"predicate": {"custom_model_data": 1430108},"model": "energyutils:gui/arrow/8"},
+		{"predicate": {"custom_model_data": 1430109},"model": "energyutils:gui/arrow/9"},
+		{"predicate": {"custom_model_data": 1430110},"model": "energyutils:gui/arrow/10"},
+		{"predicate": {"custom_model_data": 1430111},"model": "energyutils:gui/arrow/11"},
+		{"predicate": {"custom_model_data": 1430112},"model": "energyutils:gui/arrow/12"},
+		{"predicate": {"custom_model_data": 1430113},"model": "energyutils:gui/arrow/13"},
+		{"predicate": {"custom_model_data": 1430114},"model": "energyutils:gui/arrow/14"},
+		{"predicate": {"custom_model_data": 1430115},"model": "energyutils:gui/arrow/15"},
+		{"predicate": {"custom_model_data": 1430116},"model": "energyutils:gui/arrow/16"},
+		{"predicate": {"custom_model_data": 1430117},"model": "energyutils:gui/arrow/17"},
+		{"predicate": {"custom_model_data": 1430118},"model": "energyutils:gui/arrow/18"},
+		{"predicate": {"custom_model_data": 1430119},"model": "energyutils:gui/arrow/19"},
+		{"predicate": {"custom_model_data": 1430120},"model": "energyutils:gui/arrow/20"},
+		{"predicate": {"custom_model_data": 1430121},"model": "energyutils:gui/arrow/21"},
+		{"predicate": {"custom_model_data": 1430122},"model": "energyutils:gui/arrow/22"},
+		{"predicate": {"custom_model_data": 1430123},"model": "energyutils:gui/arrow/23"},
+		{"predicate": {"custom_model_data": 1430124},"model": "energyutils:gui/arrow/24"}
+	]}

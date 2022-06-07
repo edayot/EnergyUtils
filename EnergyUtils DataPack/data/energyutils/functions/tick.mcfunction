@@ -7,6 +7,7 @@ function energyutils:blocks/quantum/working/tick
 
 
 clear @a stone{energyutils:{gui:1b}}
+clear @a granite{energyutils:{gui:1b}}
 
 execute as @e[type=glow_item_frame,tag=energyutils.chunkloader] at @s run function energyutils:blocks/chunkloader/tick
 execute as @e[type=glow_item_frame,tag=energyutils.quantum] at @s run function energyutils:blocks/quantum/tick

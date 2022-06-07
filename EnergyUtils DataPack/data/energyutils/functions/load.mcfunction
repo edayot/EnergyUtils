@@ -59,6 +59,10 @@ scoreboard objectives add energyutils.player_id dummy
 scoreboard objectives add energyutils.pulveriser.cookTime dummy
 
 scoreboard players set #100 energyutils.math 100
+scoreboard players set #200 energyutils.math 200
+scoreboard players set #24 energyutils.math 24
+scoreboard players set #1430100 energyutils.math 1430100
+
 scoreboard players set #pulveriser_output_primary energyutils.math 0
 scoreboard players set #pulveriser_output_secondary energyutils.math 0
 

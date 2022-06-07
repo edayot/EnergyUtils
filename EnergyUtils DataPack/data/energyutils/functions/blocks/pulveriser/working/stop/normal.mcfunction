@@ -24,3 +24,4 @@ scoreboard players set @s energyutils.pulveriser.cookTime 0
 scoreboard players remove @s energy.storage 15
 data remove entity @s Item.tag.energyutils.primary_item 
 data remove entity @s Item.tag.energyutils.secondary_item 
+item replace block ~ ~ ~ container.13 with granite{CustomModelData:1430100,energyutils:{gui:1b,pulveriser_gui:1b},display:{Name:'{"text":""}'}}
