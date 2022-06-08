@@ -10,3 +10,5 @@ execute if entity @s[tag=energyutils.copper_cable] run function energyutils:bloc
 execute if entity @s[tag=energyutils.silver_cable] run function energyutils:blocks/cables/silver_cable/tick
 #pulveriser
 execute if entity @s[tag=energyutils.pulveriser] run function energyutils:blocks/pulveriser/tick
+
+execute if entity @s[tag=energyutils.barrel_gui] if block ~ ~-1 ~ hopper run data modify block ~ ~-1 ~ TransferCooldown set value 12

@@ -1,5 +1,5 @@
 scoreboard players operation #model energyutils.math = @s energyutils.pulveriser.cookTime
-scoreboard players operation #model energyutils.math *= #24 energyutils.math
+scoreboard players operation #model energyutils.math *= #23 energyutils.math
 scoreboard players operation #model energyutils.math /= #200 energyutils.math
 scoreboard players operation #model energyutils.math += #1430100 energyutils.math
 

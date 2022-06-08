@@ -20,6 +20,7 @@ execute unless data storage energyutils:main temp.Pending_2.id run data modify b
 
 data modify storage energyutils:main temp.Pending_1_a set from storage energyutils:main temp.Pending_1
 
+data modify entity @s Item.tag.CustomModelData set value 1430109L
 scoreboard players set @s energyutils.pulveriser.cookTime 0
 scoreboard players remove @s energy.storage 15
 data remove entity @s Item.tag.energyutils.primary_item 

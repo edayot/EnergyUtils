@@ -4,7 +4,7 @@
 	  "top": "energyutils:block/pulveriser/pulveriser_top",
 	  "bottom": "energyutils:block/pulveriser/pulveriser_bottom",
 	  "side": "energyutils:block/pulveriser/pulveriser_side",
-	  "front": "energyutils:block/pulveriser/pulveriser_face",
+	  "front": "energyutils:block/pulveriser/pulveriser_face_lit",
 	  "particle": "energyutils:block/pulveriser/pulveriser_bottom"
 	},
 	"ambientocclusion":false

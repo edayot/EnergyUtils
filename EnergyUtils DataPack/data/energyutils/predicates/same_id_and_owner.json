@@ -1,0 +1,55 @@
+[
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "energyutils.quantum_owner"
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#quantum_owner"
+          },
+          "score": "energyutils.math"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#quantum_owner"
+          },
+          "score": "energyutils.math"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "value": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "energyutils.quantum_channel"
+      },
+      "range": {
+        "min": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#quantum_channel"
+          },
+          "score": "energyutils.math"
+        },
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#quantum_channel"
+          },
+          "score": "energyutils.math"
+        }
+      }
+    }
+  ]
+  

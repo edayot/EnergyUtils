@@ -1,11 +1,11 @@
 {
 	"parent": "minecraft:block/orientable_with_bottom",
 	"textures": {
-	  "top": "energyutils:block/silver_block",
-	  "bottom": "energyutils:block/silver_block",
-	  "side": "energyutils:block/silver_block",
-	  "front": "energyutils:block/silver_block",
-	  "particle": "energyutils:block/silver_block"
+	  "top": "energyutils:block/pulveriser/pulveriser_top",
+	  "bottom": "energyutils:block/pulveriser/pulveriser_bottom",
+	  "side": "energyutils:block/pulveriser/pulveriser_side",
+	  "front": "energyutils:block/pulveriser/pulveriser_face",
+	  "particle": "energyutils:block/pulveriser/pulveriser_bottom"
 	},
 	"display":{
 		"fixed": {

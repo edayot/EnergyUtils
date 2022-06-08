@@ -2,10 +2,10 @@
 
 tag @s add energyutils.quantum.same_channel
 
-# recherche de tout les quantum qui ont le meme channel
-tag @s add energyutils.quantum.temp
-execute as @e[type=glow_item_frame,tag=energyutils.quantum] if score @s energyutils.quantum_channel = @e[type=glow_item_frame,tag=energyutils.quantum.input,tag=energyutils.quantum.temp,limit=1] energyutils.quantum_channel if score @s energyutils.quantum_owner = @e[type=glow_item_frame,tag=energyutils.quantum.input,tag=energyutils.quantum.temp,limit=1] energyutils.quantum_owner run tag @s add energyutils.quantum.same_channel
-tag @s remove energyutils.quantum.temp
+
+scoreboard players operation #quantum_channel energyutils.math = @s energyutils.quantum_channel
+scoreboard players operation #quantum_owner energyutils.math = @s energyutils.quantum_owner
+tag @e[type=glow_item_frame,tag=energyutils.quantum,predicate=energyutils:same_id_and_owner] add energyutils.quantum.same_channel
 tag @e[type=glow_item_frame,tag=energyutils.quantum.same_channel] add energyutils.quantum.already
 
 

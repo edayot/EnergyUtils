@@ -1,6 +1,7 @@
 scoreboard players set #pulveriser_output_primary energyutils.math 0
 scoreboard players set #pulveriser_output_secondary energyutils.math 0
 function energyutils:blocks/pulveriser/working/loading
+data modify entity @s Item.tag.CustomModelData set value 1430110L
 
 item modify block ~ ~ ~ container.11 energyutils:remove_1
 
