@@ -5,7 +5,7 @@ kill @e[type=item,distance=..5,nbt={Age:0s,Item:{tag:{energyutils:{gui:1b}}}}]
 execute if entity @s[tag=energyutils.quantum.input] run loot spawn ~ ~ ~ loot energyutils:items/quantum_input_destroy
 execute if entity @s[tag=energyutils.quantum.output] run loot spawn ~ ~ ~ loot energyutils:items/quantum_output_destroy
 
-tag @e[type=item,sort=nearest,predicate=energyutils:is_summoned,limit=1] add energyutils.summoned
+tag @e[type=item,sort=nearest,predicate=energyutils:is_summoned,limit=1,distance=..1] add energyutils.summoned
 data remove entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.energyutils_summoned
 
 execute store result entity @e[type=item,tag=energyutils.summoned,limit=1] Item.tag.BlockEntityTag.Items[0].tag.energyutils.quantum_channel long 1 run scoreboard players get @s energyutils.quantum_channel
