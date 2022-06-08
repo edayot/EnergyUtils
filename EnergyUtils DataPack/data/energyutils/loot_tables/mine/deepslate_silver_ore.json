@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+	  {
+		"rolls": 1,
+		"bonus_rolls": 0,
+		"entries": [
+		  {
+			"type": "minecraft:alternatives",
+			"children": [
+			  {
+				"type": "minecraft:loot_table",
+				"name": "energyutils:items/deepslate_silver_ore",
+				"conditions": [
+				  {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+					  "equipment": {
+						"mainhand": {
+						  "enchantments": [
+							{
+							  "enchantment": "minecraft:silk_touch"
+							}
+						  ]
+						}
+					  }
+					}
+				  }
+				]
+			  },
+			  {
+				"type": "minecraft:loot_table",
+				"name": "energyutils:items/raw_silver"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }
+  

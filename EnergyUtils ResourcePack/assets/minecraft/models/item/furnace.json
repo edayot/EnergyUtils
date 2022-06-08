@@ -11,6 +11,7 @@
 	  {"predicate": {"custom_model_data": 1430107},"model": "energyutils:block/copper_cable"},
 	  {"predicate": {"custom_model_data": 1430108},"model": "energyutils:block/silver_cable"},
 	  {"predicate": {"custom_model_data": 1430109},"model": "energyutils:block/pulveriser/pulveriser_item"},
+	  {"predicate": {"custom_model_data": 1430110},"model": "energyutils:block/ores/deepslate_silver_ore_item"},
 		  {
 			"predicate": {
 			  "custom_model_data": 4250001

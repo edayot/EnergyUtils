@@ -2,7 +2,7 @@
 
 
 
-execute as @p run loot spawn ~ ~ ~ loot energyutils:mine/silver_ore
+execute as @p run loot spawn ~ ~ ~ loot energyutils:mine/deepslate_silver_ore
 
 
 

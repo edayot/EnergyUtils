@@ -13,6 +13,7 @@ execute as @e[type=glow_item_frame,tag=energyutils.chunkloader] at @s run functi
 execute as @e[type=glow_item_frame,tag=energyutils.quantum] at @s run function energyutils:blocks/quantum/tick
 execute as @e[type=glow_item_frame,tag=energyutils.charger] at @s run function energyutils:blocks/charger/tick
 execute as @e[type=glow_item_frame,tag=energyutils.silver_ore] at @s run function energyutils:blocks/silver_ore/tick
+execute as @e[type=glow_item_frame,tag=energyutils.deepslate_silver_ore] at @s run function energyutils:blocks/deepslate_silver_ore/tick
 execute as @e[type=glow_item_frame,tag=energyutils.silver_block] at @s run function energyutils:blocks/silver_block/tick
 #copper_cable
 execute as @e[type=glow_item_frame,tag=energyutils.copper_cable] at @s run function energyutils:blocks/cables/copper_cable/tick

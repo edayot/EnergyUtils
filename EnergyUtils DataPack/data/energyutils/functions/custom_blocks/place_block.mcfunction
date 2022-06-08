@@ -10,6 +10,8 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:cha
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:wireless_charger"}} run function energyutils:blocks/wireless_charger/place
 #Silver Ore
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_ore"}} run function energyutils:blocks/silver_ore/place
+#Deepslate Silver Ore
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:deepslate_silver_ore"}} run function energyutils:blocks/deepslate_silver_ore/place
 #Silver Block
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_block"}} run function energyutils:blocks/silver_block/place
 #Copper cable

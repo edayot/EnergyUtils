@@ -26,6 +26,7 @@
 	"energyutils.silver_cable":"Silver Cable",
 	"energyutils.transfer_rate":"[Transfer Rate : ",
 	"energyutils.pulveriser":"Pulveriser",
-	"energyutils.pulveriser.gui":"\uc000\uc006\uc001%s"
+	"energyutils.pulveriser.gui":"\uc000\uc006\uc001%s",
+	"energyutils.deepslate_silver_ore":"Deepslate Silver Ore"
 
 }
