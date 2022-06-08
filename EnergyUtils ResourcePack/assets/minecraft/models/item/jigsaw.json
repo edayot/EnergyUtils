@@ -10,7 +10,8 @@
 		{"predicate":{"custom_model_data": 1430105},"model":"energyutils:item/silver_nugget"},
 		{"predicate":{"custom_model_data": 1430106},"model":"energyutils:block/machine_frame"},
 		{"predicate":{"custom_model_data": 1430107},"model":"energyutils:item/condensator"},
-		{"predicate":{"custom_model_data": 1430108},"model":"energyutils:item/silver_dust"}
+		{"predicate":{"custom_model_data": 1430108},"model":"energyutils:item/silver_dust"},
+		{"predicate":{"custom_model_data": 1430109},"model":"energyutils:item/iron_dust"}
 
 	]
 }

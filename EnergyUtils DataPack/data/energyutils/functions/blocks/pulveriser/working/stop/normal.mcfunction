@@ -15,7 +15,7 @@ data modify storage energyutils:main temp.BlockItem_2.Slot set value 24b
 execute if data storage energyutils:main temp.Pending_2.id run data modify block ~ ~ ~ Items append from storage energyutils:main temp.Pending_2
 execute unless data storage energyutils:main temp.Pending_2.id run data modify block ~ ~ ~ Items append from storage energyutils:main temp.BlockItem_2
 
-tellraw @p {"nbt":"temp.Pending_2","storage":"energyutils:main"}
+#tellraw @p {"nbt":"temp.Pending_2","storage":"energyutils:main"}
 
 
 data modify storage energyutils:main temp.Pending_1_a set from storage energyutils:main temp.Pending_1

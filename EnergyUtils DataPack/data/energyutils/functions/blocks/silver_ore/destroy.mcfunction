@@ -2,7 +2,8 @@
 
 
 
-execute as @p run loot spawn ~ ~ ~ loot energyutils:mine/silver_ore
+execute if entity @p as @p run loot spawn ~ ~ ~ loot energyutils:mine/silver_ore
+execute unless entity @p run loot spawn ~ ~ ~ loot energyutils:mine/silver_ore
 
 
 

@@ -21,7 +21,8 @@ data modify storage energyutils:main ItemsNBT.machine_frame set value {id:"minec
 data modify storage energyutils:main ItemsNBT.condensator set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430107,ctc:{id:"condensator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.condensator","color":"white","italic":false}'}}}
 #Silver dust
 data modify storage energyutils:main ItemsNBT.silver_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430108,ctc:{id:"silver_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/silver":1b}}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_dust","color":"white","italic":false}'}}}
-
+#Iron Dust
+data modify storage energyutils:main ItemsNBT.iron_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"iron_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/iron":1b}}																			,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.iron_dust","color":"white","italic":false}'}}}
 
 #Blocks
 #ChunkLoader
