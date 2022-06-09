@@ -1,5 +1,4 @@
-execute if entity @s[tag=!energyutils.wireless_charger] unless block ~ ~ ~ minecraft:barrel run function energyutils:blocks/charger/destroy
-execute if entity @s[tag=energyutils.wireless_charger] unless block ~ ~ ~ minecraft:barrel run function energyutils:blocks/wireless_charger/destroy
+
 
 function energyutils:blocks/charger/gui/protection
 item replace block ~ ~ ~ container.14 with stone{CustomModelData:1430120,energyutils:{gui:1b,charger_gui:1b},display:{Name:'{"text":""}'}}

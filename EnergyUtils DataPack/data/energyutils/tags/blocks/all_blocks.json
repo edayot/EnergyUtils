@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#energyutils:machine",
+		"minecraft:lodestone",
+		"minecraft:daylight_detector",
+		"minecraft:player_head"
+    ]
+}

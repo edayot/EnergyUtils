@@ -6,5 +6,4 @@ kill @e[type=armor_stand,tag=energyutils.glasses,scores={energyutils.kill_cooldo
 
 
 
-
 schedule function energyutils:2tick 2t replace

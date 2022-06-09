@@ -73,8 +73,10 @@ function energyutils:set_version
 
 # Launch the tick fucntion
 schedule function energyutils:tick 1t replace
-schedule function energyutils:20tick 11t replace
 schedule function energyutils:2tick 2t replace
+schedule function energyutils:20tick 3t replace
+schedule function energyutils:200tick 4t replace
+
 
 
 # to do :

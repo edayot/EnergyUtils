@@ -1,4 +1,3 @@
-execute at @s unless block ~ ~ ~ minecraft:barrel run function energyutils:blocks/pulveriser/destroy
 
 function energyutils:blocks/pulveriser/gui/protection
 function energyutils:blocks/pulveriser/gui/update_arrow

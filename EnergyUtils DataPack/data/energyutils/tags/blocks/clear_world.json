@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:stone",
+		"minecraft:cobblestone",
+		"minecraft:gravel",
+		"minecraft:diorite",
+		"minecraft:andesite",
+		"minecraft:granite",
+		"minecraft:deepslate",
+		"minecraft:dripstone_block",
+		"minecraft:water",
+		"minecraft:lava",
+		"minecraft:dirt",
+		"minecraft:grass",
+		"minecraft:sand",
+		"minecraft:ice",
+		"minecraft:snow_block",
+		"minecraft:clay",
+		"minecraft:packed_ice"
+	]
+}
