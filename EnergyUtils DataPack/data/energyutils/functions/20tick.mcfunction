@@ -1,13 +1,10 @@
 
 
 
-
-execute as @e[type=glow_item_frame,tag=energyutils.block] at @s run function energyutils:blocks/20tick
-
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,predicate=energyutils:auto_expulse_bottom] at @s run function energyutils:blocks/pulveriser/auto_expulse/main_bottom
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.south,predicate=energyutils:auto_expulse_east] at @s run function energyutils:blocks/pulveriser/auto_expulse/east/main
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.north,predicate=energyutils:auto_expulse_west] at @s run function energyutils:blocks/pulveriser/auto_expulse/west/main
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.east,predicate=energyutils:auto_expulse_north] at @s run function energyutils:blocks/pulveriser/auto_expulse/north/main
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.west,predicate=energyutils:auto_expulse_south] at @s run function energyutils:blocks/pulveriser/auto_expulse/south/main
+# Répartition des taches sur plusieurs functions qui s'execute chacune tout les 20tick
+function energyutils:20tick/0
+schedule function energyutils:20tick/5 5t replace
+schedule function energyutils:20tick/10 10t replace
+schedule function energyutils:20tick/15 15t replace
 
 schedule function energyutils:20tick 20t replace
