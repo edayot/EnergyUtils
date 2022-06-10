@@ -11,7 +11,14 @@
 		{"predicate":{"custom_model_data": 1430106},"model":"energyutils:block/machine_frame"},
 		{"predicate":{"custom_model_data": 1430107},"model":"energyutils:item/condensator"},
 		{"predicate":{"custom_model_data": 1430108},"model":"energyutils:item/silver_dust"},
-		{"predicate":{"custom_model_data": 1430109},"model":"energyutils:item/iron_dust"}
+		{"predicate":{"custom_model_data": 1430109},"model":"energyutils:item/iron_dust"},
+		{"predicate":{"custom_model_data": 1430110},"model":"energyutils:item/coal_dust"},
+		{"predicate":{"custom_model_data": 1430111},"model":"energyutils:item/copper_dust"},
+		{"predicate":{"custom_model_data": 1430112},"model":"energyutils:item/gold_dust"},
+		{"predicate":{"custom_model_data": 1430113},"model":"energyutils:item/emerald_dust"},
+		{"predicate":{"custom_model_data": 1430114},"model":"energyutils:item/diamond_dust"},
+		{"predicate":{"custom_model_data": 1430115},"model":"energyutils:item/quartz_dust"}
+
 
 	]
 }

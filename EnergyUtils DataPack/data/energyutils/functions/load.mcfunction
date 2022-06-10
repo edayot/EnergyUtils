@@ -20,9 +20,22 @@ data modify storage energyutils:main ItemsNBT.machine_frame set value {id:"minec
 #Condensator
 data modify storage energyutils:main ItemsNBT.condensator set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430107,ctc:{id:"condensator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.condensator","color":"white","italic":false}'}}}
 #Silver dust
-data modify storage energyutils:main ItemsNBT.silver_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430108,ctc:{id:"silver_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/silver":1b}}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_dust","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.silver_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430108,ctc:{id:"silver_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/silver":1b}}													,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.silver_dust","color":"white","italic":false}'}}}
 #Iron Dust
-data modify storage energyutils:main ItemsNBT.iron_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"iron_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/iron":1b}}																			,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.iron_dust","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.iron_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"iron_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/iron":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.iron_dust","color":"white","italic":false}'}}}
+#Coal Dust
+data modify storage energyutils:main ItemsNBT.coal_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430110,ctc:{id:"coal_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"fuel":1b}}															,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.coal_dust","color":"white","italic":false}'}}}
+#Copper Dust
+data modify storage energyutils:main ItemsNBT.copper_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430111,ctc:{id:"copper_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/copper":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_dust","color":"white","italic":false}'}}}
+#Gold Dust
+data modify storage energyutils:main ItemsNBT.gold_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430112,ctc:{id:"gold_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/gold":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.gold_dust","color":"white","italic":false}'}}}
+#Emerald Dust
+data modify storage energyutils:main ItemsNBT.emerald_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430113,ctc:{id:"emerald_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"emerald":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.emerald_dust","color":"white","italic":false}'}}}
+#Diamond Dust
+data modify storage energyutils:main ItemsNBT.diamond_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430114,ctc:{id:"diamond_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"diamond":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.diamond_dust","color":"white","italic":false}'}}}
+#Quartz Dust
+data modify storage energyutils:main ItemsNBT.quartz_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430115,ctc:{id:"quartz_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"quartz":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quartz_dust","color":"white","italic":false}'}}}
+
 
 #Blocks
 #ChunkLoader

@@ -28,6 +28,12 @@
 	"energyutils.pulveriser":"Pulveriser",
 	"energyutils.pulveriser.gui":"\uc000\uc006\uc001%s",
 	"energyutils.deepslate_silver_ore":"Deepslate Silver Ore",
-	"energyutils.iron_dust":"Iron Dust"
+	"energyutils.iron_dust":"Iron Dust",
+	"energyutils.coal_dust":"Coal Dust",
+	"energyutils.copper_dust":"Copper Dust",
+	"energyutils.gold_dust":"Gold Dust",
+	"energyutils.emerald_dust":"Emerald Dust",
+	"energyutils.diamond_dust":"Diamond Dust",
+	"energyutils.quartz_dust":"Quartz Dust"
 
 }
