@@ -1,4 +1,5 @@
-
+data modify storage energyutils:main temp.Items set from block ~ ~ ~ Items
+data remove storage energyutils:main temp.Items[{tag:{energyutils:{pulveriser_gui:1b}}}]
 
 execute if entity @s[scores={energyutils.pulveriser.cookTime=200..}] run function energyutils:blocks/pulveriser/working/try_stop
 

@@ -10,4 +10,3 @@ setblock ~ ~ ~ minecraft:barrel{CustomName: '{"translate":"energyutils.pulverise
 execute as @e[type=glow_item_frame,tag=energyutils.summoned] at @s run function energyutils:blocks/pulveriser/place_entity
 
 
-tag @e[type=glow_item_frame,tag=energyutils.summoned] remove energyutils.summoned

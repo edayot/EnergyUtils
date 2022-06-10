@@ -1,0 +1,1 @@
+execute if score @s energy.storage matches 15.. run function energyutils:blocks/pulveriser/working/main

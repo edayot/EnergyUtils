@@ -69,6 +69,6 @@ execute if score #nb_upgrade energyutils.math matches 63 run tag @a[distance=..1
 execute if score #nb_upgrade energyutils.math matches 64 run tag @a[distance=..106] add energyutils.in_radius
 
 
-
+#say @a[tag=energyutils.in_radius]
 execute if score @s energy.storage matches 120.. if entity @a[tag=energyutils.in_radius] run function energyutils:blocks/wireless_charger/give_energy
 tag @a[tag=energyutils.in_radius] remove energyutils.in_radius

@@ -1,2 +1,2 @@
-scoreboard players add @s energyutils.pulveriser.cookTime 1
-scoreboard players remove @s energy.storage 15
+scoreboard players add @s energyutils.pulveriser.cookTime 2
+scoreboard players remove @s energy.storage 30

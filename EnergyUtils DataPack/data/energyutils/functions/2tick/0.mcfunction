@@ -1,0 +1,1 @@
+execute as @e[type=glow_item_frame,tag=energyutils.block,tag=energyutils.2tick.0] at @s run function energyutils:blocks/2tick/0
