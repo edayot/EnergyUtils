@@ -5,7 +5,7 @@
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
-			"name": "energyutils:items/iron_dust"
+			"name": "energyutils:items/copper_dust"
 		  }
 		],
 		"functions": [

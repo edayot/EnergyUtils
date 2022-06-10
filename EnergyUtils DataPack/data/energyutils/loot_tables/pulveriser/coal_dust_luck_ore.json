@@ -5,13 +5,16 @@
 		"entries": [
 		  {
 			"type": "minecraft:loot_table",
-			"name": "energyutils:items/iron_dust"
+			"name": "energyutils:items/coal_dust"
 		  }
 		],
 		"functions": [
 		  {
 			"function": "minecraft:set_count",
-			"count": 2
+			"count": {
+			  "min": 3,
+			  "max": 4
+			}
 		  }
 		]
 	  }

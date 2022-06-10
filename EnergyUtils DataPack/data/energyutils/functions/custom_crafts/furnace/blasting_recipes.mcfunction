@@ -9,3 +9,8 @@
 
 #Iron ingot from Iron dust
 	execute if score #found furnace_nbt_recipes.data matches 0 store result score #found furnace_nbt_recipes.data if data storage furnace_nbt_recipes:main input.tag.ctc{id:"iron_dust",from:"airdox_:energyutils"} run item replace block ~ ~ ~ container.3 with minecraft:iron_ingot
+
+#Gold ingot from Gold dust
+	execute if score #found furnace_nbt_recipes.data matches 0 store result score #found furnace_nbt_recipes.data if data storage furnace_nbt_recipes:main input.tag.ctc{id:"gold_dust",from:"airdox_:energyutils"} run item replace block ~ ~ ~ container.3 with minecraft:gold_ingot
+#Copper ingot from Copper dust
+	execute if score #found furnace_nbt_recipes.data matches 0 store result score #found furnace_nbt_recipes.data if data storage furnace_nbt_recipes:main input.tag.ctc{id:"copper_dust",from:"airdox_:energyutils"} run item replace block ~ ~ ~ container.3 with minecraft:copper_ingot
