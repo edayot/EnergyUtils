@@ -1,7 +1,7 @@
 function simplenergy:generate/utils/random_position
 
 scoreboard players set #max_attempts simplenergy.data 50
-execute if predicate energyutils:chance/0.5 at @s run function simplenergy:generate/utils/find_adjacent_air
+execute if predicate energyutils:chance/0.8 at @s run function simplenergy:generate/utils/find_adjacent_air
 
 #Placing Ore
 
