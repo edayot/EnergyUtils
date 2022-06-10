@@ -1,0 +1,28 @@
+[
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+		  "block": {
+			"nbt": "{Items:[{Slot:24b}]}"
+		  }
+		}
+	  },
+	  {
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+		"nbt": "{Item:{tag:{energyutils:{auto_expulse:1b}}}}"
+	  }
+	},
+	{
+	  "condition": "minecraft:location_check",
+	  "offsetY": -1,
+	  "predicate": {
+		"position": {},
+		"block": {
+		  "tag": "energyutils:auto_expulse_compatible"
+		}
+	  }
+	}
+  ]
+  

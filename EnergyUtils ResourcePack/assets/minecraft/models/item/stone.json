@@ -24,5 +24,7 @@
 		  {"predicate": {"custom_model_data": 1430122},"model": "energyutils:item/charger_gui/2"},
 		  {"predicate": {"custom_model_data": 1430123},"model": "energyutils:item/charger_gui/3"},
 		  {"predicate": {"custom_model_data": 1430124},"model": "energyutils:item/charger_gui/4"},
-		  {"predicate": {"custom_model_data": 1430125},"model": "energyutils:item/charger_gui/5"}
+		  {"predicate": {"custom_model_data": 1430125},"model": "energyutils:item/charger_gui/5"},
+		  {"predicate": {"custom_model_data": 1430126},"model": "energyutils:gui/auto_expulse"},
+		  {"predicate": {"custom_model_data": 1430127},"model": "energyutils:gui/auto_expulse_disable"}
 	]}
