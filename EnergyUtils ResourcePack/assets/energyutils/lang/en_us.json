@@ -34,6 +34,10 @@
 	"energyutils.gold_dust":"Gold Dust",
 	"energyutils.emerald_dust":"Emerald Dust",
 	"energyutils.diamond_dust":"Diamond Dust",
-	"energyutils.quartz_dust":"Quartz Dust"
+	"energyutils.quartz_dust":"Quartz Dust",
+	"energyutils.structure_panel":"Structure Panel",
+	"energyutils.laser_core":"Laser Core",
+	"energyutils.structure_frame_tier_1":"Structure Frame Tier 1",
+	"energyutils.void_ore_miner_tier_1":"Void Ore Miner Tier 1"
 
 }

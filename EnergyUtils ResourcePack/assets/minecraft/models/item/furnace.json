@@ -13,6 +13,10 @@
 	  {"predicate": {"custom_model_data": 1430109},"model": "energyutils:block/pulveriser/pulveriser_item"},
 	  {"predicate": {"custom_model_data": 1430110},"model": "energyutils:block/pulveriser/pulveriser_lit_item"},
 	  {"predicate": {"custom_model_data": 1430111},"model": "energyutils:block/ores/deepslate_silver_ore_item"},
+	  {"predicate": {"custom_model_data": 1430112},"model": "energyutils:block/structure_panel_item"},
+	  {"predicate": {"custom_model_data": 1430113},"model": "energyutils:block/laser_core_item"},
+	  {"predicate": {"custom_model_data": 1430114},"model": "energyutils:block/structure_frame/tier_1_item"},
+	  {"predicate": {"custom_model_data": 1430115},"model": "energyutils:block/void_ore_miner/tier_1_item"},
 		  {
 			"predicate": {
 			  "custom_model_data": 4250001

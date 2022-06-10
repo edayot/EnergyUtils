@@ -4,16 +4,16 @@ execute if score #primary energyutils.math matches 0 store success score #primar
 #execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"silver_ingot",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/dirt
 
 ## Silver Ore to Silver dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/iron_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 
 ## Deepslate Silver Ore to Silver dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"deepslate_silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"deepslate_silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/iron_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"deepslate_silver_ore",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 
 ## Raw Silver to Silver dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"raw_silver",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"raw_silver",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/iron_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"raw_silver",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 
 
 # Iron recipes
@@ -42,14 +42,14 @@ execute if score #primary energyutils.math matches 0 store success score #primar
 
 # Copper recipes
 ## Copper ore to copper dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:copper_ore'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:copper_ore'} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/gold_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:copper_ore'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 ## Deepslate Copper Ore to Copper Dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:deepslate_copper_ore'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:deepslate_copper_ore'} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/gold_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:deepslate_copper_ore'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 ## Raw Copper to Copper Dust
-execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:raw_copper'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:raw_copper'} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/gold_dust_luck
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:raw_copper'} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/copper_dust
 ## Copper Ingot to Copper Dust
 execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item{id:'minecraft:copper_ingot'} run loot replace block ~ ~ ~ container.0 loot energyutils:items/copper_dust
 

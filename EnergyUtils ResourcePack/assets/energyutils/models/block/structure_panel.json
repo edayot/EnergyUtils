@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/structure_panel",
+	  "bottom": "energyutils:block/structure_panel",
+	  "side": "energyutils:block/structure_panel",
+	  "front": "energyutils:block/structure_panel",
+	  "particle": "energyutils:block/structure_panel"
+	},
+	"display":{
+		"fixed": {
+		  "rotation": [-90, 0, 0],
+		  "translation": [0, 0, -16],
+		  "scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"ambientocclusion":false
+  }

@@ -20,3 +20,12 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:cop
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:silver_cable"}} run function energyutils:blocks/cables/silver_cable/place
 #Pulveriser
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:pulveriser"}} run function energyutils:blocks/pulveriser/place
+#Structure Panel
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:structure_panel"}} run function energyutils:blocks/structure_panel/place
+#Laser Core
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:laser_core"}} run function energyutils:blocks/laser_core/place
+#Structure Frame Tier 1
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:structure_frame_tier_1"}} run function energyutils:blocks/structure_frame_tier_1/place
+#Void Ore Miner Tier 1
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:void_ore_miner_tier_1"}} run function energyutils:blocks/void_ore_miner_tier_1/place
+

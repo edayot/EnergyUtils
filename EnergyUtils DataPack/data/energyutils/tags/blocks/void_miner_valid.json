@@ -1,0 +1,8 @@
+{
+    "values": [
+        "minecraft:air",
+		"minecraft:end_gateway",
+		"minecraft:cave_air",
+		"minecraft:void_air"
+    ]
+}

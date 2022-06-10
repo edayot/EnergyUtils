@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/laser_core/top",
+	  "bottom": "energyutils:block/laser_core/top",
+	  "side": "energyutils:block/laser_core/side",
+	  "front": "energyutils:block/laser_core/side",
+	  "particle": "energyutils:block/laser_core"
+	},
+	"ambientocclusion":false
+  }
