@@ -7,13 +7,6 @@
 		  }
 		}
 	  },
-	  {
-	  "condition": "minecraft:entity_properties",
-	  "entity": "this",
-	  "predicate": {
-		"nbt": "{Item:{tag:{energyutils:{auto_expulse:1b}}}}"
-	  }
-	},
 	{
 	  "condition": "minecraft:location_check",
 	  "offsetZ": 1,

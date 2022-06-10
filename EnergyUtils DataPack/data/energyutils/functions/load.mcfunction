@@ -79,8 +79,8 @@ scoreboard players set #23 energyutils.math 23
 scoreboard players set #24 energyutils.math 24
 scoreboard players set #1430100 energyutils.math 1430100
 
-scoreboard players set #pulveriser_output_primary energyutils.math 0
-scoreboard players set #pulveriser_output_secondary energyutils.math 0
+scoreboard players set #primary energyutils.math 0
+scoreboard players set #secondary energyutils.math 0
 
 function energyutils:set_version
 

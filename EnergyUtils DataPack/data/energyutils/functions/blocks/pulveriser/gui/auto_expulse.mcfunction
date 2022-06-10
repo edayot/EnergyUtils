@@ -1,7 +1,7 @@
 
-execute store result score #temp energyutils.math run data get entity @s Item.tag.energyutils.auto_expulse
-execute if score #temp energyutils.math matches 0 run data modify entity @s Item.tag.energyutils.auto_expulse set value 1b
-execute unless score #temp energyutils.math matches 0 run data modify entity @s Item.tag.energyutils.auto_expulse set value 0b
+execute store success score #temp energyutils.math if entity @s[tag=energyutils.pulveriser.auto_expulse]
+execute if score #temp energyutils.math matches 0 run tag @s add energyutils.pulveriser.auto_expulse
+execute unless score #temp energyutils.math matches 0 run tag @s remove energyutils.pulveriser.auto_expulse
 
 
 execute if score #temp energyutils.math matches 0 run item replace block ~ ~ ~ container.8 with stone{CustomModelData:1430126,energyutils:{gui:1b,pulveriser_gui:1b,auto_expulse:1b},display:{Name:'{"text":"Auto Expulse ON","color":"white","italic": false}'}}
