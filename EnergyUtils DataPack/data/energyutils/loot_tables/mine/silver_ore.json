@@ -31,7 +31,96 @@
 			  },
 			  {
 				"type": "minecraft:loot_table",
-				"name": "energyutils:items/raw_silver"
+				"name": "energyutils:items/raw_silver",
+				"functions": [
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": {
+						"min": {
+						  "min": 1,
+						  "max": 2
+						},
+						"max": 2
+					  },
+					  "max": 3
+					},
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+						  "equipment": {
+							"mainhand": {
+							  "enchantments": [
+								{
+								  "enchantment": "minecraft:fortune",
+								  "levels": {
+									"min": 3,
+									"max": 255
+								  }
+								}
+							  ]
+							}
+						  }
+						}
+					  }
+					]
+				  },
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": {
+						"min": 1,
+						"max": 2
+					  },
+					  "max": 3
+					},
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+						  "equipment": {
+							"mainhand": {
+							  "enchantments": [
+								{
+								  "enchantment": "minecraft:fortune",
+								  "levels": 2
+								}
+							  ]
+							}
+						  }
+						}
+					  }
+					]
+				  },
+				  {
+					"function": "minecraft:set_count",
+					"count": {
+					  "min": 1,
+					  "max": 2
+					},
+					"conditions": [
+					  {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+						  "equipment": {
+							"mainhand": {
+							  "enchantments": [
+								{
+								  "enchantment": "minecraft:fortune",
+								  "levels": 1
+								}
+							  ]
+							}
+						  }
+						}
+					  }
+					]
+				  }
+				]
 			  }
 			]
 		  }
