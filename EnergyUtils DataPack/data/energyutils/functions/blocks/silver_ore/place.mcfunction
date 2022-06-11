@@ -1,4 +1,4 @@
-setblock ~ ~ ~ minecraft:lodestone
+setblock ~ ~ ~ minecraft:furnace{Lock:"§Locked",Items:[{Slot:0b,id:"minecraft:stone",Count:1b,tag:{energyutils:{block_destroyer:1b,silver_ore:1b,gui:1b}}},{Slot:1b,id:"minecraft:stone",Count:1b,tag:{energyutils:{gui:1b}}}]}
 
 summon glow_item_frame ~ ~ ~ {Facing:1b,ItemRotation:4b,Invulnerable:1b,Tags:["energyutils.summoned"],Invisible:1b,Fixed:1b,Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430105L}}}
 

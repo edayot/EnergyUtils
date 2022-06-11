@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Item:{tag:{energyutils:{silver_ore:1b}}}}] run function energyutils:blocks/silver_ore/destroy
+execute if entity @s[nbt={Item:{tag:{energyutils:{deepslate_silver_ore:1b}}}}] run function energyutils:blocks/deepslate_silver_ore/destroy
