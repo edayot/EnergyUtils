@@ -1,13 +1,10 @@
 
 
+tag @e[type=item,nbt={Item:{id:"minecraft:polished_deepslate"}},predicate=!simplenergy:has_tag,limit=1,sort=nearest,distance=..1] add energyutils.selected
+
+execute if score #is_silk_touch simplenergy.data matches 1 run data modify entity @e[type=item,sort=nearest,tag=energyutils.selected,limit=1] Item set from storage energyutils:main ItemsNBT.deepslate_silver_ore
+execute if score #is_silk_touch simplenergy.data matches 0 as @e[type=item,sort=nearest,tag=energyutils.selected] run function energyutils:blocks/deepslate_silver_ore/destroy_normal
 
 
-execute as @p[distance=..5] run loot spawn ~ ~ ~ loot energyutils:mine/deepslate_silver_ore
-execute unless entity @p[distance=..5] run loot spawn ~ ~ ~ loot energyutils:mine/deepslate_silver_ore
-
-
-
-
-kill @e[limit=1,type=item,distance=..5,nbt={Age:0s,Item:{id:"minecraft:furnace"}}]
-execute as @e[type=minecraft:glow_item_frame,tag=energyutils.silver_ore,distance=..3] at @s unless block ~ ~ ~ minecraft:furnace run kill @s
+tag @e[type=item,tag=energyutils.selected] remove energyutils.selected
 kill @s

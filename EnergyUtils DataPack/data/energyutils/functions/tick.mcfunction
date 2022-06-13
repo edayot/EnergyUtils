@@ -13,7 +13,6 @@ execute as @e[type=glow_item_frame,tag=energyutils.block,tag=energyutils.barrel_
 execute as @e[type=glow_item_frame,tag=energyutils.block,tag=!energyutils.silver_ore,predicate=!energyutils:test_block] at @s run function energyutils:blocks/destroy
 
 
-execute as @e[type=item,predicate=energyutils:block_destroyer] at @s run function energyutils:blocks/ore_destroy
 
 
 schedule function energyutils:tick 1t replace
