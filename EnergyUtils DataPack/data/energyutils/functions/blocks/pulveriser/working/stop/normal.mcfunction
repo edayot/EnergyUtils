@@ -22,7 +22,7 @@ data modify storage energyutils:main temp.Pending_1_a set from storage energyuti
 
 data modify entity @s Item.tag.CustomModelData set value 1430109L
 scoreboard players set @s energyutils.pulveriser.cookTime 0
-scoreboard players remove @s energy.storage 15
+scoreboard players remove @s energy.storage 10
 data remove entity @s Item.tag.energyutils.primary_item 
 data remove entity @s Item.tag.energyutils.secondary_item 
 data remove storage energyutils:main temp.input_item

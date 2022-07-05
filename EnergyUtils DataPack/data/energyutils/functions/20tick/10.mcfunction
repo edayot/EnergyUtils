@@ -1,4 +1,7 @@
 execute as @e[type=glow_item_frame,tag=energyutils.block,tag=energyutils.20tick.10] at @s run function energyutils:blocks/20tick/10
 
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.south,tag=energyutils.pulveriser.auto_expulse,predicate=energyutils:auto_expulse_east] at @s run function energyutils:blocks/pulveriser/auto_expulse/east/main
-execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.north,tag=energyutils.pulveriser.auto_expulse,predicate=energyutils:auto_expulse_west] at @s run function energyutils:blocks/pulveriser/auto_expulse/west/main
+execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.south,tag=energyutils.pulveriser.auto_expulse,predicate=energyutils:auto_expulse_east] at @s if data block ~ ~ ~ Items[{Slot:15b}] run function energyutils:blocks/pulveriser/auto_expulse/east/main
+execute as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.north,tag=energyutils.pulveriser.auto_expulse,predicate=energyutils:auto_expulse_west] at @s if data block ~ ~ ~ Items[{Slot:15b}] run function energyutils:blocks/pulveriser/auto_expulse/west/main
+
+execute if score simpledrawer load.status matches 1 as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.north,tag=energyutils.pulveriser.auto_expulse] at @s if data block ~ ~ ~ Items[{Slot:15b}] positioned ~-1 ~ ~ run function energyutils:blocks/pulveriser/auto_expulse/simpledrawer/east/main
+execute if score simpledrawer load.status matches 1 as @e[type=glow_item_frame,tag=energyutils.pulveriser,tag=energyutils.south,tag=energyutils.pulveriser.auto_expulse] at @s if data block ~ ~ ~ Items[{Slot:15b}] positioned ~1 ~ ~ run function energyutils:blocks/pulveriser/auto_expulse/simpledrawer/west/main
