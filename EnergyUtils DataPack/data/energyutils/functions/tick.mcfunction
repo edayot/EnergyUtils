@@ -14,7 +14,7 @@ execute as @e[tag=energyutils.minecart_checked] at @s positioned ~ ~1 ~ unless e
 
 execute as @e[type=glow_item_frame,tag=energyutils.block,tag=!energyutils.silver_ore,predicate=!energyutils:test_block] at @s run function energyutils:blocks/destroy
 
-
+execute as @a[predicate=energyutils:holding_decapitor] at @s run function energyutils:decapitator/raycast/start
 
 
 schedule function energyutils:tick 1t replace

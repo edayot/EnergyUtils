@@ -29,3 +29,7 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:str
 #Void Ore Miner Tier 1
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:void_ore_miner_tier_1"}} run function energyutils:blocks/void_ore_miner_tier_1/place
 
+#Item Quantum Input
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_quantum_input"}} run function energyutils:blocks/item_quantum/place_input
+#Item Quantum Output
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_quantum_output"}} run function energyutils:blocks/item_quantum/place_output

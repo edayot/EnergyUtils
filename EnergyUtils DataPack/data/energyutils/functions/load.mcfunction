@@ -35,7 +35,8 @@ data modify storage energyutils:main ItemsNBT.emerald_dust set value {id:"minecr
 data modify storage energyutils:main ItemsNBT.diamond_dust set value {id:"minecraft:jigsaw",Count:1b					,tag:{CustomModelData:1430114,ctc:{id:"diamond_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"diamond":1b}}													,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.diamond_dust","color":"white","italic":false}'}}}
 #Quartz Dust
 data modify storage energyutils:main ItemsNBT.quartz_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430115,ctc:{id:"quartz_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"quartz":1b}}													,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quartz_dust","color":"white","italic":false}'}}}
-
+#Decapitator
+data modify storage energyutils:main ItemsNBT.decapitator set value {id:"minecraft:diamond_pickaxe",Count:1b			,tag:{CustomModelData:1430116,ctc:{id:"decapitator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.decapitator","color":"white","italic":false}'}}}
 
 #Blocks
 #ChunkLoader
@@ -70,8 +71,13 @@ data modify storage energyutils:main ItemsNBT.laser_core set value {id:"minecraf
 #Structure Frame Tier 1
 data modify storage energyutils:main ItemsNBT.structure_frame_tier_1 set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430114,ctc:{id:"structure_frame_tier_1",from:"airdox_:energyutils",traits:{"block":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:structure_frame_tier_1"}}}}]}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.structure_frame_tier_1","color":"white","italic":false}'}}}
 #Void Ore Miner Tier 1
-data modify storage energyutils:main ItemsNBT.void_ore_miner_tier_1 set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430115,ctc:{id:"void_ore_miner_tier_1",from:"airdox_:energyutils",traits:{"block":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:void_ore_miner_tier_1"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.void_ore_miner_tier_1","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.void_ore_miner_tier_1 set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430115,ctc:{id:"void_ore_miner_tier_1",from:"airdox_:energyutils",traits:{"block":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:void_ore_miner_tier_1"}}}}]}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.void_ore_miner_tier_1","color":"white","italic":false}'}}}
 
+#Item Quantum Input
+data modify storage energyutils:main ItemsNBT.item_quantum_input set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430116,ctc:{id:"item_quantum_input",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_input"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_input","color":"white","italic":false}'}}}
+
+#Item Quantum Output
+data modify storage energyutils:main ItemsNBT.item_quantum_output set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430117,ctc:{id:"item_quantum_output",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_output"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_output","color":"white","italic":false}'}}}
 
 
 
@@ -112,3 +118,4 @@ schedule function energyutils:200tick 5t replace
 # cables
 # wireless energy spreader
 # armor
+# epée efficient avec le block que tu regarde
