@@ -1,3 +1,5 @@
 {
-	"values": []
+	"values": [
+		"energyutils:calls/update_energy_item"
+	]
 } 

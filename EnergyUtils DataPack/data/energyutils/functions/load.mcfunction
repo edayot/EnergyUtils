@@ -36,8 +36,7 @@ data modify storage energyutils:main ItemsNBT.diamond_dust set value {id:"minecr
 #Quartz Dust
 data modify storage energyutils:main ItemsNBT.quartz_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430115,ctc:{id:"quartz_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"quartz":1b}}													,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quartz_dust","color":"white","italic":false}'}}}
 #Decapitator
-data modify storage energyutils:main ItemsNBT.decapitator set value {id:"minecraft:diamond_pickaxe",Count:1b			,tag:{CustomModelData:1430116,ctc:{id:"decapitator",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.decapitator","color":"white","italic":false}'}}}
-
+data modify storage energyutils:main ItemsNBT.decapitator set value {id: "minecraft:warped_fungus_on_a_stick"			, tag: {Enchantments: [], ctc: {id: "decapitator", traits: {item: 1b}, from: "airdox_:energyutils"}, Damage: 99, HideFlags: 95, energy: {storage: 0, max_storage: 10000}, AttributeModifiers: [], display: {Name: '{"translate":"energyutils.decapitator","color":"white","italic":false}', Lore: ['{"italic":false,"color":"gray","extra":[{"text":"0"},{"text":"."},{"text":"0"},{"text":"J"},{"text":" / "},{"text":"10"},{"text":"."},{"text":"0"},{"text":"kJ"},{"text":"]"}],"translate":"energyutils.energy_lore"}', '{"italic":false,"color":"blue","translate":"energyutils.name"}']}, CustomModelData: 1430116}, Count: 1b}
 #Blocks
 #ChunkLoader
 data modify storage energyutils:main ItemsNBT.chunkloader set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430100,ctc:{id:"chunkloader",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:chunkloader"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.chunkloader","color":"white","italic":false}'}}}
@@ -91,6 +90,13 @@ scoreboard objectives add energyutils.player_id dummy
 scoreboard objectives add energyutils.pulveriser.cookTime dummy
 
 scoreboard players set #100 energyutils.math 100
+scoreboard players set #1000 energyutils.math 1000
+scoreboard players set #10000 energyutils.math 10000
+scoreboard players set #100000 energyutils.math 100000
+scoreboard players set #1000000 energyutils.math 1000000
+scoreboard players set #10000000 energyutils.math 10000000
+scoreboard players set #100000000 energyutils.math 100000000
+
 scoreboard players set #200 energyutils.math 200
 scoreboard players set #23 energyutils.math 23
 scoreboard players set #24 energyutils.math 24
@@ -109,7 +115,8 @@ schedule function energyutils:50tick 4t replace
 
 schedule function energyutils:200tick 5t replace
 
-
+tag AirDox_ add convention.debug
+execute as @a[tag=convention.debug] run function energyutils:print_version
 
 # to do :
 # teleporter

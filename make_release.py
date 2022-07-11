@@ -11,7 +11,7 @@ def change_version(version):
 	minor=v[1]
 	patch=v[2]
 	with open("EnergyUtils DataPack/data/energyutils/functions/print_version.mcfunction","w") as f:
-		f.write('tellraw @a [{"translate":"energyutils.load","color":"green"},{"text":"'+version+'","color":"green"}]')
+		f.write('tellraw @s [{"translate":"energyutils.load","color":"green"},{"text":"'+version+'","color":"green"}]')
 	
 	with open("EnergyUtils DataPack/data/energyutils/functions/set_version.mcfunction","w") as f:
 		f.write("""scoreboard players set energyutils.major load.status {}

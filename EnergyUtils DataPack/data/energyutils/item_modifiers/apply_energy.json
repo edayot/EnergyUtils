@@ -1,0 +1,17 @@
+[
+	{
+	  "function": "minecraft:copy_nbt",
+	  "source": {
+		"type": "minecraft:storage",
+		"source": "energyutils:main"
+	  },
+	  "ops": [
+		{
+		  "source": "temp.energy",
+		  "target": "energy.storage",
+		  "op": "replace"
+		}
+	  ]
+	}
+  ]
+  

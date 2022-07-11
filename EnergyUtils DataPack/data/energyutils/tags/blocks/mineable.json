@@ -3,6 +3,7 @@
         "#mineable/axe",
 		"#mineable/pickaxe",
 		"#mineable/shovel",
-		"#mineable/hoe"
+		"#mineable/hoe",
+		"#energyutils:shears_mineable"
     ]
 }

@@ -1,0 +1,7 @@
+[
+	{
+	  "function": "minecraft:set_nbt",
+	  "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:8s}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:3,Operation:0,UUID:[I;-373473996,-1799730846,-2075936327,-2142119243]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:15,Operation:0,UUID:[I;-1724123683,1938048873,-1633950421,-1995235845]}]}"
+	}
+  ]
+  

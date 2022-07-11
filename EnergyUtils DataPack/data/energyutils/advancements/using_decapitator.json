@@ -1,0 +1,17 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:item_durability_changed",
+		"conditions": {
+		  "item": {
+			"tag": "energyutils:all_decapitator",
+			"nbt": "{ctc:{id:\"decapitator\",from:\"airdox_:energyutils\"}}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "energyutils:decapitator/use_energy"
+	}
+  }
+  
