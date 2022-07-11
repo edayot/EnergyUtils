@@ -17,3 +17,7 @@ item modify block -30000000 14 1610 container.0 energyutils:update_damage
 data modify storage energyutils:main temp.id set from storage energy:temp list[0].id
 
 execute if data storage energyutils:main temp{id:"minecraft:warped_fungus_on_a_stick"} run item modify block -30000000 14 1610 container.0 energyutils:set_decapitator_enchants
+
+execute if score #storage energyutils.math matches 1.. run data modify block -30000000 14 1610 Items[0].id set value "minecraft:diamond_pickaxe"
+execute if score #storage energyutils.math matches ..0 run data modify block -30000000 14 1610 Items[0].id set value "minecraft:warped_fungus_on_a_stick"
+
