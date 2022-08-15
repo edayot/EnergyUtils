@@ -60,8 +60,6 @@ data modify storage energyutils:main ItemsNBT.silver_cable set value {id:"minecr
 data modify storage energyutils:main ItemsNBT.pulveriser set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"pulveriser",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:pulveriser"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.pulveriser","color":"white","italic":false}'}}}
 #Deepslate Silver ore
 data modify storage energyutils:main ItemsNBT.deepslate_silver_ore set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430111,ctc:{id:"deepslate_silver_ore",from:"airdox_:energyutils",traits:{"block":1b,"ore":1b,"metal/silver":1b}}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:deepslate_silver_ore"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.deepslate_silver_ore","color":"white","italic":false}'}}}
-#Item cable
-data modify storage energyutils:main ItemsNBT.item_cable set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430112,ctc:{id:"item_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}                               ,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_cable","color":"white","italic":false}'}}}
 
 
 
@@ -75,11 +73,15 @@ data modify storage energyutils:main ItemsNBT.structure_frame_tier_1 set value {
 #Void Ore Miner Tier 1
 data modify storage energyutils:main ItemsNBT.void_ore_miner_tier_1 set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430115,ctc:{id:"void_ore_miner_tier_1",from:"airdox_:energyutils",traits:{"block":1b}}								,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:void_ore_miner_tier_1"}}}}]}																	,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.void_ore_miner_tier_1","color":"white","italic":false}'}}}
 
+#Item cable
+data modify storage energyutils:main ItemsNBT.item_cable set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430116,ctc:{id:"item_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}                               ,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_cable","color":"white","italic":false}'}}}
+
+
 #Item Quantum Input
-data modify storage energyutils:main ItemsNBT.item_quantum_input set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430116,ctc:{id:"item_quantum_input",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_input"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_input","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.item_quantum_input set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430117,ctc:{id:"item_quantum_input",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_input"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_input","color":"white","italic":false}'}}}
 
 #Item Quantum Output
-data modify storage energyutils:main ItemsNBT.item_quantum_output set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430117,ctc:{id:"item_quantum_output",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_output"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_output","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.item_quantum_output set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430118,ctc:{id:"item_quantum_output",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_output"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_output","color":"white","italic":false}'}}}
 
 
 
