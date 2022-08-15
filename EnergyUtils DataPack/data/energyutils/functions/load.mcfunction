@@ -37,7 +37,14 @@ data modify storage energyutils:main ItemsNBT.diamond_dust set value {id:"minecr
 data modify storage energyutils:main ItemsNBT.quartz_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430115,ctc:{id:"quartz_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"gem":1b,"quartz":1b}}													,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.quartz_dust","color":"white","italic":false}'}}}
 #Decapitator
 data modify storage energyutils:main ItemsNBT.decapitator set value {id: "minecraft:warped_fungus_on_a_stick"			, tag: {Enchantments: [], ctc: {id: "decapitator", traits: {item: 1b}, from: "airdox_:energyutils"}, Damage: 99, HideFlags: 95, energy: {storage: 0, max_storage: 10000}, AttributeModifiers: [], display: {Name: '{"translate":"energyutils.decapitator","color":"white","italic":false}', Lore: ['{"italic":false,"color":"gray","extra":[{"text":"0"},{"text":"."},{"text":"0"},{"text":"J"},{"text":" / "},{"text":"10"},{"text":"."},{"text":"0"},{"text":"kJ"},{"text":"]"}],"translate":"energyutils.energy_lore"}', '{"italic":false,"color":"blue","translate":"energyutils.name"}']}, CustomModelData: 1430116}, Count: 1b}
+#Wrench
+data modify storage energyutils:main ItemsNBT.wrench set value {id:"minecraft:warped_fungus_on_a_stick",Count:1b						,tag:{CustomModelData:1430117,ctc:{id:"wrench",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.wrench","color":"white","italic":false}'}}}
+
+
+
+
 #Blocks
+
 #ChunkLoader
 data modify storage energyutils:main ItemsNBT.chunkloader set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430100,ctc:{id:"chunkloader",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:chunkloader"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.chunkloader","color":"white","italic":false}'}}}
 #Quantum Input
@@ -75,13 +82,17 @@ data modify storage energyutils:main ItemsNBT.void_ore_miner_tier_1 set value {i
 
 #Item cable
 data modify storage energyutils:main ItemsNBT.item_cable set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430116,ctc:{id:"item_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}                               ,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_cable","color":"white","italic":false}'}}}
+#Copper Servo Input
+data modify storage energyutils:main ItemsNBT.copper_servo_input set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430117,ctc:{id:"copper_servo_input",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.input"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430117}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_input","color":"white","italic":false}'}}}
+#Copper Servo Output
+data modify storage energyutils:main ItemsNBT.copper_servo_output set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430118,ctc:{id:"copper_servo_output",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.output"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430118}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_output","color":"white","italic":false}'}}}
 
 
 #Item Quantum Input
-data modify storage energyutils:main ItemsNBT.item_quantum_input set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430117,ctc:{id:"item_quantum_input",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_input"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_input","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.item_quantum_input set value {id:"minecraft:furnace",Count:1b				,tag:{CustomModelData:1430119,ctc:{id:"item_quantum_input",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_input"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_input","color":"white","italic":false}'}}}
 
 #Item Quantum Output
-data modify storage energyutils:main ItemsNBT.item_quantum_output set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430118,ctc:{id:"item_quantum_output",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_output"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_output","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.item_quantum_output set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430120,ctc:{id:"item_quantum_output",from:"airdox_:energyutils",traits:{"block":1b}}									,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_quantum_output"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_quantum_output","color":"white","italic":false}'}}}
 
 
 
