@@ -1,5 +1,5 @@
 {
 	"values":[
-		"energyutils:custom_blocks/place_block"
+		"energyutils:calls/on_place"
 	]
 }

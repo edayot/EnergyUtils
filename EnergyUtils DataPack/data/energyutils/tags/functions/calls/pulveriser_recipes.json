@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:custom_crafts/pulveriser"
+		"energyutils:calls/craft/pulveriser"
 	]
 }

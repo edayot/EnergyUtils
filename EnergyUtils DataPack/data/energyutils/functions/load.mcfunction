@@ -60,6 +60,9 @@ data modify storage energyutils:main ItemsNBT.silver_cable set value {id:"minecr
 data modify storage energyutils:main ItemsNBT.pulveriser set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430109,ctc:{id:"pulveriser",from:"airdox_:energyutils",traits:{"block":1b}}											,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:pulveriser"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.pulveriser","color":"white","italic":false}'}}}
 #Deepslate Silver ore
 data modify storage energyutils:main ItemsNBT.deepslate_silver_ore set value {id:"minecraft:furnace",Count:1b			,tag:{CustomModelData:1430111,ctc:{id:"deepslate_silver_ore",from:"airdox_:energyutils",traits:{"block":1b,"ore":1b,"metal/silver":1b}}		,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:deepslate_silver_ore"}}}}]}																		,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.deepslate_silver_ore","color":"white","italic":false}'}}}
+#Item cable
+data modify storage energyutils:main ItemsNBT.item_cable set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430112,ctc:{id:"item_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}                               ,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_cable","color":"white","italic":false}'}}}
+
 
 
 #Structure Panel

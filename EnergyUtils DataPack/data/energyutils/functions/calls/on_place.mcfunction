@@ -33,3 +33,6 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:voi
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_quantum_input"}} run function energyutils:blocks/item_quantum/place_input
 #Item Quantum Output
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_quantum_output"}} run function energyutils:blocks/item_quantum/place_output
+
+#Item cable
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_cable"}} run function energyutils:blocks/item_cable/place
