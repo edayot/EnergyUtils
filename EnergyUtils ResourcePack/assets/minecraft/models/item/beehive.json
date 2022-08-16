@@ -16,7 +16,7 @@
 	{"predicate": {"custom_model_data": 1430114},"model": "energyutils:block/structure_frame/tier_1"},
 	{"predicate": {"custom_model_data": 1430115},"model": "energyutils:block/void_ore_miner/tier_1"},
 	{"predicate": {"custom_model_data": 1430117},"model": "energyutils:block/copper_servo/insert"},
-	{"predicate": {"custom_model_data": 1430118},"model": "energyutils:block/copper_servo/input_connected"},
+	{"predicate": {"custom_model_data": 1430118},"model": "energyutils:block/copper_servo/insert_connected"},
 	{"predicate": {"custom_model_data": 1430119},"model": "energyutils:block/copper_servo/extract"},
 	{"predicate": {"custom_model_data": 1430120},"model": "energyutils:block/copper_servo/extract_connected"}
 

@@ -16,7 +16,7 @@
 							},
 							"ops": [
 								{
-									"source": "ItemsNBT.copper_servo_output.tag",
+									"source": "ItemsNBT.copper_servo_extract.tag",
 									"target": "{}",
 									"op": "merge"
 								}

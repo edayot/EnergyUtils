@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "energyutils:block/servo/bas",
-		"1": "energyutils:block/servo/copper_servo_input",
+		"1": "energyutils:block/servo/copper_servo_insert",
 		"particle": "energyutils:block/servo/bas"
 	},
 	"elements": [
