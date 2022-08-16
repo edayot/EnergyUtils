@@ -155,6 +155,27 @@
         }
     ],
     "display": {
+        "thirdperson_righthand": {
+            "scale": [
+                0.9,
+                0.9,
+                0.9
+            ]
+        },
+        "ground": {
+            "scale": [
+                0.9,
+                0.9,
+                0.9
+            ]
+        },
+        "gui": {
+            "rotation": [
+                25,
+                45,
+                0
+            ]
+        },
         "head": {
             "translation": [
                 0,
