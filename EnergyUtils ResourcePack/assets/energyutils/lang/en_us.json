@@ -41,5 +41,12 @@
 	"energyutils.void_ore_miner_tier_1":"Void Ore Miner Tier 1",
 	"energyutils.decapitator":"Decapitator",
 	"energyutils.energy_lore":"[Energy : ",
-	"energyutils.item_cable":"Item Cable"
+	"energyutils.item_cable":"Item Cable",
+	"energyutils.copper_servo":"Copper Servo",
+	"energyutils.copper_servo_input":"Copper Servo (input)",
+	"energyutils.copper_servo_output":"Copper Servo (output)",
+	"energyutils.silver_servo":"Silver Servo",
+	"energyutils.silver_servo_input":"Silver Servo (input)",
+	"energyutils.silver_servo_output":"Silver Servo (output)"
+
 }

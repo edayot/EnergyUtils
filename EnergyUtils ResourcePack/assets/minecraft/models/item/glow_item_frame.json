@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/glow_item_frame",
+  "overrides":[
+    {"predicate": {"custom_model_data": 1430117},"model": "energyutils:block/copper_servo/insert_item"},
+    {"predicate": {"custom_model_data": 1430119},"model": "energyutils:block/copper_servo/extract_item"}
+
+  ]
+}

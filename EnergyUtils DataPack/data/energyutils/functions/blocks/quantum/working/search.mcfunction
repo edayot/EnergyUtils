@@ -15,7 +15,12 @@ tag @e[type=glow_item_frame,tag=energyutils.quantum.same_channel] add energyutil
 execute if entity @e[type=glow_item_frame,tag=energyutils.quantum.same_channel,tag=energyutils.quantum.output] run function energyutils:blocks/quantum/working/repart
 
 
+#Item transport
+execute as @e[tag=energyutils.quantum.same_channel,tag=energyutils.quantum.output] at @s align xyz positioned ~.5 ~.5 ~.5 run function energyutils:blocks/quantum/working/items/generate_destination
 
+execute as @e[tag=energyutils.quantum.same_channel,tag=energyutils.quantum.input] at @s align xyz positioned ~.5 ~.5 ~.5 run function energyutils:blocks/quantum/working/items/make_transfer
+
+kill @e[tag=energyutils.transfer.destination.temp]
 
 
 

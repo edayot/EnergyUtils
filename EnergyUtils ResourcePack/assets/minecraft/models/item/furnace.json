@@ -18,7 +18,6 @@
 	  {"predicate": {"custom_model_data": 1430114},"model": "energyutils:block/structure_frame/tier_1_item"},
 	  {"predicate": {"custom_model_data": 1430115},"model": "energyutils:block/void_ore_miner/tier_1_item"},
 	  {"predicate": {"custom_model_data": 1430116},"model": "energyutils:block/item_cable/wire_"},
-
 	  
 	  {
 			"predicate": {
