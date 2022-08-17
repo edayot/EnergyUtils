@@ -18,13 +18,18 @@ for i in range(0,64):
     with open("wire_base.json", "r") as f:
         data = json.load(f)
     
-    #delete other sides 
+    #delete other sides
+    print(len(data["elements"]))
     for side in sides:
         if side not in indicator:
-            for cube in data["elements"]:
-                if cube["name"]==cube_name[sides.index(side)]:
-                    data["elements"].remove(cube)
+            i=0
+            while i < len(data["elements"]):
+                if cube_name[sides.index(side)] in data["elements"][i]["name"]:
+                    data["elements"].pop(i)
+                    i-=1
+                i+=1
     
+    print(len(data["elements"]))
     #save json
     with open("wire"+indicator+".json", "w") as f:
         json.dump(data, f, indent=4)
