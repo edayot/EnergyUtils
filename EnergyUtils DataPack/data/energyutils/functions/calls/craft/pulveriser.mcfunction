@@ -15,6 +15,10 @@ execute if score #primary energyutils.math matches 0 store success score #primar
 execute if score #secondary energyutils.math matches 0 store success score #secondary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"raw_silver",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.1 loot energyutils:pulveriser/iron_dust_luck
 execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"raw_silver",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:pulveriser/silver_dust
 
+# Steel 
+## Steel ingot to steel dust
+execute if score #primary energyutils.math matches 0 store success score #primary energyutils.math if data storage energyutils:main temp.input_item.tag.ctc{id:"steel_ingot",from:"airdox_:energyutils"} run loot replace block ~ ~ ~ container.0 loot energyutils:items/steel_dust
+
 
 # Iron recipes
 ## Iron Ore to Iron Dust

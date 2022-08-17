@@ -39,8 +39,12 @@ data modify storage energyutils:main ItemsNBT.quartz_dust set value {id:"minecra
 data modify storage energyutils:main ItemsNBT.decapitator set value {id: "minecraft:warped_fungus_on_a_stick"			, tag: {Enchantments: [], ctc: {id: "decapitator", traits: {item: 1b}, from: "airdox_:energyutils"}, Damage: 99, HideFlags: 95, energy: {storage: 0, max_storage: 10000}, AttributeModifiers: [], display: {Name: '{"translate":"energyutils.decapitator","color":"white","italic":false}', Lore: ['{"italic":false,"color":"gray","extra":[{"text":"0"},{"text":"."},{"text":"0"},{"text":"J"},{"text":" / "},{"text":"10"},{"text":"."},{"text":"0"},{"text":"kJ"},{"text":"]"}],"translate":"energyutils.energy_lore"}', '{"italic":false,"color":"blue","translate":"energyutils.name"}']}, CustomModelData: 1430116}, Count: 1b}
 #Wrench
 data modify storage energyutils:main ItemsNBT.wrench set value {id:"minecraft:warped_fungus_on_a_stick",Count:1b						,tag:{CustomModelData:1430117,ctc:{id:"wrench",from:"airdox_:energyutils",traits:{"item":1b}}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.wrench","color":"white","italic":false}'}}}
-
-
+#Steel Dust
+data modify storage energyutils:main ItemsNBT.steel_dust set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430118,ctc:{id:"steel_dust",from:"airdox_:energyutils",traits:{"item":1b,"dust":1b,"metal/steel":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_dust","color":"white","italic":false}'}}}
+#Steel Ingot
+data modify storage energyutils:main ItemsNBT.steel_ingot set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430119,ctc:{id:"steel_ingot",from:"airdox_:energyutils",traits:{"item":1b,"ingot":1b,"metal/steel":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_ingot","color":"white","italic":false}'}}}
+#Steel nugget
+data modify storage energyutils:main ItemsNBT.steel_nugget set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430120,ctc:{id:"steel_nugget",from:"airdox_:energyutils",traits:{"item":1b,"nugget":1b,"metal/steel":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_nugget","color":"white","italic":false}'}}}
 
 
 #Blocks
@@ -87,6 +91,8 @@ data modify storage energyutils:main ItemsNBT.copper_servo_insert set value {id:
 #Copper Servo Extract
 data modify storage energyutils:main ItemsNBT.copper_servo_extract set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430119,ctc:{id:"copper_servo_extract",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:0b,Invisible:1b,Fixed:0b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.extract"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430119}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_extract","color":"white","italic":false}'}}}
 
+#Steel Block
+data modify storage energyutils:main ItemsNBT.steel_block set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430121,ctc:{id:"steel_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/steel":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:steel_block"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_block","color":"white","italic":false}'}}}
 
 
 

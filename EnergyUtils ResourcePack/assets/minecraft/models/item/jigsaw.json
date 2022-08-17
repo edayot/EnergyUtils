@@ -17,7 +17,12 @@
 		{"predicate":{"custom_model_data": 1430112},"model":"energyutils:item/gold_dust"},
 		{"predicate":{"custom_model_data": 1430113},"model":"energyutils:item/emerald_dust"},
 		{"predicate":{"custom_model_data": 1430114},"model":"energyutils:item/diamond_dust"},
-		{"predicate":{"custom_model_data": 1430115},"model":"energyutils:item/quartz_dust"}
+		{"predicate":{"custom_model_data": 1430115},"model":"energyutils:item/quartz_dust"},
+
+		
+		{"predicate":{"custom_model_data": 1430118},"model":"energyutils:item/steel_dust"},
+		{"predicate":{"custom_model_data": 1430119},"model":"energyutils:item/steel_ingot"},
+		{"predicate":{"custom_model_data": 1430120},"model":"energyutils:item/steel_nugget"}
 
 
 	]

@@ -36,3 +36,6 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:ite
 
 #Item cable
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:item_cable"}} run function energyutils:blocks/item_cable/place
+
+#Steel Block
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:steel_block"}} run function energyutils:blocks/steel_block/place
