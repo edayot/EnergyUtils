@@ -4,6 +4,8 @@
 	  "layer0": "minecraft:item/warped_fungus_on_a_stick"
 	},
 	"overrides":[
-		{"predicate": {"custom_model_data": 1430116},"model": "energyutils:item/decapitator"}
+		{"predicate": {"custom_model_data": 1430116},"model": "energyutils:item/decapitator"},
+		{"predicate": {"custom_model_data": 1430117},"model": "energyutils:item/wrench"}
+
 	]
   }

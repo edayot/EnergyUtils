@@ -83,9 +83,9 @@ data modify storage energyutils:main ItemsNBT.void_ore_miner_tier_1 set value {i
 #Item cable
 data modify storage energyutils:main ItemsNBT.item_cable set value {id:"minecraft:furnace",Count:1b						,tag:{CustomModelData:1430116,ctc:{id:"item_cable",from:"airdox_:energyutils",traits:{"block":1b,"cable":1b}}                               ,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:item_cable"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.item_cable","color":"white","italic":false}'}}}
 #Copper Servo Insert
-data modify storage energyutils:main ItemsNBT.copper_servo_insert set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430117,ctc:{id:"copper_servo_insert",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.insert"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430117}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_insert","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.copper_servo_insert set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430117,ctc:{id:"copper_servo_insert",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:0b,Invisible:1b,Fixed:0b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.insert"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430117}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_insert","color":"white","italic":false}'}}}
 #Copper Servo Extract
-data modify storage energyutils:main ItemsNBT.copper_servo_extract set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430119,ctc:{id:"copper_servo_extract",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:1b,Invisible:1b,Fixed:1b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.extract"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430119}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_extract","color":"white","italic":false}'}}}
+data modify storage energyutils:main ItemsNBT.copper_servo_extract set value {id:"minecraft:glow_item_frame",Count:1b			,tag:{CustomModelData:1430119,ctc:{id:"copper_servo_extract",from:"airdox_:energyutils",traits:{"item":1b,"servo":1b,"metal/copper":1b}},EntityTag:{Invulnerable:0b,Invisible:1b,Fixed:0b,Silent:1b,Tags:["energyutils.summoned","energyutils.copper_servo","itemio.servo.extract"],Item:{id:"minecraft:beehive",Count:1b,tag:{CustomModelData:1430119}}}                                                                                     ,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.copper_servo_extract","color":"white","italic":false}'}}}
 
 
 
@@ -95,8 +95,9 @@ scoreboard objectives add energyutils.math dummy
 scoreboard objectives add energyutils.kill_cooldown dummy
 scoreboard objectives add energyutils.quantum_channel dummy
 scoreboard objectives add energyutils.quantum_owner dummy
-scoreboard objectives add energyutils.player_id dummy
+scoreboard objectives add energyutils.player.id dummy
 scoreboard objectives add energyutils.pulveriser.cookTime dummy
+scoreboard objectives add energyutils.player.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 
 scoreboard players set #100 energyutils.math 100
 scoreboard players set #1000 energyutils.math 1000

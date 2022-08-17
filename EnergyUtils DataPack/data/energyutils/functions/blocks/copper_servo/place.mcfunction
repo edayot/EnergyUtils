@@ -4,7 +4,11 @@ tag @s add itemio.servo
 
 scoreboard players set @s itemio.servo.stack_limit 1
 
+
+data modify entity @s Item.tag.energyutils.destroyer set value 1b
+
 function itemio:servo/init
+
 
 
 

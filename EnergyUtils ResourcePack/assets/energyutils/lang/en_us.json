@@ -47,6 +47,7 @@
 	"energyutils.copper_servo_extract":"Copper Servo (extract)",
 	"energyutils.silver_servo":"Silver Servo",
 	"energyutils.silver_servo_insert":"Silver Servo (insert)",
-	"energyutils.silver_servo_extract":"Silver Servo (extract)"
+	"energyutils.silver_servo_extract":"Silver Servo (extract)",
+	"energyutils.wrench":"Wrench"
 
 }
