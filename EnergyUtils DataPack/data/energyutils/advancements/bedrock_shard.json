@@ -19,6 +19,6 @@
 	}
   },
   "rewards": {
-	"function": "energyutils:bedrock_shard/reset"
+	"function": "energyutils:items/bedrock_shard/reset"
   }
 }

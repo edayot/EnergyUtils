@@ -1,5 +1,5 @@
 #summon snowball ~ ~ ~ {NoGravity:1b,Silent:1b,Glowing:1b,Tags:["energyutils.snowball"]}
-#schedule function energyutils:decapitator/raycast/kill_snowball 2t replace
+#schedule function energyutils:items/decapitator/raycast/kill_snowball 2t replace
 
 
 data modify storage energyutils:main temp.decapitator set from entity @s SelectedItem
