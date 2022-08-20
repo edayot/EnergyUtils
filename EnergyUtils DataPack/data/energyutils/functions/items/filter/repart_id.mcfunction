@@ -7,3 +7,4 @@ execute store result score #if_item energyutils.math if data storage energyutils
 execute if score #if_item energyutils.math matches 1 store result score #if_ctc energyutils.math if data storage energyutils:main temp.ItemsCraft[0].tag.ctc 
 execute if score #if_item energyutils.math matches 1 if score #if_ctc energyutils.math matches 0 run function energyutils:items/filter/id_filter
 execute if score #if_item energyutils.math matches 1 if score #if_ctc energyutils.math matches 1 run function energyutils:items/filter/ctc_filter
+

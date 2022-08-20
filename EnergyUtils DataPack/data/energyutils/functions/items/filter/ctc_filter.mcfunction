@@ -15,4 +15,5 @@ data modify storage energyutils:main temp.ResultCraft.tag.energyutils.filter.ctc
 data modify block ~ ~ ~ Items append from storage energyutils:main temp.ResultCraft
 item modify block ~ ~ ~ container.16 energyutils:set_ctc_filter_lore
 
+data merge storage smithed.crafter:input {flags:["energyutils:filter_not_consume"]}
 
