@@ -20,7 +20,7 @@ execute if entity @s[tag=energyutils.east] run data modify entity @s Item.tag.it
 execute if entity @s[tag=energyutils.south] run data modify entity @s Item.tag.itemio.ioconfig append value {Slot:15b,mode:"output",allowed_side:{east:1b}}
 execute if entity @s[tag=energyutils.west] run data modify entity @s Item.tag.itemio.ioconfig append value {Slot:15b,mode:"output",allowed_side:{south:1b}}
 
-
+function #itemio:calls/container/init
 
 function energyutils:blocks/place_tags/machine
 function energyutils:blocks/place_tags/block

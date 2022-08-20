@@ -25,7 +25,7 @@ tag @s add energyutils.20tick.5
 #ItemIO convention
 tag @s add itemio.container
 tag @s add itemio.container.nope
-
+function #itemio:calls/container/init
 
 
 
