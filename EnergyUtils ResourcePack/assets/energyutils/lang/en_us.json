@@ -54,6 +54,25 @@
 	"energyutils.steel_ingot":"Steel Ingot",
 	"energyutils.steel_nugget":"Steel Nugget",
 	"energyutils.steel_dust":"Steel Dust",
-	"energyutils.id_filter":"ID Filter"
+	"energyutils.id_filter":"ID Filter",
+	"energyutils.silver_sword":"Silver Sword",
+	"energyutils.silver_pickaxe":"Silver Pickaxe",
+	"energyutils.silver_axe":"Silver Axe",
+	"energyutils.silver_shovel":"Silver Shovel",
+	"energyutils.silver_hoe":"Silver Hoe",
+	"energyutils.silver_helmet":"Silver Helmet",
+	"energyutils.silver_chestplate":"Silver Chestplate",
+	"energyutils.silver_leggings":"Silver Leggings",
+	"energyutils.silver_boots":"Silver Boots",
+	"energyutils.steel_sword":"Steel Sword",
+	"energyutils.steel_pickaxe":"Steel Pickaxe",
+	"energyutils.steel_axe":"Steel Axe",
+	"energyutils.steel_shovel":"Steel Shovel",
+	"energyutils.steel_hoe":"Steel Hoe",
+	"energyutils.steel_helmet":"Steel Helmet",
+	"energyutils.steel_chestplate":"Steel Chestplate",
+	"energyutils.steel_leggings":"Steel Leggings",
+	"energyutils.steel_boots":"Steel Boots"
+
 
 }
