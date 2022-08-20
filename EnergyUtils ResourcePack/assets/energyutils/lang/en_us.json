@@ -53,6 +53,7 @@
 	"energyutils.steel_block":"Steel Block",
 	"energyutils.steel_ingot":"Steel Ingot",
 	"energyutils.steel_nugget":"Steel Nugget",
-	"energyutils.steel_dust":"Steel Dust"
+	"energyutils.steel_dust":"Steel Dust",
+	"energyutils.id_filter":"ID Filter"
 
 }

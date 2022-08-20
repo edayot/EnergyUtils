@@ -45,6 +45,8 @@ data modify storage energyutils:main ItemsNBT.steel_dust set value {id:"minecraf
 data modify storage energyutils:main ItemsNBT.steel_ingot set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430119,ctc:{id:"steel_ingot",from:"airdox_:energyutils",traits:{"item":1b,"ingot":1b,"metal/steel":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_ingot","color":"white","italic":false}'}}}
 #Steel nugget
 data modify storage energyutils:main ItemsNBT.steel_nugget set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430120,ctc:{id:"steel_nugget",from:"airdox_:energyutils",traits:{"item":1b,"nugget":1b,"metal/steel":1b}}														,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_nugget","color":"white","italic":false}'}}}
+#ID Filter (jigsaw)
+data modify storage energyutils:main ItemsNBT.id_filter set value {id:"minecraft:jigsaw",Count:1b						,tag:{CustomModelData:1430121,ctc:{id:"id_filter",from:"airdox_:energyutils",traits:{"item":1b}},energyutils:{}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.id_filter","color":"white","italic":false}'}}}
 
 
 #Blocks

@@ -4,7 +4,7 @@
 	"predicate": {
 	  "equipment": {
 		"mainhand": {
-		  "nbt": "{ctc:{id:\"wrench\",from:\"airdox_:energyutils\"}}"
+		  "nbt": "{ctc:{id:\"id_filter\",from:\"airdox_:energyutils\"}}"
 		}
 	  }
 	}

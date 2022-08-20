@@ -4,5 +4,8 @@ execute as @e[type=glow_item_frame,sort=nearest,predicate=!energyutils:not_rotat
 tag @s remove energyutils.looker
 
 execute if predicate energyutils:holding_wrench unless predicate energyutils:sneaking as @e[tag=energyutils.selected] run function energyutils:blocks/copper_servo/change_io
+execute if predicate energyutils:holding_wrench if predicate energyutils:sneaking run function energyutils:blocks/copper_servo/display_filters
+
+execute if predicate energyutils:holding_id_filter unless predicate energyutils:sneaking run function energyutils:blocks/copper_servo/apply_filter
 
 tag @e[tag=energyutils.selected] remove energyutils.selected
