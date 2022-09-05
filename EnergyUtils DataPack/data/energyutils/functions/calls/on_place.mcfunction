@@ -39,3 +39,10 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:ite
 
 #Steel Block
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:steel_block"}} run function energyutils:blocks/steel_block/place
+
+
+#Auto crafter core
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_core"}} run function energyutils:blocks/auto_crafter_core/place
+
+#Auto crafter core
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_slot"}} run function energyutils:blocks/auto_crafter_slot/place

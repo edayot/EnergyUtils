@@ -114,6 +114,11 @@ data modify storage energyutils:main ItemsNBT.copper_servo_extract set value {id
 #Steel Block
 data modify storage energyutils:main ItemsNBT.steel_block set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430121,ctc:{id:"steel_block",from:"airdox_:energyutils",traits:{"block":1b,"metal/steel":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:steel_block"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.steel_block","color":"white","italic":false}'}}}
 
+#Auto crafter core
+data modify storage energyutils:main ItemsNBT.auto_crafter_core set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430122,ctc:{id:"auto_crafter_core",from:"airdox_:energyutils",traits:{"block":1b,"metal/steel":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:auto_crafter_core"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.auto_crafter_core","color":"white","italic":false}'}}}
+
+#Auto crafter slot
+data modify storage energyutils:main ItemsNBT.auto_crafter_slot set value {id:"minecraft:furnace",Count:1b					,tag:{CustomModelData:1430123,ctc:{id:"auto_crafter_slot",from:"airdox_:energyutils",traits:{"block":1b,"metal/steel":1b,"packed":1b}}			,BlockEntityTag:{Items:[{id:"minecraft:stone",Count:1b,Slot:0b,tag:{smithed:{block:{id:"energyutils:auto_crafter_slot"}}}}]}																				,display:{Lore:['{"translate":"energyutils.name","color":"blue","italic":false}'],Name:'{"translate":"energyutils.auto_crafter_slot","color":"white","italic":false}'}}}
 
 
 
