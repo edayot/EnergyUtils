@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  	"top": "energyutils:block/auto_crafter_core/top",
+	  	"bottom": "energyutils:block/auto_crafter_core/bottom",
+	  	"side": "energyutils:block/auto_crafter_core/side",
+	  	"front": "energyutils:block/auto_crafter_core/front",
+	  	"particle": "energyutils:block/auto_crafter_core/side"
+	},
+	"ambientocclusion":false
+  }

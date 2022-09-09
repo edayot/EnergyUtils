@@ -72,7 +72,8 @@
 	"energyutils.steel_helmet":"Steel Helmet",
 	"energyutils.steel_chestplate":"Steel Chestplate",
 	"energyutils.steel_leggings":"Steel Leggings",
-	"energyutils.steel_boots":"Steel Boots"
-
+	"energyutils.steel_boots":"Steel Boots",
+	"energyutils.auto_crafter_core":"Auto Crafter (core)",
+	"energyutils.auto_crafter_core.gui":"\uc000\uc007\uc001%s"
 
 }

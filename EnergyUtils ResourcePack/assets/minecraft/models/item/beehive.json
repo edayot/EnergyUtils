@@ -19,7 +19,8 @@
 	{"predicate": {"custom_model_data": 1430118},"model": "energyutils:block/copper_servo/insert_connected"},
 	{"predicate": {"custom_model_data": 1430119},"model": "energyutils:block/copper_servo/extract"},
 	{"predicate": {"custom_model_data": 1430120},"model": "energyutils:block/copper_servo/extract_connected"},
-	{"predicate": {"custom_model_data": 1430121},"model": "energyutils:block/ores/steel_block"}
+	{"predicate": {"custom_model_data": 1430121},"model": "energyutils:block/ores/steel_block"},
+	{"predicate": {"custom_model_data": 1430122},"model": "energyutils:block/auto_crafter_core"}
 
   ]
 }
