@@ -71,15 +71,6 @@
 		"chars": [
 		  "\uc007"
 		]
-	  },
-	  {
-		"type": "bitmap",
-		"file": "energyutils:gui/auto_crafter_slot.png",
-		"ascent": 14,
-		"height": 176.0,
-		"chars": [
-		  "\uc008"
-		]
 	  }
 	]
   }
