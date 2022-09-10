@@ -129,6 +129,7 @@ scoreboard objectives add energyutils.quantum_owner dummy
 scoreboard objectives add energyutils.player.id dummy
 scoreboard objectives add energyutils.pulveriser.cookTime dummy
 scoreboard objectives add energyutils.player.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
+scoreboard objectives add energyutils.auto_crafter.id dummy
 
 scoreboard players set #100 energyutils.math 100
 scoreboard players set #1000 energyutils.math 1000

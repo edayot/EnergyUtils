@@ -42,7 +42,7 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:ste
 
 
 #Auto crafter core
-execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_core"}} run function energyutils:blocks/auto_crafter_core/place
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_core"}} run function energyutils:blocks/auto_crafter_core/test_place
 
 #Auto crafter core
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_slot"}} run function energyutils:blocks/auto_crafter_slot/place

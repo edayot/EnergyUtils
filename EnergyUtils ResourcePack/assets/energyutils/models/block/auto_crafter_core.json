@@ -1,12 +1,42 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/orientable_with_bottom",
+	"ambientocclusion": false,
 	"textures": {
+		"4": "energyutils:block/auto_crafter_core/front_front",
+		"5": "energyutils:block/auto_crafter_core/side_side",
 		"top": "energyutils:block/auto_crafter_core/top",
-	  	"bottom": "energyutils:block/auto_crafter_core/bottom",
-	  	"side": "energyutils:block/auto_crafter_core/side",
-	  	"front": "energyutils:block/auto_crafter_core/front",
-		"particle": "energyutils:block/auto_crafter_core/side"
+		"bottom": "energyutils:block/auto_crafter_core/bottom",
+		"particle": "energyutils:block/auto_crafter_core/side",
+		"side": "energyutils:block/auto_crafter_core/side",
+		"front": "energyutils:block/auto_crafter_core/front"
 	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [-16, 16, -16],
+			"to": [32, 32, 32],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#top"}
+			}
+		}
+	],
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [75, 45, 0],
@@ -41,6 +71,5 @@
 		"fixed": {
 			"scale": [0.5, 0.5, 0.5]
 		}
-	},
-	"ambientocclusion":false
-  }
+	}
+}

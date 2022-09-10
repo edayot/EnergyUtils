@@ -12,5 +12,4 @@ function #itemio:calls/container/init
 
 tag @s add energyutils.20tick.0
 
-tag @s remove energyutils.summoned
 
