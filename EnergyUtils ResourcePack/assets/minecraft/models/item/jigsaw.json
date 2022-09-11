@@ -22,8 +22,8 @@
 		
 		{"predicate":{"custom_model_data": 1430118},"model":"energyutils:item/steel_dust"},
 		{"predicate":{"custom_model_data": 1430119},"model":"energyutils:item/steel_ingot"},
-		{"predicate":{"custom_model_data": 1430120},"model":"energyutils:item/steel_nugget"}
-
+		{"predicate":{"custom_model_data": 1430120},"model":"energyutils:item/steel_nugget"},
+		{"predicate":{"custom_model_data": 1430121},"model":"energyutils:item/id_filter"}
 
 	]
 }
