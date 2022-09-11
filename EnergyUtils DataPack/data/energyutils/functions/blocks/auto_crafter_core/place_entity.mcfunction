@@ -1,5 +1,6 @@
 
 tag @s add energyutils.destroy_barrel
+tag @s add energyutils.barrel_gui
 
 tag @s add energyutils.auto_crafter_core
 
