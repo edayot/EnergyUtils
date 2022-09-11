@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/beehives",
+  "parent": "minecraft:block/beehive",
   "overrides":[
 	{"predicate": {"custom_model_data": 1430100},"model": "energyutils:block/chunkloader/chunkloader"},
 	{"predicate": {"custom_model_data": 1430101},"model": "energyutils:block/quantum/input"},

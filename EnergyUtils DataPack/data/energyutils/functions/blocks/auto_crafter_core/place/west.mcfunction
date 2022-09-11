@@ -22,7 +22,7 @@ summon minecraft:marker ~1 ~ ~1 {Tags:["energyutils.auto_crafter_slot","energyut
 
 fill ~3 ~ ~1 ~1 ~ ~-1 beehive
 
-summon armor_stand ~ ~-0.5 ~ {Rotation: [90f, 0.0f], Tags: ["energyutils.summoned"],HasVisualFire:1b, Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:beehive", Count: 1b, tag: {CustomModelData: 1430122}}]}
+summon armor_stand ~ ~ ~ {Rotation: [90f, 0.0f], Tags: ["energyutils.summoned"],HasVisualFire:1b, Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:beehive", Count: 1b, tag: {CustomModelData: 1430122}}]}
 setblock ~ ~ ~ barrel[facing=up]{CustomName: '{"translate":"energyutils.auto_crafter_core.gui","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.auto_crafter_core","color":"#3F3F3F","font":"minecraft:default"}]}'}
 
 

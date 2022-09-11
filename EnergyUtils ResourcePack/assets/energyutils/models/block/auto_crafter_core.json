@@ -3,8 +3,6 @@
 	"parent": "minecraft:block/orientable_with_bottom",
 	"ambientocclusion": false,
 	"textures": {
-		"4": "energyutils:block/auto_crafter_core/front_front",
-		"5": "energyutils:block/auto_crafter_core/side_side",
 		"top": "energyutils:block/auto_crafter_core/top",
 		"bottom": "energyutils:block/auto_crafter_core/bottom",
 		"particle": "energyutils:block/auto_crafter_core/side",
@@ -53,7 +51,7 @@
 			"scale": [0.625, 0.625, 0.625]
 		},
 		"head": {
-			"translation": [0, -30.43, 0],
+			"translation": [0, -43.225, 0],
 			"scale": [1.601, 1.601, 1.601]
 		},
 		"fixed": {
