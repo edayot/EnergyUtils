@@ -14,7 +14,7 @@ tag @s add itemio.container
 tag @s add itemio.container.hopper
 data modify entity @s Item.tag.itemio.ioconfig set value [{Slot:12b,filter:{energy:1b},allowed_side:{top:1b,north:1b,south:1b,east:1b,west:1b}},{Slot:16b,filter:{ctc:{from:"airdox_:energyutils",id:"wireless_upgrade"}},allowed_side:{bottom:1b}}]
 
-
+function #itemio:calls/container/init
 
 function energyutils:blocks/place_tags/machine
 function energyutils:blocks/place_tags/block

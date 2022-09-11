@@ -4,7 +4,6 @@
 	"predicate": {
 	  "equipment": {
 		"mainhand": {
-		  "tag": "energyutils:all_decapitator",
 		  "nbt": "{ctc:{id:\"wrench\",from:\"airdox_:energyutils\"}}"
 		}
 	  }

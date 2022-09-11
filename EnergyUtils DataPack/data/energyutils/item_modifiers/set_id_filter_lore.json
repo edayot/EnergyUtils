@@ -1,0 +1,28 @@
+[
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				{
+					"text": "Filtering : ",
+					"color": "aqua",
+					"italic": false
+				},
+				{
+					"nbt": "temp.ResultCraft.tag.energyutils.filter.id",
+					"storage": "energyutils:main",
+					"interpret": false,
+					"color": "white",
+					"italic": false
+				}
+			],
+			{
+				"translate": "energyutils.name",
+				"color": "blue",
+				"italic": false
+			}
+		],
+		"replace": true
+	}
+]

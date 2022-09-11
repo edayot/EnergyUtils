@@ -18,3 +18,9 @@ execute store result score @s smithed.data if entity @s[scores={smithed.data=0}]
 
 #Steel nugget from silver ingot
 execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:main root.temp{shapeless_crafting_input:[{Count:1b,tag:{ctc:{id:"steel_ingot",from:"airdox_:energyutils"}}}]} run loot replace block ~ ~ ~ container.16 loot energyutils:items/steel_nugget_craft
+
+#Filter crafting
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 1 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{ctc:{id:"id_filter",from:"airdox_:energyutils"}}}]} run loot replace block ~ ~ ~ container.16 loot energyutils:items/id_filter
+
+execute store result score @s smithed.data if entity @s[scores={smithed.data=0}] if score count smithed.data matches 2 if data storage smithed.crafter:input {recipe:[{Count:1b,tag:{ctc:{id:"id_filter",from:"airdox_:energyutils"}}}]} run function energyutils:items/filter/repart_id
+

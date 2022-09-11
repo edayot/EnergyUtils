@@ -1,1 +1,1 @@
-execute if entity @s[tag=energyutils.quantum.input] if score @s energy.storage matches 1.. run function energyutils:blocks/quantum/working/tick
+execute if entity @s[tag=energyutils.quantum.input] run function energyutils:blocks/quantum/working/tick
