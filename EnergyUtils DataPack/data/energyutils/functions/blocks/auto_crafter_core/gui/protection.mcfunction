@@ -4,7 +4,7 @@ data remove storage energyutils:main temp.Items
 data remove storage energyutils:main temp.GuiItems
 data modify storage energyutils:main temp.GuiItems set from block ~ ~ ~ Items
 
-execute if data storage energyutils:main temp.GuiItems[{Slot:0b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:0b}]
+execute unless data storage energyutils:main temp.GuiItems[{Slot:0b}].tag.energyutils.auto_crafter_gui run function energyutils:blocks/auto_crafter_core/gui/switch_config
 execute if data storage energyutils:main temp.GuiItems[{Slot:1b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:1b}]
 #execute if data storage energyutils:main temp.GuiItems[{Slot:2b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:2b}]
 #execute if data storage energyutils:main temp.GuiItems[{Slot:3b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:3b}]
@@ -20,7 +20,7 @@ execute if data storage energyutils:main temp.GuiItems[{Slot:10b}] run data modi
 #execute if data storage energyutils:main temp.GuiItems[{Slot:13b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:13b}]
 execute if data storage energyutils:main temp.GuiItems[{Slot:14b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:14b}]
 execute if data storage energyutils:main temp.GuiItems[{Slot:15b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:15b}]
-execute if data storage energyutils:main temp.GuiItems[{Slot:16b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:16b}]
+#execute if data storage energyutils:main temp.GuiItems[{Slot:16b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:16b}]
 execute if data storage energyutils:main temp.GuiItems[{Slot:17b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:17b}]
 execute if data storage energyutils:main temp.GuiItems[{Slot:18b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:18b}]
 execute if data storage energyutils:main temp.GuiItems[{Slot:19b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:19b}]
@@ -33,7 +33,7 @@ execute if data storage energyutils:main temp.GuiItems[{Slot:25b}] run data modi
 execute if data storage energyutils:main temp.GuiItems[{Slot:26b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:26b}]
 
 
-data remove block ~ ~ ~ Items[{Slot:0b}]
+item replace block ~ ~ ~ container.0 with stone{CustomModelData:1430100,energyutils:{gui:1b,auto_crafter_gui:1b},display:{Name:'{"text":"Config Mode","italic":false}'}}
 data remove block ~ ~ ~ Items[{Slot:1b}]
 data remove block ~ ~ ~ Items[{Slot:5b}]
 data remove block ~ ~ ~ Items[{Slot:6b}]
@@ -43,7 +43,7 @@ data remove block ~ ~ ~ Items[{Slot:9b}]
 data remove block ~ ~ ~ Items[{Slot:10b}]
 data remove block ~ ~ ~ Items[{Slot:14b}]
 data remove block ~ ~ ~ Items[{Slot:15b}]
-data remove block ~ ~ ~ Items[{Slot:16b}]
+#data remove block ~ ~ ~ Items[{Slot:16b}]
 data remove block ~ ~ ~ Items[{Slot:17b}]
 data remove block ~ ~ ~ Items[{Slot:18b}]
 data remove block ~ ~ ~ Items[{Slot:19b}]
