@@ -1,4 +1,10 @@
 schedule clear energyutils:tick
+schedule clear energyutils:2tick
+schedule clear energyutils:20tick
+schedule clear energyutils:50tick
+schedule clear energyutils:200tick
+
+
 
 scoreboard players set #energyutils.simplenergy load.status 0
 scoreboard players set #energyutils.itemio load.status 0
