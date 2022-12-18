@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "energyutils:gui/number/8"
+		"layer0": "energyutils:item/gui/number/8"
 	}
 }

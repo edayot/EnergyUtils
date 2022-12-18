@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"0": "energyutils:silver_cable_head",
-		"particle": "energyutils:silver_cable_head"
+		"0": "energyutils:item/silver_cable_head",
+		"particle": "energyutils:item/silver_cable_head"
 	},
 	"elements": [
 		{

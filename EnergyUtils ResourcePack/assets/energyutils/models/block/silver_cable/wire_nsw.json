@@ -1,7 +1,7 @@
 {
 	"parent": "energyutils:block/wire_pos",
 	"textures": {
-		"0": "energyutils:silver_cable"
+		"0": "energyutils:item/silver_cable"
 	},
 	"elements": [
 		{
