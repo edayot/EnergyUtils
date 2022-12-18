@@ -2,7 +2,7 @@
 	"providers": [
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/negative_space.png",
+		"file": "energyutils:item/gui/negative_space.png",
 		"ascent": -32768,
 		"height": -10,
 		"chars": [
@@ -11,7 +11,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/negative_space.png",
+		"file": "energyutils:item/gui/negative_space.png",
 		"ascent": -32768,
 		"height": -171,
 		"chars": [
@@ -20,7 +20,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/quantum_input.png",
+		"file": "energyutils:item/gui/quantum_input.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
@@ -29,7 +29,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/quantum_output.png",
+		"file": "energyutils:item/gui/quantum_output.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
@@ -38,7 +38,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/charger.png",
+		"file": "energyutils:item/gui/charger.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
@@ -47,7 +47,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/wireless_charger.png",
+		"file": "energyutils:item/gui/wireless_charger.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
@@ -56,7 +56,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/pulveriser.png",
+		"file": "energyutils:item/gui/pulveriser.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
@@ -65,7 +65,7 @@
 	  },
 	  {
 		"type": "bitmap",
-		"file": "energyutils:gui/auto_crafter_core.png",
+		"file": "energyutils:item/gui/auto_crafter_core.png",
 		"ascent": 14,
 		"height": 176.0,
 		"chars": [
