@@ -20,6 +20,7 @@
 	  {"predicate": {"custom_model_data": 1430116},"model": "energyutils:block/item_cable/wire_"},
 	  {"predicate": {"custom_model_data": 1430121},"model": "energyutils:block/ores/steel_block_item"},
 	  {"predicate": {"custom_model_data": 1430122},"model": "energyutils:block/auto_crafter_core_item"},
+	  {"predicate": {"custom_model_data": 1430124},"model": "energyutils:block/ores/steel_block_item"},
 	  {
 			"predicate": {
 			  "custom_model_data": 4250001

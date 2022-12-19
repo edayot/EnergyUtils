@@ -3,6 +3,7 @@
 		"#block_utils:load",
 		"simplenergy:load",
 		"#itemio:load",
+		"#smithed.crafter:load",
 		"energyutils:test_load"
 		
 	]

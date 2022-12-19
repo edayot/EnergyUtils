@@ -11,6 +11,8 @@ data modify entity @s Item.tag.energyutils.quantum_owner set from block ~ ~ ~ It
 execute if entity @s[tag=energyutils.quantum.input] run setblock ~ ~ ~ minecraft:barrel{CustomName: '{"translate":"energyutils.quantum_block.gui_input","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.quantum.input","color":"#3F3F3F","font":"minecraft:default"}]}'}
 execute if entity @s[tag=energyutils.quantum.output] run setblock ~ ~ ~ minecraft:barrel{CustomName: '{"translate":"energyutils.quantum_block.gui_output","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.quantum.output","color":"#3F3F3F","font":"minecraft:default"}]}'}
 
+tag @s[tag=energyutils.quantum.input] add energy.receive
+tag @s[tag=energyutils.quantum.output] add energy.send
 
 
 
@@ -30,7 +32,6 @@ function #itemio:calls/container/init
 
 
 
-function energyutils:blocks/place_tags/machine
 function energyutils:blocks/place_tags/block
 
 

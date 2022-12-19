@@ -46,3 +46,6 @@ execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:aut
 
 #Auto crafter core
 execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:auto_crafter_slot"}} run function energyutils:blocks/auto_crafter_slot/place
+
+#Teleporter point
+execute if data storage smithed.custom_block:main {blockApi:{id:"energyutils:teleporter_point"}} run function energyutils:blocks/teleporter_point/place
