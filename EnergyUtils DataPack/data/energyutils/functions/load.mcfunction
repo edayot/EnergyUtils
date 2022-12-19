@@ -130,6 +130,26 @@ scoreboard objectives add energyutils.player.id dummy
 scoreboard objectives add energyutils.pulveriser.cookTime dummy
 scoreboard objectives add energyutils.player.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add energyutils.auto_crafter.id dummy
+scoreboard objectives add energyutils.auto_crafter.config dummy
+
+scoreboard players set #1 energyutils.math 1
+scoreboard players set #2 energyutils.math 2
+scoreboard players set #4 energyutils.math 4
+scoreboard players set #8 energyutils.math 8
+scoreboard players set #16 energyutils.math 16
+scoreboard players set #32 energyutils.math 32
+scoreboard players set #64 energyutils.math 64
+scoreboard players set #128 energyutils.math 128
+scoreboard players set #256 energyutils.math 256
+scoreboard players set #512 energyutils.math 512
+scoreboard players set #1024 energyutils.math 1024
+scoreboard players set #2048 energyutils.math 2048
+scoreboard players set #4096 energyutils.math 4096
+scoreboard players set #8192 energyutils.math 8192
+scoreboard players set #16384 energyutils.math 16384
+scoreboard players set #32768 energyutils.math 32768
+scoreboard players set #65536 energyutils.math 65536
+
 
 scoreboard players set #100 energyutils.math 100
 scoreboard players set #1000 energyutils.math 1000

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [16, 32],
 	"textures": {
-		"0": "energyutils:gui/charger/charge1",
-		"particle": "energyutils:gui/charger/charge1"
+		"0": "energyutils:item/gui/charger/charge1",
+		"particle": "energyutils:item/gui/charger/charge1"
 	},
 	"elements": [
 		{

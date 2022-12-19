@@ -5,8 +5,8 @@
         17
     ],
     "textures": {
-        "0": "energyutils:gui/arrow/8",
-        "particle": "energyutils:gui/arrow/8"
+        "0": "energyutils:item/gui/arrow/8",
+        "particle": "energyutils:item/gui/arrow/8"
     },
     "elements": [
         {

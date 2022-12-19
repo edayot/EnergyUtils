@@ -33,7 +33,6 @@ execute if data storage energyutils:main temp.GuiItems[{Slot:25b}] run data modi
 execute if data storage energyutils:main temp.GuiItems[{Slot:26b}] run data modify storage energyutils:main temp.Items append from storage energyutils:main temp.GuiItems[{Slot:26b}]
 
 
-item replace block ~ ~ ~ container.0 with stone{CustomModelData:1430100,energyutils:{gui:1b,auto_crafter_gui:1b},display:{Name:'{"text":"Config Mode","italic":false}'}}
 data remove block ~ ~ ~ Items[{Slot:1b}]
 data remove block ~ ~ ~ Items[{Slot:5b}]
 data remove block ~ ~ ~ Items[{Slot:6b}]

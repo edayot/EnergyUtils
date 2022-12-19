@@ -24,6 +24,7 @@ fill ~3 ~ ~1 ~1 ~ ~-1 beehive
 
 summon armor_stand ~ ~ ~ {Rotation: [90f, 0.0f], Tags: ["energyutils.summoned"],HasVisualFire:1b, Invisible: 1b, Marker: 1b, NoGravity: 1b, ArmorItems: [{}, {}, {}, {id: "minecraft:beehive", Count: 1b, tag: {CustomModelData: 1430122}}]}
 setblock ~ ~ ~ barrel[facing=up]{CustomName: '{"translate":"energyutils.auto_crafter_core.gui","font":"energyutils:gui","color":"white","with":[{"translate":"energyutils.auto_crafter_core","color":"#3F3F3F","font":"minecraft:default"}]}'}
+item replace block ~ ~ ~ container.0 with stone{CustomModelData:1430128,energyutils:{gui:1b,auto_crafter_gui:1b},display:{Name:'{"text":"Config Mode Disabled","italic":false}'}}
 
 
 

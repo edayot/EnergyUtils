@@ -26,5 +26,11 @@
 		  {"predicate": {"custom_model_data": 1430124},"model": "energyutils:item/charger_gui/4"},
 		  {"predicate": {"custom_model_data": 1430125},"model": "energyutils:item/charger_gui/5"},
 		  {"predicate": {"custom_model_data": 1430126},"model": "energyutils:gui/auto_expulse"},
-		  {"predicate": {"custom_model_data": 1430127},"model": "energyutils:gui/auto_expulse_disable"}
+		  {"predicate": {"custom_model_data": 1430127},"model": "energyutils:gui/auto_expulse_disable"},
+
+		  {"predicate": {"custom_model_data": 1430128},"model": "energyutils:gui/auto_crafter_config"},
+		  {"predicate": {"custom_model_data": 1430129},"model": "energyutils:gui/auto_crafter_config_enabled"},
+
+		  {"predicate": {"custom_model_data": 1430130},"model": "energyutils:gui/required_slot"},
+		  {"predicate": {"custom_model_data": 1430131},"model": "energyutils:gui/not_required_slot"}
 	]}
