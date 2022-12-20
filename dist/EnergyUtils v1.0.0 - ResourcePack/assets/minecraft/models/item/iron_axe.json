@@ -1,9 +1,0 @@
-{
-	"parent": "minecraft:item/handheld",
-	"textures": {
-	  "layer0": "minecraft:item/iron_axe"
-	},
-	"overrides":[
-		{"predicate": {"custom_model_data": 1430124},"model": "energyutils:item/silver_axe"}
-	]
-  }

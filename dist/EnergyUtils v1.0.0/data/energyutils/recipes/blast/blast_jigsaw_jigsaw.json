@@ -1,9 +1,0 @@
-{
-	"type": "minecraft:blasting",
-	"ingredient": {
-		"item": "minecraft:jigsaw"
-	},
-	"result": "minecraft:jigsaw",
-	"experience": 1.0,
-	"cookingtime": 100
-}

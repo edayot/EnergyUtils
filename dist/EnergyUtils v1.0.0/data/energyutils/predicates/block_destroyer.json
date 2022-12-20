@@ -1,8 +1,0 @@
-{
-	"condition": "minecraft:entity_properties",
-	"entity": "this",
-	"predicate": {
-	  "nbt": "{Item:{tag:{energyutils:{block_destroyer:1b}}}}"
-	}
-  }
-  
