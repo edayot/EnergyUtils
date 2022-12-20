@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/stick"
+	},
+	"overrides":[
+		{"predicate": {"custom_model_data": 1430100},"model": "energyutils:item/number_right/0"},
+		{"predicate": {"custom_model_data": 1430101},"model": "energyutils:item/number_right/1"},
+		{"predicate": {"custom_model_data": 1430102},"model": "energyutils:item/number_right/2"},
+		{"predicate": {"custom_model_data": 1430103},"model": "energyutils:item/number_right/3"},
+		{"predicate": {"custom_model_data": 1430104},"model": "energyutils:item/number_right/4"},
+		{"predicate": {"custom_model_data": 1430105},"model": "energyutils:item/number_right/5"},
+		{"predicate": {"custom_model_data": 1430106},"model": "energyutils:item/number_right/6"},
+		{"predicate": {"custom_model_data": 1430107},"model": "energyutils:item/number_right/7"},
+		{"predicate": {"custom_model_data": 1430108},"model": "energyutils:item/number_right/8"},
+		{"predicate": {"custom_model_data": 1430109},"model": "energyutils:item/number_right/9"}
+		
+	]}

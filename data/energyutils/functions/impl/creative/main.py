@@ -1,0 +1,2 @@
+for i in range(-64,256):
+	print("execute if score #clear energyutils.math matches "+str(i)+" at @e[type=marker,tag=energyutils.clear_stone] positioned ~ "+str(i)+" ~ run function energyutils:impl/creative/clear_stone_command")

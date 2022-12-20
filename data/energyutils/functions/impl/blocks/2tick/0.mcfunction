@@ -1,0 +1,1 @@
+execute if entity @s[tag=energyutils.pulveriser] run function energyutils:impl/blocks/pulveriser/2tick

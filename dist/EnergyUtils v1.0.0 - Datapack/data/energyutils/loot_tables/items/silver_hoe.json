@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_hoe",
+					"functions": [
+						{
+							"function": "minecraft:copy_nbt",
+							"source": {
+								"type": "minecraft:storage",
+								"source": "energyutils:main"
+							},
+							"ops": [
+								{
+									"source": "ItemsNBT.silver_hoe.tag",
+									"target": "{}",
+									"op": "merge"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

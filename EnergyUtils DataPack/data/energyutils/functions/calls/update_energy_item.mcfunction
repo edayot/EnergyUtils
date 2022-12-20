@@ -1,1 +1,0 @@
-execute if data storage energy:temp list[0].tag.ctc{from:"airdox_:energyutils"} run function energyutils:utils/update_lore/all

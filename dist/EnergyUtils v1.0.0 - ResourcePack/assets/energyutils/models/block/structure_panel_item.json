@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/structure_panel",
+	  "bottom": "energyutils:block/structure_panel",
+	  "side": "energyutils:block/structure_panel",
+	  "front": "energyutils:block/structure_panel",
+	  "particle": "energyutils:block/structure_panel"
+	},
+	"ambientocclusion":false
+  }

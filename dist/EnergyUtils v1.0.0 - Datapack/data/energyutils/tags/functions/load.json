@@ -1,0 +1,13 @@
+{
+  "values": [
+    "simplenergy:load",
+    "#itemio:load",
+    "#smithed.crafter:load",
+    {
+      "id": "#energyutils:load/dependencies",
+      "required": false
+    },
+    "#energyutils:load/enumerate",
+    "#energyutils:load/resolve"
+  ]
+}

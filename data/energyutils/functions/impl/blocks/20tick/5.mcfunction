@@ -1,0 +1,1 @@
+execute if entity @s[tag=energyutils.quantum.input] run function energyutils:impl/blocks/quantum/working/tick

@@ -1,0 +1,1 @@
+execute if score @s energy.storage matches 8.. run function energyutils:impl/blocks/pulveriser/working/main

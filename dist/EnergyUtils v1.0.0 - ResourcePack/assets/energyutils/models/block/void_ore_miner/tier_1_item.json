@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/orientable_with_bottom",
+	"textures": {
+	  "top": "energyutils:block/void_ore_miner/tier_1_top",
+	  "bottom": "energyutils:block/void_ore_miner/tier_1_top",
+	  "side": "energyutils:block/void_ore_miner/tier_1_side",
+	  "front": "energyutils:block/void_ore_miner/tier_1_side",
+	  "particle": "energyutils:block/void_ore_miner/tier_1_side"
+	},
+	"ambientocclusion":false
+  }

@@ -1,0 +1,10 @@
+{
+  "values": [
+    {
+      "id": "#energyutils:load/dependencies",
+      "required": false
+    },
+    "#energyutils:load/enumerate",
+    "#energyutils:load/resolve"
+  ]
+}
