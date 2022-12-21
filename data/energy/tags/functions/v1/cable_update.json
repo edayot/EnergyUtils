@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:blocks/cables/cable_update"
+		"energyutils:impl/blocks/cables/cable_update"
 	]
 } 

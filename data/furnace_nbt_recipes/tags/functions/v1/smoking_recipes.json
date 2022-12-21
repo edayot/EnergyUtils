@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/craft/furnace/smoking_recipes"
+		"energyutils:impl/calls/craft/furnace/smoking_recipes"
 	]
 }

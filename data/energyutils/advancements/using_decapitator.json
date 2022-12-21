@@ -11,7 +11,7 @@
 	  }
 	},
 	"rewards": {
-	  "function": "energyutils:decapitator/use_energy"
+	  "function": "energyutils:impl/decapitator/use_energy"
 	}
   }
   

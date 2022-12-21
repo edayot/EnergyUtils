@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/craft/furnace/smelting_recipes"
+		"energyutils:impl/calls/craft/furnace/smelting_recipes"
 	]
 }

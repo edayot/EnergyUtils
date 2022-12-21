@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:blocks/check_connection"
+		"energyutils:impl/blocks/check_connection"
 	]
 } 

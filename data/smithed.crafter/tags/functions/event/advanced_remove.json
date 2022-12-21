@@ -1,5 +1,5 @@
 {
 	"values":[
-		"energyutils:calls/craft/advanced_remove"
+		"energyutils:impl/calls/craft/advanced_remove"
 	]
 }

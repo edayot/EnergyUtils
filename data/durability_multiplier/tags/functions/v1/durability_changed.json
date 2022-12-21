@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/durability"
+		"energyutils:impl/calls/durability"
 	]
 }

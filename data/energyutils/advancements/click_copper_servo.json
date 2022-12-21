@@ -10,6 +10,6 @@
         }
     },
     "rewards": {
-        "function": "energyutils:calls/click_copper_servo"
+        "function": "energyutils:impl/calls/click_copper_servo"
     }
 }

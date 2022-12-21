@@ -1,5 +1,5 @@
 {
 	"values":[
-		"energyutils:calls/craft/shaped"
+		"energyutils:impl/calls/craft/shaped"
 	]
 }

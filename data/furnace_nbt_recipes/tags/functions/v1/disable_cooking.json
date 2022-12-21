@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/craft/furnace/disable_cooking"
+		"energyutils:impl/calls/craft/furnace/disable_cooking"
 	]
 }

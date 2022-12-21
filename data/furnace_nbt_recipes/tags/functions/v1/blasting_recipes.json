@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/craft/furnace/blasting_recipes"
+		"energyutils:impl/calls/craft/furnace/blasting_recipes"
 	]
 }

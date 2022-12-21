@@ -1,5 +1,5 @@
 {
     "values":[
-        "energyutils:blocks/auto_crafter_slot/output"
+        "energyutils:impl/blocks/auto_crafter_slot/output"
     ]
 }

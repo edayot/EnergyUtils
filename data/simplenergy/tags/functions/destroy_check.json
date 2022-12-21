@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:blocks/ore_destroy"
+		"energyutils:impl/blocks/ore_destroy"
 	]
 }

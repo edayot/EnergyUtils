@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:generate/main"
+		"energyutils:impl/generate/main"
 	]
 }

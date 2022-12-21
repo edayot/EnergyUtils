@@ -1,5 +1,5 @@
 {
 	"values": [
-		"energyutils:calls/craft/furnace/recipes_used"
+		"energyutils:impl/calls/craft/furnace/recipes_used"
 	]
 }

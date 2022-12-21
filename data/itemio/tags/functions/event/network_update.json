@@ -1,5 +1,5 @@
 {
     "values":[
-        "energyutils:blocks/copper_servo/network_update"
+        "energyutils:impl/blocks/copper_servo/network_update"
     ]
 }
