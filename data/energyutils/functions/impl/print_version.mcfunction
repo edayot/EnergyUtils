@@ -1,1 +1,1 @@
-tellraw @s [{"text": "[Loaded EnergyUtils v1.0.0]", "color": "green"}]
+tellraw @s [{"text": "[Loaded EnergyUtils __version__]", "color": "green"}]
