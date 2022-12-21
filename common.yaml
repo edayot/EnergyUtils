@@ -1,10 +1,12 @@
 data_pack:
   name: "{{ project_name }} v{{ project_version }} - Datapack"
+  description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Datapack"
   load: .
   zipped: false
 
 resource_pack:
   name: "{{ project_name }} v{{ project_version }} - Resourcepack"
+  description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Resourcepack"
   load: .
   zipped: false
 
@@ -41,7 +43,7 @@ meta:
       lantern_load:
         step: load                          # which LL step to start pack discovery
         tag_path: load                      # base path for tags needed for LL impl
-        function_path: impl/test_load  # base path for functions needed for LL impl
+        function_path: impl/load  # base path for functions needed for LL impl
 
       # configures how versions get injected into paths and folders
       #  ex: smithed.actionbar/impl/reset -> smithed.actionbar/impl/v1.2.3/reset
