@@ -133,6 +133,8 @@ scoreboard objectives add energyutils.pulveriser.cookTime dummy
 scoreboard objectives add energyutils.player.right_click minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard objectives add energyutils.auto_crafter.id dummy
 scoreboard objectives add energyutils.auto_crafter.config dummy
+scoreboard objectives add energyutils.teleporter.id dummy
+scoreboard objectives add energyutils.teleporter.state dummy
 
 scoreboard players set #1 energyutils.math 1
 scoreboard players set #2 energyutils.math 2
@@ -169,7 +171,6 @@ scoreboard players set #1430100 energyutils.math 1430100
 scoreboard players set #primary energyutils.math 0
 scoreboard players set #secondary energyutils.math 0
 
-function energyutils:impl/set_version
 
 # Launch the tick fucntion
 schedule function energyutils:impl/tick 1t replace

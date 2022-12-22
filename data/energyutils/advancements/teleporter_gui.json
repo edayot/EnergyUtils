@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:barrel"
+              ],
+              "nbt": "{Items:[{tag:{energyutils:{teleporter_gui_open:1b}}}]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "energyutils:impl/calls/blocks/teleporter_point/discover"
+    }
+  }
+  

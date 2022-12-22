@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            [
+            {
+                "text": "ID : ",
+                "color": "gray",
+                "italic": false
+            },
+            {
+                "score": {
+                    "name": "#test_id",
+                    "objective": "energyutils.math"
+                }
+            }]
+        ],
+        "replace": true
+    }
+]

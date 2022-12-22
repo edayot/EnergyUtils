@@ -7,6 +7,5 @@ execute if entity @s[tag=energyutils.structure_panel] run function energyutils:i
 execute if entity @s[tag=energyutils.laser_core] run function energyutils:impl/blocks/laser_core/destroy
 execute if entity @s[tag=energyutils.structure_frame_tier_1] run function energyutils:impl/blocks/structure_frame_tier_1/destroy
 execute if entity @s[tag=energyutils.void_ore_miner_tier_1] run function energyutils:impl/blocks/void_ore_miner_tier_1/destroy
-execute if entity @s[tag=energyutils.teleporter_point] run function energyutils:impl/blocks/teleporter_point/destroy
 
 

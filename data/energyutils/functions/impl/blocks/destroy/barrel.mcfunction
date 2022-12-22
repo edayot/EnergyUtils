@@ -5,3 +5,4 @@ execute if entity @s[tag=energyutils.quantum] run function energyutils:impl/bloc
 
 execute if entity @s[tag=energyutils.auto_crafter_core] run function energyutils:impl/blocks/auto_crafter_core/destroy
 
+execute if entity @s[tag=energyutils.teleporter_point] run function energyutils:impl/blocks/teleporter_point/destroy
