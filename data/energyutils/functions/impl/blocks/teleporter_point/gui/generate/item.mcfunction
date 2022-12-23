@@ -7,6 +7,9 @@ item modify entity 93682a08-d099-4e8f-a4a6-1e33a3692301 weapon.mainhand energyut
 data modify storage energyutils:main temp.teleporter_item set from entity 93682a08-d099-4e8f-a4a6-1e33a3692301 HandItems[0]
 execute store result storage energyutils:main temp.teleporter_item.Slot byte 1 run scoreboard players get #slot_gui energyutils.math
 
+data modify entity @s Item.tag.energyutils.temp_gui append from storage energyutils:main temp.teleporter_item.tag.energyutils.teleporter_point.id
+
+
 data modify block ~ ~ ~ Items append from storage energyutils:main temp.teleporter_item
 scoreboard players add #slot_gui energyutils.math 1
 

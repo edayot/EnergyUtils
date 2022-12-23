@@ -5,7 +5,6 @@
         "blocks": [
           "minecraft:barrel"
         ],
-        "nbt": "{Items:[{tag:{energyutils:{teleporter_gui_open:1b}}}]}",
         "state": {
           "open": true
         }

@@ -1,0 +1,26 @@
+{
+	"condition": "minecraft:value_check",
+	"value": {
+	  "type": "minecraft:score",
+	  "target": "this",
+	  "score": "energyutils.teleporter.id"
+	},
+	"range": {
+	  "min": {
+		"type": "minecraft:score",
+		"target": {
+		  "type": "minecraft:fixed",
+		  "name": "#teleport_to"
+		},
+		"score": "energyutils.math"
+	  },
+	  "max": {
+		"type": "minecraft:score",
+		"target": {
+		  "type": "minecraft:fixed",
+		  "name": "#teleport_to"
+		},
+		"score": "energyutils.math"
+	  }
+	}
+  }
