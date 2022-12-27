@@ -3,4 +3,3 @@ execute store result score #temp_id energyutils.math run data get storage energy
 
 function energyutils:impl/blocks/teleporter_point/gui/dynamic
 
-

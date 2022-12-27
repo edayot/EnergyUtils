@@ -1,6 +1,8 @@
 data modify block ~ ~ ~ Lock set value ""
 data remove block ~ ~ ~ Items[]
-data modify entity @s ArmorItems[0].tag.energyutils.temp_gui set value []
+data modify entity @s Item.tag.energyutils.temp_gui set value []
+data modify entity @s Item.tag.energyutils.all_teleporter set value []
+
 item replace block ~ ~ ~ container.0 with stone{CustomModelData:143000,energyutils:{teleporter_gui_open:1b,gui:1b}}
 scoreboard players set @s energyutils.teleporter.state 0
 

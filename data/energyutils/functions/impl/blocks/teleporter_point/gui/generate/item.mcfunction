@@ -12,4 +12,5 @@ data modify entity @s Item.tag.energyutils.temp_gui append from storage energyut
 
 data modify block ~ ~ ~ Items append from storage energyutils:main temp.teleporter_item
 scoreboard players add #slot_gui energyutils.math 1
-
+execute if score #slot_gui energyutils.math matches 8 run scoreboard players add #slot_gui energyutils.math 1
+execute if score #slot_gui energyutils.math matches 17 run scoreboard players add #slot_gui energyutils.math 1

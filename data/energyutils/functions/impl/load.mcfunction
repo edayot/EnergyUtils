@@ -136,6 +136,7 @@ scoreboard objectives add energyutils.auto_crafter.config dummy
 scoreboard objectives add energyutils.teleporter.id dummy
 scoreboard objectives add energyutils.teleporter.state dummy
 scoreboard objectives add energyutils.teleporter.teleport_to dummy
+scoreboard objectives add energyutils.teleporter.page dummy
 
 scoreboard players set #1 energyutils.math 1
 scoreboard players set #2 energyutils.math 2
