@@ -2,6 +2,7 @@
     "values": [
         "simplenergy:load",
 		"#itemio:load",
-		"#smithed.crafter:load"
+		"#smithed.crafter:load",
+        "#rx.playerdb:load"
     ]
 }
