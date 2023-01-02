@@ -4,12 +4,11 @@ version: "1.0.0"
 description: Add somes energy component to minecraft
 author: AirDox_
 
+
+data_pack:
+  load: .
+resource_pack:
+  load: .
+
+
 extend: "common.yaml"
-
-
-meta:
-  airdox_:
-    include_path: "releases/included/"
-    data_pack_merge: false
-    resource_pack_merge: true
-    license_path: "LICENSE"
