@@ -1,6 +1,6 @@
 
 broadcast: [releases/all-bundled, releases/no-bundled]
-extend: beet.yaml
+extend: [beet.yaml]
 
 
 output: ../../build
