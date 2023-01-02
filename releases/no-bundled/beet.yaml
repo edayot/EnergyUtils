@@ -8,9 +8,3 @@ data_pack:
 resource_pack:
   zipped: false
 
-meta:
-  airdox_:
-    include_path: "releases/included/"
-    data_pack_merge: false
-    resource_pack_merge: false
-    license_path: "LICENSE"

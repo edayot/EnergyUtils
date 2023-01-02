@@ -1,35 +1,38 @@
 data_pack:
   name: "{{ project_name }}-v{{ project_version }}-Datapack"
   description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Datapack"
-  load: .
+  load: ["."]
   zipped: false
 
 resource_pack:
   name: "{{ project_name }}-v{{ project_version }}-Resourcepack"
   description: "{{ project_description }}\n by {{ project_author }}, v{{ project_version }} - Resourcepack"
-  load: .
+  load: ["releases/included/*","."]
   zipped: false
 
 require:
   - smithed_libraries.plugins.companion_mod
   - smithed_libraries.plugins.misc.display_broadcasted_pack
   - smithed_libraries.plugins.manifest.collect_version
+  - mecha
 
 pipeline:
   - mecha
   - smithed_libraries.plugins.versioning
   - beet.contrib.find_replace
-  - airdox_.dependency_injection
   - airdox_.add_license
+  - mecha.contrib.messages
+  -
+    data_pack:
+      load: "releases/included/*"
+    pipeline: ["airdox_.delete_load_tag_and_packpng"]
+ 
 
 
   
 
 meta:
   airdox_:
-    include_path: "releases/included/"
-    data_pack_merge: false
-    resource_pack_merge: false
     license_path: "LICENSE"
   find_replace:
     substitute:
