@@ -1,5 +1,5 @@
 
-broadcast: [releases/all-bundled, releases/no-bundled]
+broadcast: [release/all-bundled, release/no-bundled]
 extend: [beet.yaml]
 
 
