@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "energyutils"
-version = "0.0.0"
+version = "0.1.0"
 description = "A datapack that add somes energy component to minecraft"
 authors = ["edayot <pro.e.dayot@gmail.com>"]
 license = "MIT"
