@@ -2,7 +2,7 @@ name: CI
 on:
   push:
     branches:
-      - TOFIX
+      - master
 
 jobs:
   release:
@@ -35,4 +35,4 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
-          poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>"
+          poetry run semantic-release publish --prerelease -v DEBUG -D commit_author="github-actions <action@github.com>"
