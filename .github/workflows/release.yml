@@ -49,4 +49,15 @@ jobs:
             poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>";
             exit;
           fi
-          
+          if [ "$VERSION_BUMP" = "patch" ]; then
+            poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>" --patch;
+            exit;
+          fi
+          if [ "$VERSION_BUMP" = "minor" ]; then
+            poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>" --minor;
+            exit;
+          fi
+          if [ "$VERSION_BUMP" = "major" ]; then
+            poetry run semantic-release publish -v DEBUG -D commit_author="github-actions <action@github.com>" --major;
+            exit;
+          fi
