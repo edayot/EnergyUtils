@@ -1,8 +1,36 @@
 {
     "values": [
-        "simplenergy:load",
-		"#itemio:load",
-		"#smithed.crafter:load",
-        "#rx.playerdb:load"
+        {
+            "id":"#energy:load",
+            "required": false
+        },
+        {
+            "id": "#durability_multiplier:load",
+            "required": false
+        },
+        {
+            "id": "#furnace_nbt_recipes:load",
+            "required": false
+        },
+        {
+            "id": "simplenergy:load",
+            "required": false
+        },
+        {
+            "id": "#itemio:load",
+            "required": false
+        },
+        {
+            "id": "#smithed.crafter:load",
+            "required": false
+        },
+        {
+            "id": "#smithed.actionbar:load",
+            "required": false
+        },
+        {
+            "id": "#rx.playerdb:load",
+            "required": false
+        }
     ]
 }
