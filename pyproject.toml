@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.11"
 smithed-libraries = {git = "https://github.com/edayot/Libraries.git"}
 python-semantic-release = "^7.32.2"
-cryptography = "^39.0.1"
+cryptography = "^41.0.0"
 
 [build-system]
 requires = ["poetry-core"]
